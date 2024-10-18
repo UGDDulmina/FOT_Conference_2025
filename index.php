@@ -17,55 +17,33 @@
 <body>
     <?php include './common/navbar.php'; ?>
     
-    <!-- Hero Section -->
+  <!-- Hero Section -->
+
     <section class="hero">
         <p class="main-text">“Technology for sustainable future”</p>
         <p class="sub-text"> 1<sup>st</sup> International Conference on Emerging Technologies(ICET) 2025</p>
-        <p class="sub-text-1"><img src="./assets/icons/calendar.png">1<sup>st</sup> May 2025 | <img src="./assets/icons/placeholder.png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
-    </section>
+        <p class="sub-text-1"><img src="./assets/icons/calendar.png">1<sup>st</sup> May 2025 </p>
+        <p class="sub-text-1"><img src="./assets/icons/placeholder.png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
+      <div class="content">
+          <img src="./assets/images/Logo_with_name.png" alt="Conference Logo">
+          <div class="text-box">
+          <p>International Conference on Emerging Technologies (ICET) is an annual/biennial conference organized by the Faculty of Technology, Sabaragamuwa University of Sri Lanka. It is an open forum for academics, researchers, undergraduates and postgraduate students and industry professionals, to present their research findings in the discipline of science and technology.</p>
+         </div> 
+         <div >
+               <button class="button">Registration</button>
+         </div>
+      </div>
+   </section>
 
-    <section class="sec-1">
-    <div class="container text-center">
+  <!-- Infinite Scroll -->
+   <div class="wrapper">
+    <div class="item item1"></div>
+    <div class="item item2"></div>
+    <div class="item item3"></div>
+    <div class="item item4"></div>
+   </div>
+   
 
-<!-- <div class="row row-cols-2">
-       
-  <div class="col-1"> -->
-      <!-- dinu -->
-   <!-- <div class="content">
-    <img src="./assets/images/Logo_with_name.png">
-    <p>1 <sup>st</sup> International Conference on Emerging Technologies(ICET) 2025</p>
-    <p><img src="./assets/icons/calendar.png">1<sup>st</sup> May 2025 | <img src="./assets/icons/placeholder.png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
-    <div class="text-box">
-    <p>International Conference on Emerging Technologies (ICET) is an annual/biennial conference organized by the Faculty of Technology, Sabaragamuwa University of Sri Lanka. It is an open forum for academics, researchers, undergraduates and postgraduate students and industry professionals, to present their research findings in the discipline of science and technology.</p> -->
-  <!-- </div> 
-
-</div>
-
-</div>
-
-  <div class="col-2"> -->
-      <!-- dinu -->
-    <!-- <p id="theme">“Technology for sustainable future”</p> -->
-  <!-- </div>
-
-</div>
-</div> -->
-<!-- <div class="container px-4 text-center">
-  <div class="row gx-5">
-    <div class="col-6" id="col-1">
-     <div class="p-3">Custom column padding</div>
-    </div>
-    <div class="col-8" id="col-2">
-      <div class="p-3">Custom column padding</div>
-    </div>
-  </div>
-</div> -->
- 
-  
- 
-
-
- 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
