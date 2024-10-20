@@ -2,21 +2,7 @@ body {
     font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    width: 100%;
-   
-    
-} 
-
- 
-
-footer {
-    text-align: center;
-    background-color: #dd2b2b;
-    color: white;
-    padding: 10px 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    width: 100%; 
 } 
 
 /*---------------- NAVBAR -----------------*/
@@ -31,7 +17,7 @@ footer {
 }
 
 .nav-item{
-    margin-inline: 30px;
+    margin-inline: 20px;
     font-size: 18px;
 }
 
@@ -44,10 +30,10 @@ footer {
     background: url('../../assets/images/background.jpg') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Align items to the top */
+    justify-content: center;  
+    align-items: center;  
     text-align: center;  
-    background-color: aquamarine; /* Optional background color */
+    background-color: aquamarine;  
     padding: 0 20px 100px;
 }
 
@@ -74,9 +60,11 @@ footer {
 
 .main-text {
     font-size: 3rem;  
-    font-weight: bold;  
+    font-weight: bold; 
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    transition: font-size 0.4s ease, letter-spacing 0.4s ease, color 0.4s ease; 
 }
-
 .sub-text {
     font-size: 2rem;  
     font-weight: normal;  
@@ -87,14 +75,12 @@ footer {
     font-weight: normal;  
 }
 
-
-
 .content {
     position: absolute;
     z-index: 2;
     top: 450px;
     text-align: center;
-    max-width: 70%;
+    max-width: 50%;
     padding: 20px;
     background: linear-gradient(
         135deg, 
@@ -102,28 +88,11 @@ footer {
         rgb(90, 175, 240),   
         rgb(46, 129, 232)    
     );
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(80px);
     border: 3px solid rgba(4, 18, 21, 0.932);
     border-radius: 10px;
     color: white;
 }
-.button{
-    width: 200px;
-    height: 80px;
-    border-radius: 20px;
-    font-size: 25px;
-    font-weight: 700;
-    background-color: #070457d5;
-    border: 4px solid black;
-    color: antiquewhite;
-}
-.button:hover {
-    background-color: #1927e9;  
-    border-color: #f7fb08;  
-    transform: scale(1.05);  
-    cursor: pointer;  
-}
-
 .content p {
     font-size: 15px;
     margin-bottom: 10px;
@@ -143,6 +112,26 @@ footer {
     right: 20px;
     
 }
+ 
+.button{
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #070457d5;
+    border: 4px solid black;
+    color: antiquewhite;
+    transition: background-color 1s ease, border-color 1s ease, transform 1s ease; 
+}
+.button:hover {
+    background-color: #0815c8;  
+    border-color: #fb9a08;  
+    transform: scale(1.05);  
+    cursor: pointer;  
+}
+
+
 
 
 /*--------- Infinite Scroll --------- */
@@ -153,7 +142,7 @@ footer {
     margin-inline: auto;
     position: relative;
     height: 420px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     overflow: hidden;
     right: 90px;
     mask-image: linear-gradient(
@@ -213,6 +202,152 @@ footer {
     background: url('../../assets/images/Sabra2.jpg') no-repeat center center/cover;
 }
 
+
+/*----------- Objectives Section ----------- */
+
+.Object{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323aa7;
+    position: relative;
+    top: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 100vh;
+}
+.Object h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;  
+    left: 200px;
+    width: 13%; 
+    height: 3px;  
+    background-color: #f70227; 
+    transition: width 0.3s ease-in-out;  
+  }
+
+.Object h2:hover::after {
+    width: 10%; 
+    height: 5px; 
+  }
+
+.container{
+    position: relative;
+    bottom: 300px; 
+    height: 15vh;
+    background-color:#fdc571; 
+}
+.container h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #391c1c;
+    padding-top: 10px;
+    font-weight:800;
+    position: relative;
+     
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #1927e9;
+}
+
+.cards .text-card{
+    background-color: #f7f7f7;
+    margin: 10px;
+    padding: 20px;
+    height: 190px;
+    backdrop-filter: blur(200px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cards .text-card:hover {
+    transform: translateY(-10px);  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  }
+
+.cards .text-card h3{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+
+
+/*----------- Footer Section ----------- */
+
+#footer-sec{
+	background-color: #03013bd5; 
+    padding: 20px;
+}
+.footer-sub-content {
+	padding:10px;
+}
+.footer-sub-content h4{
+	font-family: font_11;
+}
+.footer-divider{
+	border-top: 4px solid #4999f5;
+	width: 13%;
+	margin-bottom: 10px;
+}
+.footer-event-address{
+	font-family: font_7;
+	font-size: 15px;
+	color: #ddd;
+	transition: 0.2s;
+}
+.footer-social-links{
+	display: inline-flex;
+}
+.footer-social-links a{
+	margin: 0;
+}
+.footer-social-links .social-link{
+	width: 40px;
+	height: 40px;
+	color: #777;
+	text-align: center;
+	font-size:24px;
+	background: #ccc;
+	line-height: 37px;
+	border-radius: 50%;
+	transition: 0.3s;
+	margin-right: 10px;
+}
+.footer-social-links .social-link:hover{
+	color: #ffffff;
+	background: rgb(31, 103, 236);
+}
+.copyright-text{
+	background: var(--theme-hard-black);
+	font-family: font_1;
+	color: #fff;
+}
+
 /*------------------- MEDIA QUERIES -------------------*/
 
 @media screen and (min-width: 768px) {
@@ -235,6 +370,15 @@ footer {
 
     .hero p img {
         width: 25px;  
+    }
+
+    .Object{
+        
+        margin-bottom: 200px;
+    }
+
+    .Object h2::after{
+        left: 300px;
     }
 
 }
@@ -272,6 +416,37 @@ footer {
 
     .content{
         top: 380px;
+    }
+
+    .container{
+        margin: 0;
+        padding: 0;
+        background-color:#f5cd91;
+        position: relative;
+        bottom: 190px;
+    }
+    
+    .Object{
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 100px;
+        height: 60vh;
+        bottom: 100px;
+
+         
+    }
+
+    .cards{
+        flex-direction: row;
+    }
+
+    .cards .text-card {
+        height: 250px;
+        margin: 20px;
+    }
+
+    .Object h2::after{
+        left: 570px;
     }
 }
   

@@ -16,7 +16,10 @@
           <a class="nav-link active" aria-current="page" href="./about.php">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./schedule.php">SCHEDULE</a>
+          <a class="nav-link active" aria-current="page" href="./schedule.php">SHEDULE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./team.php">TEAM</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="./submit-paper.php">SUBMISSION</a>
