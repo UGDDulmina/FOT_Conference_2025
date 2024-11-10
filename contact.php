@@ -65,7 +65,7 @@
                     </p>
 
                     <p class="subpage-paragraph">
-                        <strong>Email</strong>: <a href="mailto:info@apsurs.sab.ac.lk">info@apsurs.sab.ac.lk</a> <br><strong>Phone</strong>: <a href="tel:+94452280015">+94 (045) 22 80015</a>
+                        <strong>Email</strong>: <a href="mailto:info@icet.sab.ac.lk">info@icet.sab.ac.lk</a> <br><strong>Phone</strong>: <a href="tel:+94452280015">+94 (045) 22 80015</a>
                     </p>
                     <div class="footer-social-links" style="margin-bottom: 20px;">
                         <a href="https://www.facebook.com/apsurs.sab.ac.lk" target="_blank"><div class="social-link"><i class="fab fa-facebook-f fa-sm"></i></div></a>

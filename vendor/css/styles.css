@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif; 
+    font-family: "Noto Sans Display", sans-serif; 
     margin: 0;
     padding: 0;
     width: 100%; 
@@ -8,7 +8,7 @@ body {
 /*---------------- NAVBAR -----------------*/
 
 .navbar-brand img{
-    width:70px;
+    width:80px;
     margin-left: 20px;
 }
 
@@ -26,15 +26,16 @@ body {
 
 .hero {
     position: relative;
-    height: 80vh;
-    background: url('../../assets/images/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.1)), url('../../assets/images/FOT.jpg') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;  
     align-items: center;  
     text-align: center;  
     background-color: aquamarine;  
-    padding: 0 20px 100px;
+    padding: 0 20px 250px;
+    color: #000;
 }
 
 .hero::before {
@@ -43,14 +44,16 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);  
-    z-index: 1;  
+    height: 100%; 
+    background: inherit;  
+    backdrop-filter: blur(5px);  
+    mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(242, 238, 238, 1));
+    z-index: -1;    
 }
 
 .hero p{
     margin-top: 0;  
-    color: rgb(241, 231, 231);  
+    color: rgb(21, 17, 17);  
     z-index: 2;
 }
 
@@ -64,15 +67,16 @@ body {
     opacity: 0;
     transition: opacity 0.5s ease;
     transition: font-size 0.4s ease, letter-spacing 0.4s ease, color 0.4s ease; 
+    font-family: "Abril Fatface", serif;
 }
 .sub-text {
     font-size: 2rem;  
-    font-weight: normal;  
+    font-weight: 500;  
 }
 
 .sub-text-1{
     font-size: 1.5rem;  
-    font-weight: normal;  
+    font-weight: 400;  
 }
 
 .content {
@@ -80,7 +84,7 @@ body {
     z-index: 2;
     top: 450px;
     text-align: center;
-    max-width: 50%;
+    max-width: 70%;
     padding: 20px;
     background: linear-gradient(
         135deg, 
@@ -99,7 +103,7 @@ body {
     padding: 20px;
     font-style:unset;
     font-weight: 600;
-    color: #dce8ea;
+    color: #090909;
 }
 
 .content img{
@@ -215,6 +219,7 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
     height: 100vh;
+    font-family: "Noto Sans Display", sans-serif; 
 }
 .Object h2::after {
     content: '';
@@ -224,7 +229,8 @@ body {
     width: 13%; 
     height: 3px;  
     background-color: #f70227; 
-    transition: width 0.3s ease-in-out;  
+    transition: width 0.3s ease-in-out; 
+    font-family: "Noto Sans Display", sans-serif; 
   }
 
 .Object h2:hover::after {
@@ -242,7 +248,7 @@ body {
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
-    color: #391c1c;
+    color: #060404;
     padding-top: 10px;
     font-weight:800;
     position: relative;
@@ -254,7 +260,7 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    color: #1927e9;
+    
 }
 
 .cards .text-card{
@@ -263,6 +269,7 @@ body {
     padding: 20px;
     height: 190px;
     backdrop-filter: blur(200px);
+    font-family: "Oswald", sans-serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -274,6 +281,7 @@ body {
   }
 
 .cards .text-card h3{
+    color: #bc3d3d;
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -353,11 +361,13 @@ body {
 @media screen and (min-width: 768px) {
     /* For tablets */
     .hero {
-        padding: 0 40px 150px;  
+        padding: 0 40px 200px;
+          
     }
 
     .main-text {
-        font-size: 3.5rem;   
+        font-size: 3.5rem; 
+        margin-top: 60px;  
     }
 
     .sub-text {
@@ -386,8 +396,13 @@ body {
 @media screen and (min-width: 1024px) {
     /* For desktops */
     .hero {
-        height: 90vh;  
-        padding: 0 60px 200px;  
+        height: 100vh;  
+        padding: 0 0 280px; 
+         
+    }
+
+    .content{
+        width: 50%;
     }
 
     .main-text {
@@ -395,11 +410,12 @@ body {
     }
 
     .sub-text {
-        font-size: 1.6rem;
+        font-size: 2.0rem;
+        font-weight: 500;
     }
 
     .sub-text-1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .hero p img {
@@ -416,6 +432,7 @@ body {
 
     .content{
         top: 380px;
+        width: 80%;
     }
 
     .container{

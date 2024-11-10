@@ -14,19 +14,26 @@
 
     <!-- Font-Awesome --> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+ 
+    <!-- Google-Font --> 
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
     
     
 </head>
 <body>
-    <?php include './common/navbar.php'; ?>
+
+ <?php include './common/navbar.php'; ?>
     
   <!-- Hero Section -->
 
     <section class="hero">
-        <p class="main-text" id="animated-text">“Technology for sustainable future”</p>
-        <p class="sub-text"> 1<sup>st</sup> International Conference on Emerging Technologies(ICET) 2025</p>
-        <p class="sub-text-1"><img src="./assets/icons/calendar.png">1<sup>st</sup> May 2025 </p>
+        <p class="main-text" id="animated-text">“ Technology for sustainable future ”</p>
+        <p class="sub-text">International Conference on Emerging Technologies (ICET) 2025</p>
+        <p class="sub-text-1"><img src="./assets/icons/calendar.png"> 1<sup>st</sup> May 2025 </p>
         <p class="sub-text-1"><img src="./assets/icons/placeholder.png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
       <div class="content">
           <img src="./assets/images/Logo_with_name.png" alt="Conference Logo">
