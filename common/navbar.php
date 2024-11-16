@@ -2,7 +2,7 @@
 //navbar.php
 ?>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
   <div class="container-fluid">
    
     <a class="navbar-brand" href=""><img src="assets/images/Logo_with_name.png">
@@ -33,5 +33,28 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
+</nav> -->
+<nav class="ui-nav">
+  <div class="ui-left">
+  <img src="assets/images/Logo_with_name.png">
+  </div> 
+  <ul class="nav-area">
+    <li class="nav-item"><a class="nav-link active" href="./index.php">HOME</a></li>
+    <li class="nav-item"><a class="nav-link" href="./about.php">ABOUT</a></li>
+    <li class="nav-item"><a class="nav-link" href="./schedule.php">SCHEDULE</a></li>
+    <li class="nav-item"><a class="nav-link" href="./team.php">TEAM</a></li>
+    <li class="nav-item"><a class="nav-link" href="./submit-paper.php">SUBMISSION</a></li>
+    <li class="nav-item"><a class="nav-link" href="./contact.php">CONTACT</a></li>
+    <li class="nav-item"><a class="nav-link" href="./contact.php">GALLERY</a></li>
+  </ul>
+<button class="ui-toggle" onclick="toggleMenu()">☰</button>
 </nav>
+
+<script>
+  function toggleMenu() {
+    const menu = document.querySelector('.nav-area');
+    menu.classList.toggle('show');
+  }
+</script>
+
 
