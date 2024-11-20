@@ -44,6 +44,74 @@
         <img src="./assets/icons/2.gif" alt="" id='gif2'>
         <img src="./assets/icons/3.gif" alt="" id='gif3'>
         <img src="./assets/icons/4.gif" alt="" id='gif4'> -->
+         <div class="timer">
+         <div id="timer">
+            <div class="counter">
+                    <div class="box1">
+                        <span id="days"></span>
+                        <p id="tag">Days</p>
+                    </div>
+                    <div class="box1">
+                        <span id="hours"></span>
+                        <p id="tag">Hours</p>
+                    </div>
+                    <div class="box1">
+                        <span id="minutes"></span>
+                        <p id="tag">Minutes</p>
+                    </div>
+                    <div class="box1">
+                        <span id="seconds"></span>
+                        <p id="tag">Seconds</p>
+                    </div>
+             </div>
+          </div>
+        </div>
+        <script>
+    var timer;
+
+    // Check if a target date is already stored in localStorage
+    var storedDate = localStorage.getItem("targetDate");
+    var compareDate;
+
+    if (storedDate) {
+        // If a date exists in localStorage, use it
+        compareDate = new Date(storedDate);
+    } else {
+        // Otherwise, set a new target date and store it
+        compareDate = new Date();
+        compareDate.setDate(compareDate.getDate() + 10);
+        localStorage.setItem("targetDate", compareDate);
+    }
+
+    timer = setInterval(function () {
+        timeBetweenDates(compareDate);
+    }, 1000);
+
+    function timeBetweenDates(toDate) {
+        var now = new Date();
+        var difference = toDate.getTime() - now.getTime();
+
+        if (difference <= 0) {
+            clearInterval(timer);
+            localStorage.removeItem("targetDate"); // Clear storage when the timer ends
+        } else {
+            var seconds = Math.floor(difference / 1000);
+            var minutes = Math.floor(seconds / 60);
+            var hours = Math.floor(minutes / 60);
+            var days = Math.floor(hours / 24);
+
+            hours %= 24;
+            minutes %= 60;
+            seconds %= 60;
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+        }
+    }
+</script>
+
        
         <p id='para1'>International Conference on Emerging Technologies (ICET) 2025</p> 
         <p id='para2' >"Technology for sustainable future"</p>
@@ -218,119 +286,20 @@
 </div>
 <div class="wrapper ">
   <div class="gallary">
-    <h1>Gallary</h1>
-     
+    <h1>Sponsers</h1>
+    <p>sponsers</p>
+    <div id='footer'>
+       <?php include './common/footer.php'; ?>
+    </div>
+   
   </div>
 </div>
-<div class="wrapper ">
+<!-- <div class="wrapper ">
   <div class="sponsers">
     <h1>Sponsers</h1>
      
   </div>
-</div>
-
-
-    
-  <!-- Hero Section -->
-
-    <!-- <section class="hero">
-        <p class="main-text" id="animated-text">“ Technology for sustainable future ”</p>
-        <p class="sub-text">International Conference on Emerging Technologies (ICET) 2025</p>
-        <p class="sub-text-1"><img src="./assets/icons/calendar.png"> 1<sup>st</sup> May 2025 </p>
-        <p class="sub-text-1"><img src="./assets/icons/placeholder.png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
-      <div class="content">
-          <img src="./assets/images/Logo_with_name.png" alt="Conference Logo">
-          <div class="text-box">
-          <p>International Conference on Emerging Technologies (ICET) is an annual/biennial conference organized by the Faculty of Technology, Sabaragamuwa University of Sri Lanka. It is an open forum for academics, researchers, undergraduates and postgraduate students and industry professionals, to present their research findings in the discipline of science and technology.</p>
-         </div> 
-         <div >
-               <button class="button">Registration</button>
-         </div>
-      </div>
-   </section>
-   <script>
-      document.addEventListener("DOMContentLoaded", () => {
-      const textElement = document.getElementById("animated-text");
-      const text = textElement.innerText;  
-      textElement.innerHTML = ""; 
-
-      let delay = 0; 
-
-       
-      for (let letter of text) {
-         setTimeout(() => {
-             textElement.innerHTML += letter;  
-             textElement.style.opacity = 1;  
-         }, delay);
-        delay += 100;  
-       }
-      });
-
-   </script> -->
-
-   <!-- <section class="demo">
-    <div class="super">
-       
-
-    </div>
-
-   </section> -->
-
-  <!-- Infinite Scroll -->
-
-   <!-- <div class="wrapper">
-    <div class="item item1"></div>
-    <div class="item item2"></div>
-    <div class="item item3"></div>
-    <div class="item item4"></div>
-   </div> -->
-
-  <!-- Objective Section -->
-
-   <!-- <section class="Object">
-     <div class="container reveal">
-       <h2>Our Objectives</h2>
-         <div class="cards">
-         <div class="text-card">
-          <h3>Promote Research and Innovation</h3>
-          <p>Provide a platform for academics, researchers, and students to present their research findings in science and technology, encouraging innovation and advancements in these fields.</p>
-         </div>
-         <div class="text-card">
-          <h3>Bridge Academia and Industry</h3>
-          <p>Strengthen the connection between academia and industry by encouraging the application of research to real-world technological challenges and innovations, fostering impactful industry solutions.</p>
-         </div>
-         <div class="text-card">
-          <h3>Foster Collaboration</h3>
-          <p>Facilitate networking and collaboration between professionals, academics, and industry leaders at both national and international levels, promoting partnerships for future projects and technological development.</p>
-         </div>
-      </div>
-     </div>
-   </section> -->
-    
-
-   <!-- <script type="text/javascript">
-    window.addEventListener('scroll', reveal);
-
-    function reveal(){
-      var reveals = document.querySelectorAll('.reveal');
-
-      for(var i = 0; i < reveals.length; i++){
-
-        var windowheight = window.innerHeight;
-        var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 150;
-
-        if(revealtop < windowheight -revealpoint){
-          reveals[i].classList.add('active');
-        }
-        else{
-          reveals[i].classList.remove('active');
-        }
-      }
-    }
-   </script>
-    -->
-    
+</div> -->
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

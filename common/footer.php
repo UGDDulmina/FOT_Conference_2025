@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer>
+<!-- <footer>
     <div class="padding text-light" id="footer-sec">
         <div class="contain py-5">
             <div class="row footer-content">
@@ -16,7 +16,7 @@
                     <h4>Venue</h4>
                     <div class="footer-divider"></div>
                     <p class="footer-event-address">
-			    Faculty of Technology,</Br>
+			                Faculty of Technology,</Br>
                             Sabaragamuwa University of Sri Lanka,</Br>
                             P.O. Box 02,</Br>
                             Belihuloya,</Br>
@@ -35,8 +35,47 @@
             &copy; 2023 All Rights Reserved - Sabaragamuwa University of Sri Lanka 
         </div>
     </div>
-</footer>
+</footer> -->
 
+<footer>
+    <div class="footer">
+        <div class="foot-col">
+            <h4>products</h4>
+            <ul>
+                <li><a href="#">teams</a></li>
+                <li><a href="#">advertising</a></li>
+                <li><a href="#">talent</a></li>
+            </ul>
+        </div>
+        <div class="foot-col">
+            <h4>network</h4>
+            <ul>
+                <li><a href="#">technology</a></li>
+                <li><a href="#">science</a></li>
+                <li><a href="#">business</a></li>
+                <li><a href="#">professional</a></li>
+                <li><a href="#">API</a></li>
+            </ul>
+        </div>
+        <div class="foot-col">
+            <h4>company</h4>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">legal</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="foot-col">
+            <h4>follow us</h4>
+            <div class="foot links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</div>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KS477TDE10"></script>
 <script>
