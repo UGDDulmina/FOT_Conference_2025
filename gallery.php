@@ -218,6 +218,14 @@
     </a>
     <a href="./assets/images/FOT64.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
         <img src="./assets/images/FOT64.jpg" alt="Faculty">
+    <a href="./assets/images/FOT65.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
+        <img src="./assets/images/FOT65.jpg" alt="Faculty">
+    </a>
+    <a href="./assets/images/FOT66.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
+        <img src="./assets/images/FOT66.jpg" alt="Faculty">
+    </a>
+    <a href="./assets/images/FOT67.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
+        <img src="./assets/images/FOT67.jpg" alt="Faculty">
     </a>
 </div>
 
