@@ -7,9 +7,9 @@
     <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
      
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./vendor/css/gallery.css">
-    <link rel="stylesheet" href="./vendor/css/styles.css">
-    <link rel="stylesheet" href="./vendor/css/lightbox.css">
+    <link rel="stylesheet" href="./vendor/css/gallery.css?v=1.0">
+    <link rel="stylesheet" href="./vendor/css/styles.css?v=1.0">
+    <link rel="stylesheet" href="./vendor/css/lightbox.css?v=1.0">
 
 
     <!-- Bootstrap -->

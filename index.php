@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
    
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./vendor/css/styles.css">
+    <link rel="stylesheet" href="./vendor/css/styles.css?v=1.0">
     
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -153,12 +153,12 @@
     <!-- Infinite Scroll -->
 
    <div class="Infinite-wrapper">
-    <div class="item item1"><div class="inner inner1"><p>Advances in Emerging Sciences</p></div></div>
-    <div class="item item2"><div class="inner inner2"><p>Bioenergy and Bio fuel Generation Technology</p></div></div>
-    <div class="item item3"><div class="inner inner3"><p>Applied Biotechnology and Microbiology</p></div></div>
-    <div class="item item4"><div class="inner inner4"><p>Mechanical Engineering Technology</p></div></div>
-    <div class="item item5"><div class="inner inner5"><p>Electrical and Electronic Engineering Technology</p></div></div>
-    <div class="item item6"><div class="inner inner6"><p>Drug Discovery and Development</p></div></div>
+    <div class="item item1"><div class="inner inner1"><p>Advances in Emerging <br> Sciences</p></div></div>
+    <div class="item item2"><div class="inner inner2"><p>Bioenergy and Bio fuel<br> Generation Technology</p></div></div>
+    <div class="item item3"><div class="inner inner3"><p>Applied Biotechnology and <br> Microbiology</p></div></div>
+    <div class="item item4"><div class="inner inner4"><p>Mechanical Engineering <br> Technology</p></div></div>
+    <div class="item item5"><div class="inner inner5"><p>Electrical and Electronic <br> Engineering Technology</p></div></div>
+    <div class="item item6"><div class="inner inner6"><p>Drug Discovery and <br> Development</p></div></div>
    </div>
   </div>
 </div>
