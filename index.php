@@ -153,10 +153,12 @@
     <!-- Infinite Scroll -->
 
    <div class="Infinite-wrapper">
-    <div class="item item1"><div class="inner inner1"></div></div>
-    <div class="item item2"><div class="inner inner2"></div></div>
-    <div class="item item3"><div class="inner inner3"></div></div>
-    <div class="item item4"><div class="inner inner4"></div></div>
+    <div class="item item1"><div class="inner inner1"><p>Advances in Emerging Sciences</p></div></div>
+    <div class="item item2"><div class="inner inner2"><p>Bioenergy and Bio fuel Generation Technology</p></div></div>
+    <div class="item item3"><div class="inner inner3"><p>Applied Biotechnology and Microbiology</p></div></div>
+    <div class="item item4"><div class="inner inner4"><p>Mechanical Engineering Technology</p></div></div>
+    <div class="item item5"><div class="inner inner5"><p>Electrical and Electronic Engineering Technology</p></div></div>
+    <div class="item item6"><div class="inner inner6"><p>Drug Discovery and Development</p></div></div>
    </div>
   </div>
 </div>

@@ -251,7 +251,7 @@ body{
 }
 .tracks h1 {
     left: -120px;
-    top: -10px;
+    top: 20px;
     position: relative;
     font-size: 50px;
     display: inline-block;  
@@ -268,26 +268,25 @@ body{
 }
 /*--------- Infinite Scroll --------- */
 
-.Infinite-wrapper{
+.Infinite-wrapper {
     width: 1720px;
     max-width: 5000px;
     margin-inline: auto;
     position: relative;
     height: 420px;
-    margin-top: 3.5rem;
+    margin-top: 6rem;
     overflow: hidden;
     right: 200px;
-    
-  }
- 
+}
+
 @keyframes scrollLeft {
     to {
-      left: -200px;
+        left: -200px;
     }
 }
 
 .item {
-    width: 420px;
+    width: 310px;
     height: 380px;
     background-color: rgb(0, 0, 0);
     border-radius: 20px 20px 80px 80px;
@@ -297,62 +296,83 @@ body{
     animation-duration: 50s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    border: 8px solid rgb(255, 254, 250);
+    border: 4px solid rgb(255, 254, 250);
 }
 
 .item:hover {
-    transform: scale(1);  
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);  
-    background-color: rgb(50, 50, 50);  
-    border-color: rgb(246, 246, 8);  
+    transform: scale(1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(50, 50, 50);
+    border-color: rgb(237, 237, 178);
 }
 
-.item::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;  
-    z-index: 1;  
-}  
-.inner{
+.inner {
     border-radius: 12px 12px 0 0;
     width: 100%;
     height: 250px;
     background: #000;
 }
+
 .item1 {
-    animation-delay: calc(50s / 4 * (4 - 1) * -1);
-    
-} 
-.item2 {
-    animation-delay: calc(50s / 4 * (4 - 2) * -1);
-    
-}
-  
-.item3 {
-    animation-delay: calc(50s / 4 * (4 - 3) * -1);
-    
-}
-  
-.item4 {
-    animation-delay: calc(50s / 4 * (4 - 4) * -1);
-   
+    animation-delay: calc(50s / 6 * (6 - 1) * -1);
 }
 
-.inner1{
-   background: url('../../assets/images/FOT.jpg') no-repeat center center/cover;
+.item2 {
+    animation-delay: calc(50s / 6 * (6 - 2) * -1);
 }
-.inner2{
-   background: url('../../assets/images/Sabra4.jpg') no-repeat center center/cover;
+
+.item3 {
+    animation-delay: calc(50s / 6 * (6 - 3) * -1);
 }
-.inner3{
-   background: url('../../assets/images/Sabra1.jpg') no-repeat center center/cover;
+
+.item4 {
+    animation-delay: calc(50s / 6 * (6 - 4) * -1);
 }
-.inner4{
-    background: url('../../assets/images/Sabra2.jpg') no-repeat center center/cover;
+
+.item5 {
+    animation-delay: calc(50s / 6 * (6 - 5) * -1);
 }
+
+.item6 {
+    animation-delay: calc(50s / 6 * (6 - 6) * -1);
+}
+
+.inner1 {
+    background: url('../../assets/images/Advances in Emerging Sciences.png') no-repeat center top;
+    background-size: cover;
+}
+
+.inner2 {
+    background: url('../../assets/images/Bioenergy and Bio fuel Generation Technology.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+.inner3 {
+    background: url('../../assets/images/Applied Biotechnology and Microbiology.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+.inner4 {
+    background: url('../../assets/images/Electrical and Electronic Engineering Technology.png') no-repeat center center/cover;
+    background-size: cover;
+}
+
+.inner5 {
+    background: url('../../assets/images/Mechanical\ Engineering\ Technology.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+.inner6 {
+    background: url('../../assets/images/Drug\ Discovery\ and\ Development.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+.inner p{
+    color: #eff4ff;
+    position: relative;
+    top: 270px;
+    margin: 10px;
+}
+
 .wrapper:nth-child(1){
     background-color: #eff4ff;
     top: 0;
