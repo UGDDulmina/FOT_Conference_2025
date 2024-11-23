@@ -39,11 +39,6 @@
           
         <div id="particles-container1" class="particles-container"><div class='shape1' ></div></div>
         <div id="particles-container2" class="particles-container"><div class='shape2'></div></div>
-        
-        <!-- <img src="./assets/icons/1.gif" alt="" id='gif1'>
-        <img src="./assets/icons/2.gif" alt="" id='gif2'>
-        <img src="./assets/icons/3.gif" alt="" id='gif3'>
-        <img src="./assets/icons/4.gif" alt="" id='gif4'> -->
          <div class="timer">
          <div id="timer">
             <div class="counter">
@@ -153,12 +148,12 @@
     <!-- Infinite Scroll -->
 
    <div class="Infinite-wrapper">
-    <div class="item item1"><div class="inner inner1"><p>Advances in Emerging <br> Sciences</p></div></div>
-    <div class="item item2"><div class="inner inner2"><p>Bioenergy and Bio fuel<br> Generation Technology</p></div></div>
-    <div class="item item3"><div class="inner inner3"><p>Applied Biotechnology and <br> Microbiology</p></div></div>
-    <div class="item item4"><div class="inner inner4"><p>Mechanical Engineering <br> Technology</p></div></div>
-    <div class="item item5"><div class="inner inner5"><p>Electrical and Electronic <br> Engineering Technology</p></div></div>
-    <div class="item item6"><div class="inner inner6"><p>Drug Discovery and <br> Development</p></div></div>
+    <div class="item item1"><a href="./advancesInEmergingSciences.php" ><div class="inner inner1"><p>Advances in Emerging <br> Sciences</p></div></a></div>
+    <div class="item item2"><a href="./bioenergyAndBioFuelGenerationTechnology.php"><div class="inner inner2"><p>Bioenergy and Bio fuel<br> Generation Technology</p></div></a></div>
+    <div class="item item3"><a href="./appliedBiotechnologyAndMicrobiology.php"><div class="inner inner3"><p>Applied Biotechnology and <br> Microbiology</p></div></a></div>
+    <div class="item item4"><a href="./mechanicalEngineeringTechnology.php"><div class="inner inner4"><p>Mechanical Engineering <br> Technology</p></div></a></div>
+    <div class="item item5"><a href="./electricalAndElectronicEngineeringTechnology.php"><div class="inner inner5"><p>Electrical and Electronic <br> Engineering Technology</p></div></a></div>
+    <div class="item item6"><a href="./drugDiscoveryAndDevelopment.php"><div class="inner inner6"><p>Drug Discovery and <br> Development</p></div></a></div>
    </div>
   </div>
 </div>
@@ -286,22 +281,18 @@
   </div>
   
 </div>
-<div class="wrapper ">
-  <div class="gallary">
-    <h1>Sponsers</h1>
-    <p>sponsers</p>
-    <div id='footer'>
-       <?php include './common/footer.php'; ?>
-    </div>
-   
-  </div>
-</div>
-<!-- <div class="wrapper ">
+<div class="wrapper">
   <div class="sponsers">
     <h1>Sponsers</h1>
-     
+    
   </div>
-</div> -->
+</div>
+<div class="wrapper ">
+  <div class="foot">
+      
+     <?php include './common/footer.php'; ?>
+  </div>
+</div>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
