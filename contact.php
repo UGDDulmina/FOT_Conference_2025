@@ -7,14 +7,22 @@
     <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
      
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./vendor/css/styles.css">
+    <link rel="stylesheet" href="./vendor/css/styles.css?v=1.0">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
     <!-- Font-Awesome --> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    
+     <!-- Google-Font --> 
+     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    
 </head>
 <body>
      
@@ -69,7 +77,7 @@
                     </p>
 
                     <p class="subpage-paragraph">
-                        <strong>Email</strong>: <a href="mailto:info@apsurs.sab.ac.lk">info@apsurs.sab.ac.lk</a> <br><strong>Phone</strong>: <a href="tel:+94452280015">+94 (045) 22 80015</a>
+                        <strong>Email</strong>: <a href="mailto:info@icet.sab.ac.lk">info@icet.sab.ac.lk</a> <br><strong>Phone</strong>: <a href="tel:+94452280015">+94 (045) 22 80015</a>
                     </p>
                     <div class="footer-social-links" style="margin-bottom: 20px;">
                         <a href="https://www.facebook.com/apsurs.sab.ac.lk" target="_blank"><div class="social-link"><i class="fab fa-facebook-f fa-sm"></i></div></a>
@@ -86,7 +94,7 @@
        
     </section>
 
-    <?php include './common/footer.php'; ?>
+    <?php include './common/footer1.php'; ?>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
