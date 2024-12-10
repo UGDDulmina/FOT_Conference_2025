@@ -21,8 +21,12 @@
    <?php include './common/navbar.php'; ?>
 
     <section >
-        
-        <h2>Contact</h2>
+<!--        -->
+<!--        <h2>Contact</h2> -->-->
+<!--</br>-->
+<!--        <div class="banner-container">-->
+<!--        <img src="assets/images/banner1.jpg" alt="Contact Banner" class="img-fluid w-100">-->
+<!--    </div>-->
         <div class="d-flex " style="background-color: #f0f0f0;">
         <div class="p-2 col-md-6  p-4 m-4">
         <form action="contact_process.php" method="post" >
