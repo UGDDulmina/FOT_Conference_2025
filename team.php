@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule - ICET 2025</title>
+    <title>Team - ICET 2025</title>
     <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
 
     <!-- Custom CSS -->
@@ -28,7 +28,7 @@
    <?php include './common/navbar.php'; ?>
     
     <section>
-        <div style="display: grid; grid-template-columns: repeat(4, 2fr); gap: 0px;">
+        <div style="display: grid; grid-template-columns: repeat(4, 2fr); gap: 0px;" class='dinuja'>
             <div class="card" style="width: 18rem;">
                 <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
