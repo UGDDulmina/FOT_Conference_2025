@@ -20,7 +20,10 @@
      
    <?php include './common/navbar.php'; ?>
 
-     <p>Advances</p>
+    <video class="video-bg" autoplay muted loop>
+        <source src="./assets/videos/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+   </video>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
