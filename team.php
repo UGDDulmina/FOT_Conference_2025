@@ -28,7 +28,63 @@
    <?php include './common/navbar.php'; ?>
     
     <section>
-        
+        <div style="display: grid; grid-template-columns: repeat(4, 2fr); gap: 0px;">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Card 2 content.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Card 3 content.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Card 4 content.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Card 5 content.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Card 6 content.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Card 7 content.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Card 8 content.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <?php include './common/footer1.php'; ?>

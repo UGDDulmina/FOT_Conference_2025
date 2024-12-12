@@ -1670,9 +1670,38 @@ footer .social-icons i:hover{
         font-weight: 700;
      }
 }
-  
 
- 
 
+.carousel-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; /* Ensure it's above the carousel images */
+}
+
+.carousel-foreground h1 {
+    font-size: 3rem; /* Adjust the font size as needed */
+    margin: 0;
+    text-align: center;
+}
+
+
+
+/*.card-container {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(4, 1fr);*/
+/*    gap: 1rem;*/
+/*}*/
+
+/*.card {*/
+/*    width: 18rem; !* Adjust the width as needed *!*/
+/*    !* Other card styles *!*/
+/*}*/
 
  
