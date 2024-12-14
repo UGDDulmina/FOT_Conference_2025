@@ -22,69 +22,160 @@
     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
-    
+
 </head>
 <body>
    <?php include './common/navbar.php'; ?>
-    
+
     <section>
-        <div style="display: grid; grid-template-columns: repeat(4, 2fr); gap: 0px;" class='dinuja'>
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
+<!--        <div style="display: grid; grid-template-columns: repeat(4, 2fr); gap: 0px;" class='dinuja'>-->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">-->
+<!--                <div class="card-body">-->
+<!--                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">-->
+<!--                <div class="card-body">-->
+<!--                    <p class="card-text">Card 2 content.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">-->
+<!--                <div class="card-body">-->
+<!--                    <p class="card-text">Card 3 content.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">-->
+<!--                <div class="card-body">-->
+<!--                    <p class="card-text">Card 4 content.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">-->
+<!--                <div class="card-body">-->
+<!--                    <p class="card-text">Card 5 content.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">-->
+<!--                <div class="card-body">-->
+<!--                    <p class="card-text">Card 6 content.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">-->
+<!--                <div class="card-body">-->
+<!--                    <p class="card-text">Card 7 content.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="card" style="width: 18rem;">-->
+<!--                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">-->
+<!--                <div class="card-body">-->
+<!--                    <p class="card-text">Card 8 content.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Card 2 content.</p>
-                </div>
-            </div>
+        <div class="wrapper ">
+            <div class="team">
+                <h1 id='title'>Team Members</h1>
+                <div class="sectors">
+                    <div class="sector">
+                        <div class="imgbox">
+                            <img src=" " alt="profile" />
+                        </div>
+                        <div class="intro-text">
+                            <h1> Dr. MDKM Gunasena </h1>
+                        </div>
+                        <span>Conference Chair</span>
+                        <div class="social-links">
+                            <a href="https://www.sab.ac.lk/staff-directory/466">
+                                <button>
+                                    <img src="./assets/images/link.png" alt="">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sector">
+                        <div class="imgbox">
+                            <img src=" " alt="profile" />
+                        </div>
+                        <div class="intro-text">
+                            <h1>Mr. AMPC Amarasinghe </h1>
+                        </div>
+                        <span>Conference Co-chair</span>
+                        <div class="social-links">
+                            <a href="https://www.sab.ac.lk/staff-directory/474">
+                                <button>
+                                    <img src="./assets/images/link.png" alt="">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sector">
+                        <div class="imgbox">
+                            <img src=" " alt="profile" />
+                        </div>
+                        <div class="intro-text">
+                            <h1>Mr. ERJMDDP Wijesekara </h1>
 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Card 3 content.</p>
-                </div>
-            </div>
+                        </div>
+                        <span>Conference Secretory</span>
+                        <div class="social-links">
+                            <a href="https://www.sab.ac.lk/staff-directory/339">
+                                <button>
+                                    <img src="./assets/images/link.png" alt="">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sector">
+                        <div class="imgbox">
+                            <img src="./assets/images/Abeysinghe Shakya photo.jpg" alt="profile" />
+                        </div>
+                        <div class="intro-text">
+                            <h1>Dr. SS Abeysinghe </h1>
+                        </div>
+                        <span>Conference Co-secretory</span>
+                        <div class="social-links">
+                            <a href=" ">
+                                <button>
+                                    <img src="./assets/images/link.png" alt="">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sector">
+                        <div class="imgbox">
+                            <img src="./assets/images/Dr.(Ms).H.G.N Rajapaksha.png" alt="profile" />
+                        </div>
+                        <div class="intro-text">
+                            <h1>Dr. HGN Rajapaksha </h1>
+                        </div>
+                        <span>Conference Treasurer</span>
+                        <div class="social-links">
+                            <a href=" ">
+                                <button>
+                                    <img src="./assets/images/link.png" alt="">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Card 4 content.</p>
                 </div>
-            </div>
+                <div class="blob"></div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Card 5 content.</p>
-                </div>
             </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Card 6 content.</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Card 7 content.</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="assets/images/Abeysinghe Shakya photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Card 8 content.</p>
-                </div>
-            </div>
-        </div>
     </section>
 
     <?php include './common/footer1.php'; ?>
