@@ -32,9 +32,8 @@
 
     <div class="slide-container">
         <div class="slide-content">
+            <div class="team-name">KEY MEMBERS</div>
             <div class="card-wrapper">
-
-
                 <div class="card">
                     <div class="image-content">
                         <span class="overlay"></span>
@@ -44,12 +43,42 @@
                             </div>
                     </div>
                     <div class="card-content">
-                        <div class="name"> Nimnadee Rathnayaka</div>
+                        <div class="name"> Dr. MDKM Gunasena</div>
 
-                    <p class="role">Chair Person</p>
+                    <p class="role">Conference Chair</p>
+                        <button class="view-profile-btn"> View Profile</button>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="assets/images/A.M.P.C.Amarasinghe.png" alt="" class="card-img"">
 
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="name"> Mr. AMPC Amarasinghe</div>
+
+                        <p class="role">Co-chair</p>
+                        <button class="view-profile-btn"> View Profile</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="assets/images/ERJMDDP Wijesekara.png" alt="" class="card-img"">
+
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="name">  Mr. ERJMDDP Wijesekara</div>
+
+                        <p class="role">Secretory</p>
+                        <button class="view-profile-btn"> View Profile</button>
+                    </div>
+                </div>
                 <div class="card">
                     <div class="image-content">
                         <span class="overlay"></span>
@@ -59,48 +88,30 @@
                         </div>
                     </div>
                     <div class="card-content">
-                        <div class="name"> Nimnadee Rathnayaka</div>
-
-                        <p class="role">Chair Person</p>
+                        <div class="name"> Dr. SS Abeysinghe</div>
+                        <p class="role">Co-secretory</p>
+                        <button class="view-profile-btn"> View Profile</button>
                     </div>
                 </div>
-
-
                 <div class="card">
                     <div class="image-content">
                         <span class="overlay"></span>
                         <div class="card-image">
-                            <img src="assets/images/Abeysinghe%20Shakya%20photo.jpg" alt="" class="card-img"">
+                            <img src="assets/images/Dr.(Ms).H.G.N Rajapaksha.png" alt="" class="card-img"">
 
                         </div>
                     </div>
                     <div class="card-content">
-                        <div class="name"> Nimnadee Rathnayaka</div>
-
-                        <p class="role">Chair Person</p>
+                        <div class="name"> Dr. HGN Rajapaksha</div>
+                        <p class="role">Treasurer</p>
+                        <button class="view-profile-btn"> View Profile</button>
                     </div>
                 </div>
-
-
-                <div class="card">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-                        <div class="card-image">
-                            <img src="assets/images/Abeysinghe%20Shakya%20photo.jpg" alt="" class="card-img"">
-
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="name"> Nimnadee Rathnayaka</div>
-
-                        <p class="role">Chair Person</p>
-                    </div>
-                </div>
-
 
 
 
             </div>
+
         </div>
 
 
