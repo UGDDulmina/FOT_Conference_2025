@@ -614,16 +614,19 @@ body{
     /* overflow: hidden; */
     top: 50%;
     left: 50%;
-    transform: translate(-760px,-270px); 
+    transform: translate(-760px,-270px);
     background-color: #e7fbf6b3;
     
 }
+
 .team h1{
     position: relative;
     font-size: 50px;
     left: -20px;
     top: 20px; 
     display: inline-block;
+
+
 }
 #title:after{
     content: "";  
