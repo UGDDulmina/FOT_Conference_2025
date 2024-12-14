@@ -1693,17 +1693,6 @@ footer .social-icons i:hover{
 
 
 
-/*.card-container {*/
-/*    display: grid;*/
-/*    grid-template-columns: repeat(4, 1fr);*/
-/*    gap: 1rem;*/
-/*}*/
-
-/*.card {*/
-/*    width: 18rem; !* Adjust the width as needed *!*/
-/*    !* Other card styles *!*/
-/*}*/
-
- .dinuja{
-    background-color: #047674;
- }
+.container1  {
+    column-gap: 0; /* Remove the gap between columns */
+}
