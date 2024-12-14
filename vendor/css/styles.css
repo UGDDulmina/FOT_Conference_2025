@@ -1,7 +1,9 @@
  
 body{ 
     margin: 0;
-    background-color: #12fafa;
+    background-color: white;
+    overflow-x: hidden;
+
 } 
 
 
@@ -1699,3 +1701,172 @@ footer .social-icons i:hover{
 .container1  {
     column-gap: 0; /* Remove the gap between columns */
 }
+
+
+/* team section*/
+
+/* General Styles */
+#team {
+    background-color: #f1f1f1;
+    min-height: 100vh; /* Ensures it works on smaller screens too */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: 270px;
+    height: 320px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Enlarges the card slightly on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Card Wrapper */
+.card-wrapper {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Card Content */
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+}
+
+.card-content .name {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+.card-content .role {
+    font-size: 14px;
+    text-align: center;
+    color: #323232;
+    margin-top: 5px;
+}
+
+/* Card Image */
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #ffffff;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #3979c6;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #3979c6;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #3979c6;
+    border: none;
+}
+
+
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: white;
+    z-index: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card {
+        width: 220px;
+        height: 280px;
+    }
+
+    .card-wrapper {
+        gap: 20px;
+    }
+
+    .card-content .name {
+        font-size: 16px;
+    }
+
+    .card-content .role {
+        font-size: 12px;
+    }
+
+    .card-image {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 180px;
+        height: 240px;
+    }
+
+    .card-content .name {
+        font-size: 14px;
+    }
+
+    .card-content .role {
+        font-size: 10px;
+    }
+
+    .card-image {
+        height: 100px;
+        width: 100px;
+    }
+
+    .card-wrapper {
+        gap: 15px;
+    }
+}
+
+
+/*team background animation*/
+
