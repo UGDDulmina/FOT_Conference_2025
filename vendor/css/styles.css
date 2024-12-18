@@ -1,5 +1,5 @@
- 
-body{ 
+
+body{
     margin: 0;
     background-color: white;
     overflow-x: hidden;
@@ -115,15 +115,15 @@ body{
 }
 
 #text-wrapper{
-    position: relative;   
-    color: #fff;  
-    text-align: center;  
+    position: relative;
+    color: #fff;
+    text-align: center;
 }
-.banner {  
-    position: fixed; 
+.banner {
+    position: fixed;
     overflow: hidden;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,8 +171,8 @@ body{
     z-index: -55;
     border-radius: 50%;
     right: 340px;
-    top: 104px; 
-    opacity: 85%; 
+    top: 104px;
+    opacity: 85%;
 }
 #particles-container2{
     background-color: #078d2f;
@@ -183,7 +183,7 @@ body{
     border-radius: 50%;
     right: -450px;
     top: 100px;
-    opacity: 85%; 
+    opacity: 85%;
 }
 
 .shape1{
@@ -219,7 +219,7 @@ body{
 .sub1{
     font-size: 3rem;
 }
- 
+
 .banner button{
     justify-content: center;
     align-items: center;
@@ -233,15 +233,15 @@ body{
     color: #ffffff;
     position: relative;
     transform: translate(15px,-30px);
-    border: none; 
-    transition: all 0.3s ease;  
-    cursor: pointer;  
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .banner button:hover {
-    background: linear-gradient(135deg, #047674, #06dbca);  
-    box-shadow: 0 8px 20px rgba(2, 14, 15, 0.69);   
-    color: #ffffff;  
+    background: linear-gradient(135deg, #047674, #06dbca);
+    box-shadow: 0 8px 20px rgba(2, 14, 15, 0.69);
+    color: #ffffff;
 }
 
 /*----  Tracks Section ------*/
@@ -256,17 +256,17 @@ body{
     top: 20px;
     position: relative;
     font-size: 50px;
-    display: inline-block;  
+    display: inline-block;
 }
 
 .tracks h1::after {
-    content: "";  
-    display: block;  
-    width: 60%;  
-    height: 5px; 
-    border-radius: 5px; 
-    background-color: rgb(255, 230, 0);  
-    margin: 5px auto 0;  
+    content: "";
+    display: block;
+    width: 60%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 230, 0);
+    margin: 5px auto 0;
 }
 /*--------- Infinite Scroll --------- */
 
@@ -303,7 +303,7 @@ body{
 
 .item:hover {
     transform: scale(1);
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     background-color: rgb(50, 50, 50);
     border-color: rgb(237, 237, 178);
 }
@@ -377,7 +377,7 @@ body{
     letter-spacing: 1px;
 }
 .item a{
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .wrapper:nth-child(1){
@@ -410,7 +410,7 @@ body{
     top: 500vh;
     z-index: 6;
 }
- 
+
 
 /*---- Keynote-Speaker Section ------*/
 
@@ -430,13 +430,13 @@ body{
 }
 
 .key h1::after {
-    content: "";  
-    display: block; 
-    width: 60%;  
-    height: 5px;  
-    background-color: rgb(255, 230, 0); 
-    border-radius: 5px; 
-    margin: 5px auto 0;  
+    content: "";
+    display: block;
+    width: 60%;
+    height: 5px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 5px;
+    margin: 5px auto 0;
 }
 .box{
     background:rgb(1, 16, 45);
@@ -447,9 +447,9 @@ body{
     position: relative;
     top: 345px;
     left: 20px;
-    
+
 }
-.box ul li{ 
+.box ul li{
     position: absolute;
     width: 55px;
     height: 55px;
@@ -526,7 +526,7 @@ body{
      overflow: hidden;
      box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
  }
-  
+
  .user-card:before {
     content: '';
     position: absolute;
@@ -538,34 +538,34 @@ body{
     z-index: 0;
     transform: rotate(17deg);
   }
-  
+
   .user-card-img {
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     border-radius: 10px;
     z-index: 3;
   }
-  
+
   .user-card-img img {
     width: 250px;
     height: 280px;
     object-fit: cover;
   }
-  
+
   .user-card-info {
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
   }
-  
+
   .user-card-info h2 {
     font-size: 35px;
     font-weight: 700;
     margin: 0;
     margin-bottom: 10px;
-    
+
   }
-  
+
   .user-card-info p {
     font-size: 18px;
     margin-bottom: 2px;
@@ -578,17 +578,17 @@ body{
     .user-card {
       flex-direction: row;
       align-items: flex-start;
-    }   
+    }
     .user-card-img {
       margin-right: 20px;
       margin-bottom: 0;
     }
-  
+
     .user-card-info {
       text-align: left;
     }
   }
- 
+
   @media (max-width: 767px){
     .wrapper{
        padding-top: 3%;
@@ -618,43 +618,43 @@ body{
     left: 50%;
     transform: translate(-760px,-270px);
     background-color: #e7fbf6b3;
-    
+
 }
 
 .team h1{
     position: relative;
     font-size: 50px;
     left: -20px;
-    top: 20px; 
+    top: 20px;
     display: inline-block;
 
 
 }
 #title:after{
-    content: "";  
-    display: block;  
-    width: 60%;  
-    height: 5px; 
-    border-radius: 5px; 
-    background-color: rgb(255, 230, 0);  
-    margin: 7px auto 0;  
+    content: "";
+    display: block;
+    width: 60%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 230, 0);
+    margin: 7px auto 0;
 }
 
 .sectors {
     display: flex;
-    flex-wrap: nowrap; 
-    gap: 1rem;  
-    justify-content: center; 
-    overflow-x: auto; 
-    padding: 1rem 0; 
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 1rem 0;
     width: 1550px;
     height: 800px;
     position: relative;
 }
 
 .sector {
-    flex: 0 0 auto; 
-    width: 17rem;  
+    flex: 0 0 auto;
+    width: 17rem;
     box-sizing: border-box;
     padding: 2rem;
     padding-top: 20px;
@@ -672,16 +672,16 @@ body{
 }
 
 .sector:hover {
-    transform: translateY(-15px);  
+    transform: translateY(-15px);
     -webkit-box-shadow: 0 2rem 4rem rgba(198, 198, 222, 0.563);
-            box-shadow: 0 2rem 4rem rgba(217, 213, 213, 0.578);  
-    background-color: rgba(255, 255, 255, 0.7); 
+            box-shadow: 0 2rem 4rem rgba(217, 213, 213, 0.578);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .sector button:hover {
-    transform: translateY(-10px);  
+    transform: translateY(-10px);
     -webkit-box-shadow: 0 2rem 4rem rgba(31, 38, 135, 0.5);
-            box-shadow: 0 2rem 4rem rgba(31, 38, 135, 0.5);  
-    background-color: rgba(255, 255, 255, 0.2); 
+            box-shadow: 0 2rem 4rem rgba(31, 38, 135, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .sector .imgbox {
     width: 13rem;
@@ -693,7 +693,7 @@ body{
     border-radius: 50%;
     overflow: hidden;
   }
-  
+
   .sector .imgbox img {
     width: 100%;
     height: 100%;
@@ -701,29 +701,29 @@ body{
     -o-object-fit: cover;
        object-fit: cover;
   }
-  
+
   .sector .intro-text {
     margin: .6rem;
   }
-  
+
   .sector .intro-text h1 {
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0.01rem;
-    position: relative; 
+    position: relative;
     left: -2px;
     top: -10px;
     color: #fbfbfb;
     font-family: "Roboto Condensed", sans-serif;
   }
-  
+
   .sector span {
     text-transform: capitalize;
     font-size: 1.2rem;
     letter-spacing: 0.1;
     font-weight: 600;
   }
-  
+
   .sector .btn-group button {
     margin: 1.5rem 0.7rem;
     padding: 1rem 2.2rem;
@@ -733,11 +733,11 @@ body{
     font-size: 1.5rem;
     font-family: "Roboto Condensed", sans-serif;
   }
-  
+
   .sector .btn-group button:nth-of-type(2) {
     background-color: transparent;
   }
-  
+
   .sector .social-links {
     margin-top: 1.5rem;
     display: -webkit-box;
@@ -746,7 +746,7 @@ body{
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  
+
   .sector .social-links button {
     width: 4rem;
     height: 4rem;
@@ -755,27 +755,27 @@ body{
     position: relative;
     top: -10px;
   }
-  
+
   .sector .social-links button i {
     font-size: 1.8rem;
   }
 
   .sector button img{
     width: 50px;
-    
-     
+
+
   }
-  
+
   .sector .social-links button:nth-of-type(1) {
     background-color: #1778f2;
   }
-  
-  
+
+
   .sector .social-links button:nth-of-type(4) {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#feda75), color-stop(#fa7e1e), color-stop(#d62976), color-stop(#962fbf), to(#4f5bd5));
     background-image: linear-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
   }
-  
+
   .blob {
     z-index: -40;
     position: absolute;
@@ -802,7 +802,7 @@ body{
       border-radius: 76% 24% 33% 67% / 24% 76% 35% 65%;
     }
   }
-  
+
   @keyframes move {
     0% {
       -webkit-transform: translate(-400px, -100px) rotate(-90deg);
@@ -831,13 +831,13 @@ body{
 }
 
 .sponsers h1::after {
-    content: "";  
-    display: block; 
-    width: 60%;  
-    height: 5px;  
-    background-color: rgb(255, 230, 0); 
-    border-radius: 5px; 
-    margin: 5px auto 0;  
+    content: "";
+    display: block;
+    width: 60%;
+    height: 5px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 5px;
+    margin: 5px auto 0;
 }
 
 /*---- Foot Section ------*/
@@ -855,23 +855,23 @@ body{
 }
 
 .foot h1::after {
-    content: "";  
-    display: block; 
-    width: 60%;  
-    height: 5px;  
-    background-color: rgb(255, 230, 0); 
-    border-radius: 5px; 
-    margin: 5px auto 0;  
+    content: "";
+    display: block;
+    width: 60%;
+    height: 5px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 5px;
+    margin: 5px auto 0;
 }
 
 .video-bg {
-    position: fixed;  
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;  
-    height: 100%;  
-    object-fit: cover; 
-    z-index: -1;  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 /*---------------- NAVBAR -----------------*/
@@ -893,7 +893,7 @@ body{
     color: #374A59;
     background: linear-gradient(to right, #234594, #234594);
     padding: 1rem;
-    
+
 }
 
 .nav-item {
@@ -942,7 +942,7 @@ body{
     text-transform: uppercase;
     transition: .5s;
     font-weight: 700;
-     
+
 }
 
 .nav-area li a:hover{
@@ -994,11 +994,11 @@ body{
     position: relative;
     left: 20px;
     border-radius: 20px;
-    width: 85px; 
+    width: 85px;
     height: 50px;
 }
 .ui-left img{
-   width: 80px; 
+   width: 80px;
    height: 20px;
 }
 
@@ -1036,8 +1036,8 @@ body{
         display: flex;
     }
     .nav-item {
-        padding: 0.2rem;  
-        font-size: 16px; 
+        padding: 0.2rem;
+        font-size: 16px;
     }
 
     .ui-toggle {
@@ -1046,7 +1046,7 @@ body{
         margin-left: auto;
         padding: 1rem;
         color:#f7f7f7;
-         
+
     }
 }
 
@@ -1057,7 +1057,7 @@ body{
         gap: 1rem;
         height: auto;
         padding: 0.5rem;
-        transform: translateX(0);  
+        transform: translateX(0);
     }
 
     .nav-item {
@@ -1071,7 +1071,7 @@ body{
     }
 
     .ui-toggle {
-        display: none; 
+        display: none;
     }
 }
 
@@ -1082,7 +1082,7 @@ body{
 #footer{
     background:linear-gradient(to right,#062675, #2c4d9bd6, #09359d);
     padding-top: 50px;
-    position: relative; 
+    position: relative;
     transform: translateY(-230px);
     left: 0;
     width: 1550px;
@@ -1099,16 +1099,16 @@ body{
 }
 .footer1-content{
     width: 50%;
-    
+
 }
 .footer1-content h3::after {
-    content: "";  
-    display: block;  
-    width: 18%;  
-    height: 5px; 
-    border-radius: 5px; 
-    background-color: rgba(224, 172, 2, 0.997);  
-    margin: 5px auto 0;  
+    content: "";
+    display: block;
+    width: 18%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgba(224, 172, 2, 0.997);
+    margin: 5px auto 0;
 }
 
 .comple h3{
@@ -1126,7 +1126,7 @@ body{
     position: relative;
     left: 30px;
     top: 10px;
-     
+
 }
 .comple #email{
     color:    #f8ecdc;
@@ -1139,7 +1139,7 @@ body{
     margin: 0;
 }
 .comple .list a{
-    color:   #f8ecdc; 
+    color:   #f8ecdc;
     font-family: "Roboto Condensed", sans-serif;
 }
 .comple .list li{
@@ -1148,12 +1148,12 @@ body{
     list-style-type:none;
     padding: 7px;
     position: relative;
-    margin:7px;  
+    margin:7px;
     padding: 0;
-    
+
 }
 .comple .list li:last-child {
-    margin-bottom: 0;  
+    margin-bottom: 0;
 }
 
 .comple .list li::before{
@@ -1208,7 +1208,7 @@ body{
     font-size: 16px;
     padding: 7px;
     font-family: "Roboto Condensed", sans-serif;
-    
+
 }
 
 /*---------------- FOOTER -----------------*/
@@ -1233,16 +1233,16 @@ footer{
 }
 .footer-content{
     width: 50%;
-    
+
 }
 .footer-content h3::after {
-    content: "";  
-    display: block;  
-    width: 18%;  
-    height: 5px; 
-    border-radius: 5px; 
-    background-color: rgba(224, 172, 2, 0.997);  
-    margin: 5px auto 0;  
+    content: "";
+    display: block;
+    width: 18%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgba(224, 172, 2, 0.997);
+    margin: 5px auto 0;
 }
 
 footer h3{
@@ -1260,7 +1260,7 @@ footer h3{
     position: relative;
     left: 30px;
     top: 10px;
-     
+
 }
 #email{
     color:    #f8ecdc;
@@ -1273,7 +1273,7 @@ footer .list{
     margin: 0;
 }
 footer .list a{
-    color:   #f8ecdc; 
+    color:   #f8ecdc;
     font-family: "Roboto Condensed", sans-serif;
 }
 footer .list li{
@@ -1282,12 +1282,12 @@ footer .list li{
     list-style-type:none;
     padding: 7px;
     position: relative;
-    margin:7px;  
+    margin:7px;
     padding: 0;
-    
+
 }
 .list li:last-child {
-    margin-bottom: 0;  
+    margin-bottom: 0;
 }
 
 footer .list li::before{
@@ -1342,7 +1342,7 @@ footer .social-icons i:hover{
     font-size: 16px;
     padding: 7px;
     font-family: "Roboto Condensed", sans-serif;
-    
+
 }
 
 /*----------- Objectives Section ----------- */
@@ -1357,30 +1357,30 @@ footer .social-icons i:hover{
     margin-top: 100px;
     margin-bottom: 100px;
     height: 100vh;
-    font-family: "Noto Sans Display", sans-serif; 
+    font-family: "Noto Sans Display", sans-serif;
 }
 .Object h2::after {
     content: '';
     position: absolute;
-    bottom: -10px;  
+    bottom: -10px;
     left: 200px;
-    width: 13%; 
-    height: 3px;  
-    background-color: #f70227; 
-    transition: width 0.3s ease-in-out; 
-    font-family: "Noto Sans Display", sans-serif; 
+    width: 13%;
+    height: 3px;
+    background-color: #f70227;
+    transition: width 0.3s ease-in-out;
+    font-family: "Noto Sans Display", sans-serif;
   }
 
 .Object h2:hover::after {
-    width: 10%; 
-    height: 5px; 
+    width: 10%;
+    height: 5px;
   }
 
 .container{
     position: relative;
-    bottom: 300px; 
+    bottom: 300px;
     height: 15vh;
-    background-color:#fdc571; 
+    background-color:#fdc571;
 }
 .container h2{
     font-size: 40px;
@@ -1390,15 +1390,15 @@ footer .social-icons i:hover{
     padding-top: 10px;
     font-weight:800;
     position: relative;
-     
-    
+
+
 }
 
 .cards{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    
+
 }
 
 .cards .text-card{
@@ -1413,7 +1413,7 @@ footer .social-icons i:hover{
 }
 
 .cards .text-card:hover {
-    transform: translateY(-10px);  
+    transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
   }
@@ -1446,7 +1446,7 @@ footer .social-icons i:hover{
 /*----------- Footer Section ----------- */
 
 #footer-sec{
-	background-color: #03013bd5; 
+	background-color: #03013bd5;
     padding: 20px;
 }
 .footer-sub-content {
@@ -1498,15 +1498,15 @@ footer .social-icons i:hover{
 
 @media screen and (min-width: 768px) {
     /* For tablets */
-     
+
     .hero {
         padding: 0 40px 200px;
-          
+
     }
 
     .main-text {
-        font-size: 3.5rem; 
-        margin-top: 60px;  
+        font-size: 3.5rem;
+        margin-top: 60px;
     }
 
     .sub-text {
@@ -1518,11 +1518,11 @@ footer .social-icons i:hover{
     }
 
     .hero p img {
-        width: 25px;  
+        width: 25px;
     }
 
     .Object{
-        
+
         margin-bottom: 200px;
     }
 
@@ -1546,24 +1546,24 @@ footer .social-icons i:hover{
     #para{
         font-size: 18px;
     }
-    
+
     #para1{
         font-size: 32px;
     }
     #para2{
         font-size: 37px;
-         
+
     }
-     
+
 
 }
 
 @media screen and (min-width: 1024px) {
     /* For desktops */
     .hero {
-        height: 70vh;  
-        padding: 0 0 80px; 
-         
+        height: 70vh;
+        padding: 0 0 80px;
+
     }
 
     .content{
@@ -1571,7 +1571,7 @@ footer .social-icons i:hover{
     }
 
     .main-text {
-        font-size: 4.2rem;  
+        font-size: 4.2rem;
     }
 
     .sub-text {
@@ -1584,7 +1584,7 @@ footer .social-icons i:hover{
     }
 
     .hero p img {
-        width: 30px; 
+        width: 30px;
     }
 
     .content button{
@@ -1607,7 +1607,7 @@ footer .social-icons i:hover{
         position: relative;
         bottom: 190px;
     }
-    
+
     .Object{
         position: relative;
         margin-top: 0;
@@ -1615,7 +1615,7 @@ footer .social-icons i:hover{
         height: 60vh;
         bottom: 100px;
 
-         
+
     }
 
     .cards{
@@ -1649,7 +1649,7 @@ footer .social-icons i:hover{
         font-size: 20px;
         top: 100px;
     }
-    
+
     #para1{
         font-size: 40px;
         top: 100px;
@@ -1657,7 +1657,7 @@ footer .social-icons i:hover{
     #para2{
         font-size: 45px;
         top: 100px;
-         
+
     }
 
     .timer{
@@ -1729,6 +1729,7 @@ footer .social-icons i:hover{
     border: none;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+    z-index: 2;
 }
 
 .card:hover {
@@ -1743,6 +1744,8 @@ footer .social-icons i:hover{
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
+    z-index: 2;
+
 }
 
 /* Card Content */
@@ -1752,6 +1755,7 @@ footer .social-icons i:hover{
     flex-direction: column;
     align-items: center;
     padding: 10px 14px;
+    z-index: 2;
 }
 
 .image-content {
@@ -1806,7 +1810,7 @@ footer .social-icons i:hover{
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #6b85ba;
+    border: 4px solid #a5b4d1;
 }
 
 /* Overlay */
@@ -1891,4 +1895,162 @@ footer .social-icons i:hover{
     }
 }
 
+.team-3-section {
+    background: #dadeea;
+    min-height: 100vh;
+    margin-top: 0;
+}
+
+/*.card-wrapper-2{*/
+/*    background-color: white;*/
+/*    padding:50px 0 50px 0;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    gap: 25px;*/
+/*    z-index: 2;*/
+/*    margin: 0 100px 100px 100px;*/
+/*}*/
+
+.custom-shape-divider-bottom-1734241371 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+
+}
+
+.custom-shape-divider-bottom-1734241371 svg {
+    position: relative;
+    display: block;
+    width: calc(164% + 1.3px);
+    height: 181px;
+
+}
+
+.custom-shape-divider-bottom-1734241371 .shape-fill {
+    fill: #dadeea;
+
+}
+
+
+/*!* Importing Google Font - Montserrat *!*/
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+
+
+/*.slide-content{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    min-height: 100vh;*/
+/*}*/
+
+
+
+
+/*.slider-wrapper {*/
+
+/*    overflow: hidden;*/
+/*    max-width: 1200px;*/
+/*    margin: 0 70px 55px 0;*/
+/*}*/
+
+/*.card-list .card-item {*/
+/*    height: auto;*/
+/*    color: #fff;*/
+/*    user-select: none;*/
+/*    padding: 35px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border-radius: 10px;*/
+/*    backdrop-filter: blur(30px);*/
+/*    background: rgba(255, 255, 255, 0.2);*/
+/*    border: 1px solid rgba(255, 255, 255, 0.5);*/
+/*}*/
+
+/*.card-list .card-item .user-image {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    border-radius: 50%;*/
+/*    margin-bottom: 40px;*/
+/*    border: 3px solid #fff;*/
+/*    padding: 4px;*/
+/*}*/
+
+/*.card-list .card-item .user-profession {*/
+/*    font-size: 1.15rem;*/
+/*    color: #e3e3e3;*/
+/*    font-weight: 500;*/
+/*    margin: 14px 0 40px;*/
+/*}*/
+
+/*.card-list .card-item .message-button {*/
+/*    font-size: 1.25rem;*/
+/*    padding: 10px 35px;*/
+/*    color: #030728;*/
+/*    border-radius: 6px;*/
+/*    font-weight: 500;*/
+/*    cursor: pointer;*/
+/*    background: #fff;*/
+/*    border: 1px solid transparent;*/
+/*    transition: 0.2s ease;*/
+/*}*/
+
+/*.card-list .card-item .message-button:hover {*/
+/*    background: rgba(255, 255, 255, 0.1);*/
+/*    border: 1px solid #fff;*/
+/*    color: #fff;*/
+/*}*/
+
+/*.slider-wrapper .swiper-pagination-bullet {*/
+/*    background: #fff;*/
+/*    height: 13px;*/
+/*    width: 13px;*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*.slider-wrapper .swiper-pagination-bullet-active {*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.slider-wrapper .swiper-slide-button {*/
+/*    color: #fff;*/
+/*    margin-top: -55px;*/
+/*    transition: 0.2s ease;*/
+/*}*/
+
+/*.slider-wrapper .swiper-slide-button:hover {*/
+/*    color: #4658ff;*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*    .slider-wrapper {*/
+/*        margin: 0 10px 40px;*/
+/*    }*/
+
+/*    .slider-wrapper .swiper-slide-button {*/
+/*        display: none;*/
+/*    }*/
+/*!*}*!*/
+
+/*.swiper-slide {*/
+/*    border-radius: 25px;*/
+/*    background-color: #ffffff;*/
+/*    width: 250px; !* Updated width *!*/
+/*    border: none;*/
+/*    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); !* Subtle shadow *!*/
+/*    transition: transform 0.3s ease, box-shadow 0.3s ease; !* Smooth hover animation *!*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.card:hover {*/
+/*    transform: scale(1.05); !* Enlarges the card slightly on hover *!*/
+/*    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); !* Enhanced shadow on hover *!*/
+/*}*/
 /* Team background animation */
