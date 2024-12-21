@@ -1727,13 +1727,13 @@ footer .social-icons i:hover{
     background-color: #ffffff;
     width: 250px; /* Updated width */
     border: none;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Increased shadow size and opacity */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
     z-index: 2;
 }
 
 .card:hover {
-    transform: scale(1.05); /* Enlarges the card slightly on hover */
+    transform: scale(1.03); /* Enlarges the card slightly on hover */
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
@@ -1779,7 +1779,8 @@ footer .social-icons i:hover{
     margin-top: 5px;
 }
 
-.card-content .view-profile-btn {
+.view-profile-btn {
+    text-decoration: none;
     border: none;
     font-size: 16px;
     color: white;
@@ -1895,22 +1896,7 @@ footer .social-icons i:hover{
     }
 }
 
-.team-3-section {
-    background: #dadeea;
-    min-height: 100vh;
-    margin-top: 0;
-}
 
-/*.card-wrapper-2{*/
-/*    background-color: white;*/
-/*    padding:50px 0 50px 0;*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: center;*/
-/*    gap: 25px;*/
-/*    z-index: 2;*/
-/*    margin: 0 100px 100px 100px;*/
-/*}*/
 
 .custom-shape-divider-bottom-1734241371 {
     position: absolute;
@@ -1936,24 +1922,87 @@ footer .social-icons i:hover{
 
 }
 
+.swiper{
+    padding: 20px !important;
+}
 .swiper-wrapper {
 
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-
-
+    margin: 30px 0 30px 0 ;
 
 }
+.swiper-slide{
+    border-radius: 25px !important;
+    background-color: #ffffff !important;
+    border: none;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2) !important; /* Increased shadow size and opacity */
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important; /* Smooth hover animation */
+    z-index: 2 !important;
+}
 
-.slide-content-2{
-    margin: 30px;
+.swiper-slide:hover {
+    transform: scale(1.03) !important; /* Enlarges the card slightly on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2) !important; /* Enhanced shadow on hover */
 }
 .main-swiper-wrapper{
+
     margin: 0 100px 0 100px;
 
 
+
 }
+
+
+.accordion-wrapper {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center */
+ height: max-content;
+    background-color: #dadeea;
+
+}
+
+.accordion {
+   width: 90vw;
+    margin-bottom: 50px;
+}
+
+.accordion-body{
+    padding: 0;
+    background-color: #ffffff;
+    border: 1px solid #a0a6b9; /* Border for definition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 4px rgba(0, 0, 0, 0.15); /* Outer and inner shadows */
+}
+
+.accordion-button {
+    background: linear-gradient(180deg, #ffffff, #d8d9e6); /* Gradient for 3D effect */
+    color: #000000; /* Text color */
+    font-weight: bold;
+    border: 1px solid #a0a6b9; /* Border for definition */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), inset 0 -2px 4px rgba(0, 0, 0, 0.15); /* Outer and inner shadows */
+
+    /*transition: transform 0.2s, box-shadow 0.2s; !* Smooth animations *!*/
+}
+
+.accordion-button:active {
+    border: 1px solid #a0a6b9 !important;
+    /*background: linear-gradient(180deg, #d8d9e6, #ffffff); !* Inverse gradient on click *!*/
+    color: #000000; /* Change text color on click */
+    /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2), inset 0 -2px 4px rgba(0, 0, 0, 0.25); !* Slightly stronger shadow *!*/
+}
+
+.accordion-button:focus {
+    border: 1px solid #a0a6b9 !important;
+    color: #002b6c;
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.1); /* Enhance shadow on focus */
+}
+
+/*.accordion-button:active {*/
+/*    transform: translateY(2px); !* Simulate button press *!*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 2px 4px rgba(0, 0, 0, 0.2); !* Adjust shadows for press effect *!*/
+/*}*/
+
 
 
 

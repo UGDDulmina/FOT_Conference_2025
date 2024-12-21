@@ -40,117 +40,18 @@
                 <div class="card">
                     <div class="image-content">
                         <span class="overlay"></span>
-                            <div class="card-image">
-                                <img src="assets/images/Abeysinghe%20Shakya%20photo.jpg" alt="" class="card-img"">
-
-                            </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="name"> Dr. MDKM Gunasena</div>
-
-                    <p class="role">Conference Chair</p>
-                        <button class="view-profile-btn"> View Profile</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="image-content">
-                        <span class="overlay"></span>
                         <div class="card-image">
-                            <img src="assets/images/A.M.P.C.Amarasinghe.png" alt="" class="card-img"">
-
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="name"> Mr. AMPC Amarasinghe</div>
-
-                        <p class="role">Co-chair</p>
-                        <button class="view-profile-btn"> View Profile</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-                        <div class="card-image">
-                            <img src="assets/images/ERJMDDP Wijesekara.png" alt="" class="card-img"">
-
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="name">  Mr. ERJMDDP Wijesekara</div>
-
-                        <p class="role">Secretory</p>
-                        <button class="view-profile-btn"> View Profile</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-                        <div class="card-image">
-                            <img src="assets/images/Abeysinghe%20Shakya%20photo.jpg" alt="" class="card-img"">
-
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="name"> Dr. SS Abeysinghe</div>
-                        <p class="role">Co-secretory</p>
-                        <button class="view-profile-btn"> View Profile</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-                        <div class="card-image">
-                            <img src="assets/images/Dr.(Ms).H.G.N Rajapaksha.png" alt="" class="card-img"">
-
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="name"> Dr. HGN Rajapaksha</div>
-                        <p class="role">Treasurer</p>
-                        <button class="view-profile-btn"> View Profile</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="team-2-section">
-    <div class="curve">
-
-    </div>
-
-</section>
-<section class="team-3-section">
-        <div class="custom-shape-divider-bottom-1734241371">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-            </svg>
-        </div>
-    <div class="main-swiper-wrapper">
-    <div class="swiper">
-
-        <div class="slide-content-2">
-            <div class="team-name">Conference Coordinators</div>
-
-            <div class="swiper-wrapper">
-                <div class="card swiper-slide">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-                        <div class="card-image">
-                            <img src="assets/images/Abeysinghe%20Shakya%20photo.jpg" alt="" class="card-img"">
-
+                            <img src="assets/images/Dr.%20MDKM%20Gunasena.jpg" alt="" class="card-img">
                         </div>
                     </div>
                     <div class="card-content">
                         <div class="name"> Dr. MDKM Gunasena</div>
-
                         <p class="role">Conference Chair</p>
-                        <button class="view-profile-btn"> View Profile</button>
+                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>
                     </div>
                 </div>
-                <div class="card swiper-slide">
+
+                <div class="card">
                     <div class="image-content">
                         <span class="overlay"></span>
                         <div class="card-image">
@@ -162,10 +63,10 @@
                         <div class="name"> Mr. AMPC Amarasinghe</div>
 
                         <p class="role">Co-chair</p>
-                        <button class="view-profile-btn"> View Profile</button>
+                        <a href="https://www.sab.ac.lk/staff-directory/474" class="view-profile-btn">View Profile</a>
                     </div>
                 </div>
-                <div class="card swiper-slide">
+                <div class="card">
                     <div class="image-content">
                         <span class="overlay"></span>
                         <div class="card-image">
@@ -177,10 +78,10 @@
                         <div class="name">  Mr. ERJMDDP Wijesekara</div>
 
                         <p class="role">Secretory</p>
-                        <button class="view-profile-btn"> View Profile</button>
+                        <a href="https://www.sab.ac.lk/staff-directory/339" class="view-profile-btn">View Profile</a>
                     </div>
                 </div>
-                <div class="card swiper-slide">
+                <div class="card">
                     <div class="image-content">
                         <span class="overlay"></span>
                         <div class="card-image">
@@ -191,10 +92,10 @@
                     <div class="card-content">
                         <div class="name"> Dr. SS Abeysinghe</div>
                         <p class="role">Co-secretory</p>
-                        <button class="view-profile-btn"> View Profile</button>
+                        <a href="" class="view-profile-btn">View Profile</a>
                     </div>
                 </div>
-                <div class="card swiper-slide">
+                <div class="card">
                     <div class="image-content">
                         <span class="overlay"></span>
                         <div class="card-image">
@@ -205,33 +106,852 @@
                     <div class="card-content">
                         <div class="name"> Dr. HGN Rajapaksha</div>
                         <p class="role">Treasurer</p>
-                        <button class="view-profile-btn"> View Profile</button>
-                    </div>
-                </div>
-                <div class="card swiper-slide">
-                    <div class="image-content">
-                        <span class="overlay"></span>
-                        <div class="card-image">
-                            <img src="assets/images/Dr.(Ms).H.G.N Rajapaksha.png" alt="" class="card-img"">
-
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <div class="name"> Dr. HGN Rajapaksha</div>
-                        <p class="role">Treasurer</p>
-                        <button class="view-profile-btn"> View Profile</button>
+                        <a href="" class="view-profile-btn">View Profile</a>
                     </div>
                 </div>
             </div>
-            </div>
-
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
+        </div>
     </div>
 
 </section>
+<div class="custom-shape-divider-bottom-1734241371">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+</div>
+
+<div class="accordion-wrapper">
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Conference Coordinators
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="team-2-section">
+                    <div class="main-swiper-wrapper">
+                        <div class="swiper slide-content-2">
+
+                            <!--        <div class="slide-content-2">-->
+                            <div class="team-name">Conference Coordinators</div>
+
+                            <div class="swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/DKA%20Induranga.jpeg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Mr. DKA Induranga </div>
+
+                                        <p class="role">Advances in Emerging <br> Sciences</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/500" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/SS%20Millavithanachchi.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Mrs. SS Millavithanachchi </div>
+
+                                        <p class="role">Applied Biotechnology and <br>Microbiology</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/A.M.P.C.Amarasinghe.png" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Mr. AMPC Amarasinghe </div>
+
+                                        <p class="role">Bioenergy and Biofuel Generation Technology</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/474" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/Usha%20Kawmadie.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Ms. PRU Kawmadie</div>
+                                        <p class="role">Electrical and Electronic Engineering Technology</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/KAHG%20Kuruppu.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Mr. KAHG Kuruppu</div>
+                                        <p class="role">Drug Discovery and <br>Development</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Mr. PKTM Dharmapala</div>
+                                        <p class="role">Mechanical Engineering <br>Technology</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <!--            </div>-->
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Scientific Committee
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="team-3-section">
+                    <div class="main-swiper-wrapper">
+                        <div class="swiper slide-content-3">
+
+                            <!--            <div class="">-->
+                            <div class="team-name">Scientific Committee</div>
+
+                            <div class="swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. NP Liyanawaduge </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/267" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. PKGSS Bandara </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">   Prof. KR Koswattage </div>
+
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. MDKM Gunasena</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. SS Abeysinghe</div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. HGN Rajapaksha </div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--            </div>-->
+
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Web and Symposium Management Handling Committee
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="team-4-section">
+                    <div class="main-swiper-wrapper">
+                        <div class="swiper slide-content-4">
+
+                            <!--            <div class="">-->
+                            <div class="team-name">Web and Symposium Management Handling Committee
+                            </div>
+
+                            <div class="swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. NP Liyanawaduge </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/267" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. PKGSS Bandara </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">   Prof. KR Koswattage </div>
+
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. MDKM Gunasena</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. SS Abeysinghe</div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. HGN Rajapaksha </div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--            </div>-->
+
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Logistic Committee
+            </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="team-5-section">
+                    <div class="main-swiper-wrapper">
+                        <div class="swiper slide-content-5">
+
+                            <!--            <div class="">-->
+                            <div class="team-name">Logistic Committee</div>
+
+                            <div class="swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. NP Liyanawaduge </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/267" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. PKGSS Bandara </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">   Prof. KR Koswattage </div>
+
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. MDKM Gunasena</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. SS Abeysinghe</div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. HGN Rajapaksha </div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--            </div>-->
+
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Promotion and Technical Committee
+            </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="team-6-section">
+                    <div class="main-swiper-wrapper">
+                        <div class="swiper slide-content-6">
+
+                            <!--            <div class="">-->
+                            <div class="team-name">Promotion and Technical Committee</div>
+
+                            <div class="swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. NP Liyanawaduge </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/267" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. PKGSS Bandara </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">   Prof. KR Koswattage </div>
+
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. MDKM Gunasena</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. SS Abeysinghe</div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. HGN Rajapaksha </div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--            </div>-->
+
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Conference Publication Committee
+            </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="team-7-section">
+
+                    <div class="main-swiper-wrapper">
+                        <div class="swiper slide-content-7">
+
+                            <!--            <div class="">-->
+                            <div class="team-name">Conference Publication Committee</div>
+
+                            <div class="swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. NP Liyanawaduge </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/267" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. PKGSS Bandara </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">   Prof. KR Koswattage </div>
+
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. MDKM Gunasena</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. SS Abeysinghe</div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. HGN Rajapaksha </div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--            </div>-->
+
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Event Management Committee
+            </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="team-8-section">
+                    <div class="main-swiper-wrapper">
+                        <div class="swiper slide-content-8">
+
+                            <!--            <div class="">-->
+                            <div class="team-name">Event Management Committee</div>
+
+                            <div class="swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. NP Liyanawaduge </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/267" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. PKGSS Bandara </div>
+
+                                        <p class="role">Chair</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">   Prof. KR Koswattage </div>
+
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. MDKM Gunasena</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Dr. SS Abeysinghe</div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Dr. HGN Rajapaksha </div>
+                                        <p class="role">Member</p>
+                                        <a href="" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--            </div>-->
+
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <?php include './common/footer1.php'; ?>
 
