@@ -1978,21 +1978,21 @@ footer .social-icons i:hover{
     background: linear-gradient(180deg, #ffffff, #d8d9e6); /* Gradient for 3D effect */
     color: #000000; /* Text color */
     font-weight: bold;
-    border: 1px solid #a0a6b9; /* Border for definition */
+    border: 1px solid #b1b5c3; /* Border for definition */
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), inset 0 -2px 4px rgba(0, 0, 0, 0.15); /* Outer and inner shadows */
 
     /*transition: transform 0.2s, box-shadow 0.2s; !* Smooth animations *!*/
 }
 
 .accordion-button:active {
-    border: 1px solid #a0a6b9 !important;
+    border: 1px solid #b1b5c3; /* Border for definition */
     /*background: linear-gradient(180deg, #d8d9e6, #ffffff); !* Inverse gradient on click *!*/
     color: #000000; /* Change text color on click */
     /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2), inset 0 -2px 4px rgba(0, 0, 0, 0.25); !* Slightly stronger shadow *!*/
 }
 
 .accordion-button:focus {
-    border: 1px solid #a0a6b9 !important;
+    border: 1px solid #b1b5c3; /* Border for definition */
     color: #002b6c;
     outline: none; /* Remove focus outline */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.1); /* Enhance shadow on focus */
