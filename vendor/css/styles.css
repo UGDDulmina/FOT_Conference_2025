@@ -2005,4 +2005,101 @@ footer .social-icons i:hover{
 
 
 
+/* CSS for about page */
+
+.about-container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px); /* Adjust height to fill remaining space */
+    padding: 20px; /* Add padding for smaller screens */
+    margin-top: -30px; /* Reduce gap between carousel and about-container */
+}
+
+.about-container {
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    text-align: center;
+    color: #333333;
+    width: 100%; /* Make it responsive */
+    box-sizing: border-box;
+    margin-top: 0; /* Remove any additional gap from margin */
+}
+
+.about-container h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.about-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about-container span {
+    font-weight: bold;
+    color: #012453;
+}
+
+.theme {
+    color: #16a085;
+    font-style: italic;
+}
+
+.carousel-inner {
+    border-bottom: 20px solid #000002;
+    border-top: 20px solid #000002;
+    background-color: #000002;
+    margin-top: 65px;
+    height: 70vh; /* Increased height for carousel */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 70vh; /* Increased height for carousel images */
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .about-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-container p {
+        font-size: 0.9rem;
+    }
+
+    .carousel-inner {
+        height: 50vh; /* Adjust height for smaller screens */
+    }
+
+    .carousel-item img {
+        height: 50vh; /* Adjust image height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-container p {
+        font-size: 0.8rem;
+    }
+
+    .carousel-inner {
+        height: 40vh; /* Further adjust height for very small screens */
+    }
+
+    .carousel-item img {
+        height: 40vh; /* Further adjust image height */
+    }
+}
+
+/*CSS for Contact page*/
 
