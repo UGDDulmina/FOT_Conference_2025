@@ -2101,5 +2101,59 @@ footer .social-icons i:hover{
     }
 }
 
-/*CSS for Contact page*/
+/*CSS for Submission page*/
+.author-instruction{
+    padding: 100px 100px 100px 100px;
+    background-color: #dadeea;
+    height: max-content;
 
+}
+
+/* Scoped styles for the abstract submission section */
+.abstract-submission {
+    font-family: Arial, sans-serif;
+    padding: 20px 50px 20px 50px;
+
+}
+
+.abstract-submission p {
+    margin-bottom: 15px;
+}
+
+.abstract-submission ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.abstract-submission ul li {
+    margin-bottom: 5px;
+}
+
+.abstract-submission .red-link {
+    color: red;
+    text-decoration: underline;
+}
+
+.abstract-submission .red-link:hover {
+    color: darkred;
+}
+.author-instruction-topic{
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Aligns content vertically if needed */
+}
+
+
+.author-instruction-topic h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem; /* Adjust size as needed */
+    font-weight: 900;
+    color: #09013c; /* A dark gray color for readability */
+
+    margin: 20px 0; /* Spacing above and below */
+    text-transform: uppercase; /* Make text all uppercase */
+    letter-spacing: 2px; /* Slight spacing between letters for a modern look */
+    /*border-bottom: 2px solid #f00; !* Add a red underline for emphasis *!*/
+    display: inline-block; /* Allows centering the underline with text */
+    padding-bottom: 5px; /* Space between text and underline */
+}
