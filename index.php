@@ -31,14 +31,14 @@
 
 <div class="super"> 
  
- <div class="wrapper banner">
+ <div class="banner">
 
  <!-- Landing Page -->
 
    <div id="text-wrapper">
           
-        <div id="particles-container1" class="particles-container"><div class='shape1' ></div></div>
-        <div id="particles-container2" class="particles-container"><div class='shape2'></div></div>
+        <div id="particles-container1" class="particles-container"></div><div class='shape1' ></div><div class='shape3' ></div><div class='shape4' ></div>
+        <div id="particles-container2" class="particles-container"></div><div class='shape2'></div><div class='shape6'></div><div class='shape7'></div>
          <div class="timer">
          <div id="timer">
             <div class="counter">
@@ -107,11 +107,12 @@
     }
 </script>
 
-       
+       <div class="landing-text">
         <p id='para1'>International Conference on Emerging Technologies (ICET) 2025</p> 
         <p id='para2' >"Technology for sustainable future"</p>
         <p id='para'><img src="./assets/icons/calendar-check (1).png"> 1<sup>st</sup> May 2025 </p>
         <p id='para'><img src="./assets/icons/map (1).png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
+      </div>
         <img id='logo' src="./assets/images/Logo_with_name.png" alt="Conference Logo">
         <button class="button">Registration</button>
         
@@ -140,11 +141,48 @@
   </div>
 </div>
 
-<div class="wrapper ">
+<!-- <div class="custom-shape-divider-bottom-1734881515">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+    </svg>
+</div> -->
    
   <div class="tracks">
+ 
+  <h1 id="dropdown-title">6 Tracks</h1>
+    <div id="dropdown-menu" class="dropdown hidden">
+        <ul>
+            <li><a href="./advancesInEmergingSciences.php">Advances in Emerging Sciences</a></li>
+            <li><a href="./bioenergyAndBioFuelGenerationTechnology.php">Bioenergy and Bio Fuel Generation Technology</a></li>
+            <li><a href="./appliedBiotechnologyAndMicrobiology.php">Applied Biotechnology and Microbiology</a></li>
+            <li><a href="./mechanicalEngineeringTechnology.php">Mechanical Engineering Technology</a></li>
+            <li><a href="./electricalAndElectronicEngineeringTechnology.php">Electrical and Electronic Engineering Technology</a></li>
+            <li><a href="./drugDiscoveryAndDevelopment.php">Drug Discovery and Development</a></li>
+        </ul>
+    </div>
+
+    <script>
+      const title = document.getElementById('dropdown-title');
+      const menu = document.getElementById('dropdown-menu');
+
+     title.addEventListener('click', () => {
+     // Toggle dropdown visibility
+     menu.classList.toggle('hidden');
+     menu.classList.toggle('visible');
+     });
+
+    // Optional: Close dropdown when clicking outside
+     document.addEventListener('click', (event) => {
+     if (!title.contains(event.target) && !menu.contains(event.target)) {
+        menu.classList.add('hidden');
+        menu.classList.remove('visible');
+     }
+     });
+
+    </script>
+     
+
     
-  <h1>Tracks</h1>
     <!-- Infinite Scroll -->
 
    <div class="Infinite-wrapper">
@@ -155,9 +193,8 @@
     <div class="item item5"><a href="./electricalAndElectronicEngineeringTechnology.php"><div class="inner inner5"><p>Electrical and Electronic <br> Engineering Technology</p></div></a></div>
     <div class="item item6"><a href="./drugDiscoveryAndDevelopment.php"><div class="inner inner6"><p>Drug Discovery and <br> Development</p></div></a></div>
    </div>
-  </div>
-</div>
-<div class="wrapper">
+</div> 
+ 
   <div class="key">
     <h1>Keynote Speaker</h1> 
     <div class='box'>
@@ -187,9 +224,8 @@
             </div>
         </div>
     </div>
-  </div>
-</div>
-<div class="wrapper ">
+  
+
   <div class="team">
     <h1 id='title'>Key Members</h1>
     <div class="sectors">
@@ -280,19 +316,17 @@
     
   </div>
   
-</div>
-<div class="wrapper">
+
   <div class="sponsers">
     <h1>Sponsers</h1>
     
   </div>
-</div>
-<div class="wrapper ">
+
   <div class="foot">
       
-     <?php include './common/footer.php'; ?>
+     <?php include './common/footer1.php'; ?>
   </div>
-</div>
+
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
