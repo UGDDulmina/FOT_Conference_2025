@@ -55,7 +55,7 @@
         <div class="schedule-container">
             <ul>
                 <li>
-                    <h3 class="schedule-heading">FrontEnd Developer</h3>
+                    <h3 class="schedule-heading">Extended Deadline for Abstract Submission</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
                         totam </p>
 
@@ -63,7 +63,7 @@
                     <span class="schedule-circle"></span>
                 </li>
                 <li>
-                    <h3 class="schedule-heading">BackEnd Developer</h3>
+                    <h3 class="schedule-heading">Paper Acceptance Notification</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
                         totam </p>
 
@@ -71,7 +71,7 @@
                     <span class="schedule-circle"></span>
                 </li>
                 <li>
-                    <h3 class="schedule-heading">Full Stack Developer</h3>
+                    <h3 class="schedule-heading">Camera Ready Submission</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
                         totam </p>
 
@@ -79,7 +79,7 @@
                     <span class="schedule-circle"></span>
                 </li>
                 <li>
-                    <h3 class="schedule-heading">App Developer</h3>
+                    <h3 class="schedule-heading">Registration</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
                         totam </p>
 
