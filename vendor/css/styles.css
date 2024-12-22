@@ -5,7 +5,7 @@ body{
     background-color: rgb(241, 237, 237);
     overflow-x: hidden;
 
-} 
+}
 
 
 /*---- Landing Page ------*/
@@ -139,7 +139,7 @@ body{
     top: 70px; */
     letter-spacing: 3px;
     font-family: "Roboto Condensed", sans-serif;
- 
+
 }
 
 .banner p img{
@@ -1854,13 +1854,13 @@ footer .social-icons i:hover{
     background-color: #ffffff;
     width: 250px; /* Updated width */
     border: none;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Increased shadow size and opacity */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
     z-index: 2;
 }
 
 .card:hover {
-    transform: scale(1.05); /* Enlarges the card slightly on hover */
+    transform: scale(1.03); /* Enlarges the card slightly on hover */
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
@@ -1906,7 +1906,8 @@ footer .social-icons i:hover{
     margin-top: 5px;
 }
 
-.card-content .view-profile-btn {
+.view-profile-btn {
+    text-decoration: none;
     border: none;
     font-size: 16px;
     color: white;
@@ -2022,22 +2023,7 @@ footer .social-icons i:hover{
     }
 }
 
-.team-3-section {
-    background: #dadeea;
-    min-height: 100vh;
-    margin-top: 0;
-}
 
-/*.card-wrapper-2{*/
-/*    background-color: white;*/
-/*    padding:50px 0 50px 0;*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: center;*/
-/*    gap: 25px;*/
-/*    z-index: 2;*/
-/*    margin: 0 100px 100px 100px;*/
-/*}*/
 
 .custom-shape-divider-bottom-1734241371 {
     position: absolute;
@@ -2063,121 +2049,500 @@ footer .social-icons i:hover{
 
 }
 
+.swiper{
+    padding: 20px !important;
+}
+.swiper-wrapper {
 
-/*!* Importing Google Font - Montserrat *!*/
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*/
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 30px 0 ;
+
+}
+.swiper-slide{
+    border-radius: 25px !important;
+    background-color: #ffffff !important;
+    border: none;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2) !important; /* Increased shadow size and opacity */
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important; /* Smooth hover animation */
+    z-index: 2 !important;
+}
+
+.swiper-slide:hover {
+    transform: scale(1.03) !important; /* Enlarges the card slightly on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2) !important; /* Enhanced shadow on hover */
+}
+.main-swiper-wrapper{
+
+    margin: 0 100px 0 100px;
 
 
-/*.slide-content{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    min-height: 100vh;*/
+
+}
+
+
+.accordion-wrapper {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center */
+ height: max-content;
+    background-color: #dadeea;
+
+}
+
+.accordion {
+   width: 90vw;
+    margin-bottom: 50px;
+}
+
+.accordion-body{
+    padding: 0;
+    background-color: #ffffff;
+    border: 1px solid #a0a6b9; /* Border for definition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 4px rgba(0, 0, 0, 0.15); /* Outer and inner shadows */
+}
+
+.accordion-button {
+    background: linear-gradient(180deg, #ffffff, #d8d9e6); /* Gradient for 3D effect */
+    color: #000000; /* Text color */
+    font-weight: bold;
+    border: 1px solid #b1b5c3; /* Border for definition */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), inset 0 -2px 4px rgba(0, 0, 0, 0.15); /* Outer and inner shadows */
+
+    /*transition: transform 0.2s, box-shadow 0.2s; !* Smooth animations *!*/
+}
+
+.accordion-button:active {
+    border: 1px solid #b1b5c3; /* Border for definition */
+    /*background: linear-gradient(180deg, #d8d9e6, #ffffff); !* Inverse gradient on click *!*/
+    color: #000000; /* Change text color on click */
+    /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2), inset 0 -2px 4px rgba(0, 0, 0, 0.25); !* Slightly stronger shadow *!*/
+}
+
+.accordion-button:focus {
+    border: 1px solid #b1b5c3; /* Border for definition */
+    color: #002b6c;
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.1); /* Enhance shadow on focus */
+}
+
+/*.accordion-button:active {*/
+/*    transform: translateY(2px); !* Simulate button press *!*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 2px 4px rgba(0, 0, 0, 0.2); !* Adjust shadows for press effect *!*/
 /*}*/
 
 
 
+/* CSS for about page */
 
-/*.slider-wrapper {*/
+.about-container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px); /* Adjust height to fill remaining space */
+    padding: 20px; /* Add padding for smaller screens */
+    margin-top: -30px; /* Reduce gap between carousel and about-container */
+}
 
-/*    overflow: hidden;*/
-/*    max-width: 1200px;*/
-/*    margin: 0 70px 55px 0;*/
-/*}*/
+.about-container {
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    text-align: center;
+    color: #333333;
+    width: 100%; /* Make it responsive */
+    box-sizing: border-box;
+    margin-top: 0; /* Remove any additional gap from margin */
+}
 
-/*.card-list .card-item {*/
-/*    height: auto;*/
-/*    color: #fff;*/
-/*    user-select: none;*/
-/*    padding: 35px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border-radius: 10px;*/
-/*    backdrop-filter: blur(30px);*/
-/*    background: rgba(255, 255, 255, 0.2);*/
-/*    border: 1px solid rgba(255, 255, 255, 0.5);*/
-/*}*/
+.about-container h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    font-weight: bold;
+}
 
-/*.card-list .card-item .user-image {*/
-/*    width: 150px;*/
-/*    height: 150px;*/
-/*    border-radius: 50%;*/
-/*    margin-bottom: 40px;*/
-/*    border: 3px solid #fff;*/
-/*    padding: 4px;*/
-/*}*/
+.about-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
 
-/*.card-list .card-item .user-profession {*/
-/*    font-size: 1.15rem;*/
-/*    color: #e3e3e3;*/
-/*    font-weight: 500;*/
-/*    margin: 14px 0 40px;*/
-/*}*/
+.about-container span {
+    font-weight: bold;
+    color: #012453;
+}
 
-/*.card-list .card-item .message-button {*/
-/*    font-size: 1.25rem;*/
-/*    padding: 10px 35px;*/
-/*    color: #030728;*/
-/*    border-radius: 6px;*/
-/*    font-weight: 500;*/
-/*    cursor: pointer;*/
-/*    background: #fff;*/
-/*    border: 1px solid transparent;*/
-/*    transition: 0.2s ease;*/
-/*}*/
+.theme {
+    color: #16a085;
+    font-style: italic;
+}
 
-/*.card-list .card-item .message-button:hover {*/
-/*    background: rgba(255, 255, 255, 0.1);*/
-/*    border: 1px solid #fff;*/
-/*    color: #fff;*/
-/*}*/
+.carousel-inner {
+    border-bottom: 20px solid #000002;
+    border-top: 20px solid #000002;
+    background-color: #000002;
+    margin-top: 65px;
+    height: 70vh; /* Increased height for carousel */
+}
 
-/*.slider-wrapper .swiper-pagination-bullet {*/
-/*    background: #fff;*/
-/*    height: 13px;*/
-/*    width: 13px;*/
-/*    opacity: 0.5;*/
-/*}*/
+.carousel-item img {
+    object-fit: cover;
+    height: 70vh; /* Increased height for carousel images */
+    width: 100%;
+}
 
-/*.slider-wrapper .swiper-pagination-bullet-active {*/
-/*    opacity: 1;*/
-/*}*/
+@media (max-width: 768px) {
+    .about-container h1 {
+        font-size: 1.8rem;
+    }
 
-/*.slider-wrapper .swiper-slide-button {*/
-/*    color: #fff;*/
-/*    margin-top: -55px;*/
-/*    transition: 0.2s ease;*/
-/*}*/
+    .about-container p {
+        font-size: 0.9rem;
+    }
 
-/*.slider-wrapper .swiper-slide-button:hover {*/
-/*    color: #4658ff;*/
-/*}*/
+    .carousel-inner {
+        height: 50vh; /* Adjust height for smaller screens */
+    }
 
-/*@media (max-width: 768px) {*/
-/*    .slider-wrapper {*/
-/*        margin: 0 10px 40px;*/
-/*    }*/
+    .carousel-item img {
+        height: 50vh; /* Adjust image height for smaller screens */
+    }
+}
 
-/*    .slider-wrapper .swiper-slide-button {*/
-/*        display: none;*/
-/*    }*/
-/*!*}*!*/
+@media (max-width: 480px) {
+    .about-container h1 {
+        font-size: 1.5rem;
+    }
 
-/*.swiper-slide {*/
-/*    border-radius: 25px;*/
-/*    background-color: #ffffff;*/
-/*    width: 250px; !* Updated width *!*/
-/*    border: none;*/
-/*    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); !* Subtle shadow *!*/
-/*    transition: transform 0.3s ease, box-shadow 0.3s ease; !* Smooth hover animation *!*/
-/*    z-index: 2;*/
-/*}*/
+    .about-container p {
+        font-size: 0.8rem;
+    }
 
-/*.card:hover {*/
-/*    transform: scale(1.05); !* Enlarges the card slightly on hover *!*/
-/*    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); !* Enhanced shadow on hover *!*/
-/*}*/
-/* Team background animation */
+    .carousel-inner {
+        height: 40vh; /* Further adjust height for very small screens */
+    }
+
+    .carousel-item img {
+        height: 40vh; /* Further adjust image height */
+    }
+}
+
+/*CSS for Submission page*/
+.author-instruction{
+    padding: 100px 100px 100px 100px;
+    background-color: #dadeea;
+    height: max-content;
+
+}
+
+/* Scoped styles for the abstract submission section */
+.abstract-submission {
+    font-family: Arial, sans-serif;
+    padding: 20px 50px 20px 50px;
+
+}
+
+.abstract-submission p {
+    margin-bottom: 15px;
+}
+
+.abstract-submission ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.abstract-submission ul li {
+    margin-bottom: 5px;
+}
+
+.abstract-submission .red-link {
+    color: red;
+    text-decoration: underline;
+}
+
+.abstract-submission .red-link:hover {
+    color: darkred;
+}
+.author-instruction-topic{
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Aligns content vertically if needed */
+}
+
+
+.author-instruction-topic h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem; /* Adjust size as needed */
+    font-weight: 900;
+    color: #09013c; /* A dark gray color for readability */
+    margin: 20px 0; /* Spacing above and below */
+    text-transform: uppercase; /* Make text all uppercase */
+    letter-spacing: -0.05em; /* Slight spacing between letters for a modern look */
+    display: inline-block;
+    padding-bottom: 5px; /* Space between text and underline */
+    overflow: hidden; /* Ensure content stays within */
+}
+
+.author-instruction-topic h1 span {
+    display: inline-block; /* Make each letter animatable individually */
+    animation: rotateLetter 1s ease-in-out;
+    animation-delay: calc(var(--i) * 1s); /* Each letter waits for the previous one */
+}
+
+/* Keyframes for rotation */
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+/*css for schedule section*/
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+
+.schedule-main {
+    height: max-content;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #e2e7ed;
+    padding: 100px;
+    z-index: -1;
+}
+
+.schedule-main .schedule-head {
+    font-size: 29px;
+    color: rgba(0, 123, 255, 0.767); /* Blue color */
+    position: relative;
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+
+.schedule-main .schedule-head::after {
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, rgba(0, 123, 255, 0.767), rgba(0, 204, 255, 0.747)); /* Blue gradient */
+}
+
+/* Container Css Start */
+.schedule-container {
+    width: 70%;
+    height: auto;
+    margin: auto 0;
+    position: relative;
+    background-color: #e2e7ed !important;
+    z-index: 1 !important;
+}
+
+.schedule-container ul {
+    list-style: none;
+}
+
+.schedule-container ul::after {
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to bottom, rgba(0, 123, 255, 0.767), rgba(0, 204, 255, 0.747)); /* Blue gradient */
+}
+
+.schedule-container ul li {
+    width: 50%;
+    height: auto;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 99;
+}
+
+.schedule-container ul li:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.schedule-container ul li .schedule-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff; /* Blue color */
+    top: 0;
+    display: grid;
+    place-items: center;
+}
+
+.schedule-circle::after {
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    background-color: #0056b3; /* Dark blue color */
+    border-radius: 50%;
+}
+
+.schedule-container ul li:nth-child(odd) .schedule-circle {
+    transform: translate(50%, -50%);
+    right: -30px;
+}
+
+.schedule-container ul li:nth-child(even) .schedule-circle {
+    transform: translate(-50%, -50%);
+    left: -30px;
+}
+
+.schedule-container ul li .schedule-date {
+    position: absolute;
+    width: 130px;
+    height: 33px;
+    background-image: linear-gradient(to right, #0056b3, #007bff); /* Blue gradient */
+    border-radius: 15px;
+    top: -45px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 13px;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
+}
+
+.schedule-container ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    text-align: right;
+    transform: translateX(-30px);
+}
+
+.schedule-container ul li:nth-child(odd) .schedule-date {
+    right: 20px;
+}
+
+.schedule-container ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+}
+
+.schedule-container ul li .schedule-heading {
+    font-size: 17px;
+    color: rgb(0, 123, 255); /* Blue color */
+}
+
+.schedule-container ul li p {
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    margin: 6px 0 4px 0;
+}
+
+.schedule-container ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(18, 54, 214); /* Blue color */
+    transition: all 0.3s ease;
+}
+
+@media only screen and (min-width:798px) and (max-width: 1100px) {
+    .schedule-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 798px) {
+    .schedule-container {
+        width: 70%;
+        transform: translateX(20px);
+    }
+
+    .schedule-container ul::after {
+        left: -40px;
+    }
+
+    .schedule-container ul li {
+        width: 100%;
+        float: none;
+        clear: none;
+        margin-bottom: 80px;
+    }
+
+    .schedule-container ul li .schedule-circle {
+        left: -40px;
+        transform: translate(-50%, -50%);
+    }
+
+    .schedule-container ul li .schedule-date {
+        left: 20px;
+    }
+
+    .schedule-container ul li:nth-child(odd) {
+        transform: translateX(0px);
+        text-align: left;
+    }
+
+    .schedule-container ul li:nth-child(even) {
+        transform: translateX(0px);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .schedule-container {
+        width: 80%;
+    }
+
+    .schedule-container ul::after {
+        left: -20px;
+    }
+
+    .schedule-container ul li .schedule-circle {
+        left: -20px;
+    }
+}
+
+
+.schedule-head-wrapper {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Aligns content vertically if needed */
+}
+
+.schedule-head {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem !important; /* Adjust size as needed */
+    font-weight: 900!important;
+    color: #00347e !important;/* Blue color */
+    margin: 20px 0; /* Spacing above and below */
+    text-transform: uppercase; /* Make text all uppercase */
+    letter-spacing: -0.05em; /* Slight spacing between letters for a modern look */
+    display: inline-block;
+    padding-bottom: 5px; /* Space between text and underline */
+    overflow: hidden; /* Ensure content stays within */
+}
+
+.schedule-head span {
+    display: inline-block; /* Make each letter animatable individually */
+    animation: rotateLetter 1s ease-in-out;
+    animation-delay: calc(var(--i) * 1s); /* Each letter waits for the previous one */
+}
+
+/* Keyframes for rotation */
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
