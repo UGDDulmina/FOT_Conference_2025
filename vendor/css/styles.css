@@ -4,7 +4,7 @@ body{
     background-color: white;
     overflow-x: hidden;
 
-} 
+}
 
 
 /*---- Landing Page ------*/
@@ -103,7 +103,7 @@ body{
 }
 
 .wrapper h1{
-     
+
     font-weight: bold;
     color: #fff;
     margin: 0;
@@ -139,7 +139,7 @@ body{
     top: 70px;
     letter-spacing: 3px;
     font-family: "Roboto Condensed", sans-serif;
- 
+
 }
 
 .banner p img{
@@ -2149,11 +2149,26 @@ footer .social-icons i:hover{
     font-size: 2.5rem; /* Adjust size as needed */
     font-weight: 900;
     color: #09013c; /* A dark gray color for readability */
-
     margin: 20px 0; /* Spacing above and below */
     text-transform: uppercase; /* Make text all uppercase */
-    letter-spacing: 2px; /* Slight spacing between letters for a modern look */
-    /*border-bottom: 2px solid #f00; !* Add a red underline for emphasis *!*/
-    display: inline-block; /* Allows centering the underline with text */
+    letter-spacing: -0.05em; /* Slight spacing between letters for a modern look */
+    display: inline-block;
     padding-bottom: 5px; /* Space between text and underline */
+    overflow: hidden; /* Ensure content stays within */
+}
+
+.author-instruction-topic h1 span {
+    display: inline-block; /* Make each letter animatable individually */
+    animation: rotateLetter 1s ease-in-out;
+    animation-delay: calc(var(--i) * 1s); /* Each letter waits for the previous one */
+}
+
+/* Keyframes for rotation */
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
 }

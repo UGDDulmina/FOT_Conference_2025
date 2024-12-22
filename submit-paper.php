@@ -25,21 +25,32 @@
 </head>
 <body>
 <?php include './common/navbar.php'; ?>
-<!--    <section>-->
-<!--        <h2>Submit Your Research Paper</h2>-->
-<!--        <form action="submit-paper.php" method="POST" enctype="multipart/form-data">-->
-<!--            <label for="name">Your Name:</label>-->
-<!--            <input type="text" id="name" name="name" required><br>-->
-<!--            <label for="email">Your Email:</label>-->
-<!--            <input type="email" id="email" name="email" required><br>-->
-<!--            <label for="paper">Upload Paper:</label>-->
-<!--            <input type="file" id="paper" name="paper" required><br><br>-->
-<!--            <input type="submit" name="submit" value="Submit">-->
-<!--        </form>-->
-<!--    </section>-->
 
     <section class="author-instruction" id="author-instruction">
-        <div class="author-instruction-topic"><h1>Author Instruction</h1></div>
+        <div class="author-instruction-topic">
+            <h1>
+                <span style="--i:0;">A</span>
+                <span style="--i:1;">u</span>
+                <span style="--i:2;">t</span>
+                <span style="--i:3;">h</span>
+                <span style="--i:4;">o</span>
+                <span style="--i:5;">r</span>
+                <span style="--i:6;">&nbsp;&nbsp;</span> <!-- Add space between "Author" and "Instruction" -->
+                <span style="--i:7;">I</span>
+                <span style="--i:8;">n</span>
+                <span style="--i:9;">s</span>
+                <span style="--i:10;">t</span>
+                <span style="--i:11;">r</span>
+                <span style="--i:12;">u</span>
+                <span style="--i:13;">c</span>
+                <span style="--i:14;">t</span>
+                <span style="--i:15;">i</span>
+                <span style="--i:16;">o</span>
+                <span style="--i:17;">n</span>
+            </h1>
+        </div>
+
+
 
         <div class="accordion-wrapper">
             <div class="accordion" id="accordionExample">
@@ -132,7 +143,7 @@
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+<script src="vendor/js/script.js"></script>
 </body>
 </html>
 
