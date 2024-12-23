@@ -24,11 +24,33 @@
         <source src="./assets/videos/video1.mp4" type="video/mp4">
         Your browser does not support the video tag.
    </video>
+   <p>
+
+<div class="book">
+ <h5>Advances in Emerging Sciences- Mr. DKA Induranga</h5>
+The Emerging Sciences Track is designed to showcase cutting-edge advancements and foster interdisciplinary collaboration in rapidly evolving fields. This track provides a platform for researchers, academics, industry experts, and students to explore and discuss innovations in artificial intelligence, nanotechnology, quantum computing, cloud computing, biotechnology, renewable energy integrated with intelligent electrical systems, and smart city technologies. The track aims to bridge the gap between theoretical exploration and practical application, driving impactful solutions to global challenges. By bringing together diverse perspectives, the Emerging Sciences Track seeks to inspire transformative ideas and build meaningful connections among academics that help shape the future of science and technology.
+Advances in Measurement and Instrumentation Technologies.
+<ul>
+    <li>Conductive Polymers</li>
+    <li>Graphene</li>
+    <li>Nanotechnology</li>
+    <li>Semiconductor Materials and Optoelectronics </li>
+    <li>Smart Sensors</li>
+    <li>Superconductors</li>
+</ul>
+</div>
+
+
+
+
+
+
+   </p>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 
-    <?php include './common/footer1.php'; ?>
+     
 
 </body>
 </html>

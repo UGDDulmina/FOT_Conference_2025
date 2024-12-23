@@ -3,7 +3,7 @@
         <div class="complex">
             <div class="footer-content">
                 <h3>Contact Us</h3>
-                <p>Email: <a href="ICET@info.com" id='email'> ICET@info.com</a></p>
+                <p>Email: <a href="ICET@info.com" id='email'> icet@tech.sab.ac.lk </a> </p>
                 <p>Phone: +121 56556 565556</p>
                 <ul class="social-icons">
                  <li><a href=""><i class="fab fa-facebook"></i></a></li>
