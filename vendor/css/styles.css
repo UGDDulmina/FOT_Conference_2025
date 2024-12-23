@@ -2026,7 +2026,7 @@ footer .social-icons i:hover{
 
 
 .custom-shape-divider-bottom-1734241371 {
-    position: absolute;
+    /*position: absolute;*/
     bottom: -200px;
     left: 0;
     width: 100%;
@@ -2086,6 +2086,8 @@ footer .social-icons i:hover{
     justify-content: center; /* Horizontally center */
  height: max-content;
     background-color: #dadeea;
+    z-index: 10!important;
+    position: relative!important;
 
 }
 
