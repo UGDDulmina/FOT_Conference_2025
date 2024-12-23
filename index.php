@@ -176,7 +176,7 @@
                                     <img src="assets/images/Bioenergy and Bio fuel Generation Technology.jpg" alt="" class="card-img">
                                 </div>
                                 <div class="card-content">
-                                    <div class="name">Bioenergy and Bio Fuel Generation Technology</div>
+                                    <div class="name">Bioenergy and Bio Fuel Generation <br>Technology</div>
                                     <a href="./bioenergyAndBioFuelGenerationTechnology.php" class="view-profile-btn">View More Details</a>
                                 </div>
                             </div>

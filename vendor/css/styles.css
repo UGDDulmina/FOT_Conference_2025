@@ -374,9 +374,12 @@ body{
 }
 
 /*----  Tracks Section ------*/
-
+.dropdown-title-tracks{
+    margin: 0!important;
+    padding: 0!important;
+}
 .tracks {
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     position: relative;
     top: -995px;
     height: 120vh;
@@ -2790,5 +2793,7 @@ footer .social-icons i:hover{
 }
 
 .tracks-section{
+    margin-top: 0;
+    padding-top: 0;
     z-index: 10;
 }
