@@ -22,12 +22,19 @@
     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
-    
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
     
 </head>
 <body>
 
 <?php include './common/navbar.php'; ?>
+
 
 <div class="super"> 
  
@@ -146,54 +153,129 @@
         <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
     </svg>
 </div> -->
-   
-  <div class="tracks">
- 
-  <h1 id="dropdown-title">6 Tracks</h1>
-    <div id="dropdown-menu" class="dropdown hidden">
-        <ul>
-            <li><a href="./advancesInEmergingSciences.php">Advances in Emerging Sciences</a></li>
-            <li><a href="./bioenergyAndBioFuelGenerationTechnology.php">Bioenergy and Bio Fuel Generation Technology</a></li>
-            <li><a href="./appliedBiotechnologyAndMicrobiology.php">Applied Biotechnology and Microbiology</a></li>
-            <li><a href="./mechanicalEngineeringTechnology.php">Mechanical Engineering Technology</a></li>
-            <li><a href="./electricalAndElectronicEngineeringTechnology.php">Electrical and Electronic Engineering Technology</a></li>
-            <li><a href="./drugDiscoveryAndDevelopment.php">Drug Discovery and Development</a></li>
-        </ul>
+
+    <div class="tracks">
+
+        <h1 id="dropdown-title">6 Tracks</h1>
+<!--        <div id="dropdown-menu" class="dropdown hidden">-->
+            <section class="tracks-section">
+                <div class="main-swiper-wrapper">
+                    <div class="swiper slide-content-2">
+                        <div class="swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/Advances%20in%20Emerging%20Sciences.png" alt="" class="card-img">
+                                </div>
+                                <div class="card-content">
+                                    <div class="name">Advances in Emerging <br>Sciences</div>
+                                    <a href="./advancesInEmergingSciences.php" class="view-profile-btn">View More Details</a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/Bioenergy and Bio fuel Generation Technology.jpg" alt="" class="card-img">
+                                </div>
+                                <div class="card-content">
+                                    <div class="name">Bioenergy and Bio Fuel Generation Technology</div>
+                                    <a href="./bioenergyAndBioFuelGenerationTechnology.php" class="view-profile-btn">View More Details</a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/Applied%20Biotechnology%20and%20Microbiology.jpg" alt="" class="card-img">
+                                </div>
+                                <div class="card-content">
+                                    <div class="name">Applied Biotechnology and <br>Microbiology</div>
+                                    <a href="./appliedBiotechnologyAndMicrobiology.php" class="view-profile-btn">View More Details</a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/Mechanical%20Engineering%20Technology.jpg" alt="" class="card-img">
+                                </div>
+                                <div class="card-content">
+                                    <div class="name">Mechanical Engineering <br> Technology</div>
+                                    <a href="./mechanicalEngineeringTechnology.php" class="view-profile-btn">View More Details</a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/Electrical%20and%20Electronic%20Engineering%20Technology.png" alt="" class="card-img">
+                                </div>
+                                <div class="card-content">
+                                    <div class="name">Electrical and Electronic Engineering Technology</div>
+                                    <a href="./electricalAndElectronicEngineeringTechnology.php" class="view-profile-btn">View More Details</a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-wrapper">
+                                    <img src="assets/images/Drug%20Discovery%20and%20Development.jpg" alt="" class="card-img">
+                                </div>
+                                <div class="card-content">
+                                    <div class="name">Drug Discovery and <br> Development</div>
+                                    <a href="./drugDiscoveryAndDevelopment.php" class="view-profile-btn">View More Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <script src="vendor/js/script.js"></script>
+            </section>
+
     </div>
 
-    <script>
-      const title = document.getElementById('dropdown-title');
-      const menu = document.getElementById('dropdown-menu');
 
-     title.addEventListener('click', () => {
-     // Toggle dropdown visibility
-     menu.classList.toggle('hidden');
-     menu.classList.toggle('visible');
-     });
 
-    // Optional: Close dropdown when clicking outside
-     document.addEventListener('click', (event) => {
-     if (!title.contains(event.target) && !menu.contains(event.target)) {
-        menu.classList.add('hidden');
-        menu.classList.remove('visible');
-     }
-     });
-
-    </script>
-     
-
-    
-    <!-- Infinite Scroll -->
-
-   <div class="Infinite-wrapper">
-    <div class="item item1"><a href="./advancesInEmergingSciences.php" ><div class="inner inner1"><p>Advances in Emerging <br> Sciences</p></div></a></div>
-    <div class="item item2"><a href="./bioenergyAndBioFuelGenerationTechnology.php"><div class="inner inner2"><p>Bioenergy and Bio fuel<br> Generation Technology</p></div></a></div>
-    <div class="item item3"><a href="./appliedBiotechnologyAndMicrobiology.php"><div class="inner inner3"><p>Applied Biotechnology and <br> Microbiology</p></div></a></div>
-    <div class="item item4"><a href="./mechanicalEngineeringTechnology.php"><div class="inner inner4"><p>Mechanical Engineering <br> Technology</p></div></a></div>
-    <div class="item item5"><a href="./electricalAndElectronicEngineeringTechnology.php"><div class="inner inner5"><p>Electrical and Electronic <br> Engineering Technology</p></div></a></div>
-    <div class="item item6"><a href="./drugDiscoveryAndDevelopment.php"><div class="inner inner6"><p>Drug Discovery and <br> Development</p></div></a></div>
-   </div>
-</div> 
+<!--  <div class="tracks">-->
+<!-- -->
+<!--  <h1 id="dropdown-title">6 Tracks</h1>-->
+<!--    <div id="dropdown-menu" class="dropdown hidden">-->
+<!--        <ul>-->
+<!--            <li><a href="./advancesInEmergingSciences.php">Advances in Emerging Sciences</a></li>-->
+<!--            <li><a href="./bioenergyAndBioFuelGenerationTechnology.php">Bioenergy and Bio Fuel Generation Technology</a></li>-->
+<!--            <li><a href="./appliedBiotechnologyAndMicrobiology.php">Applied Biotechnology and Microbiology</a></li>-->
+<!--            <li><a href="./mechanicalEngineeringTechnology.php">Mechanical Engineering Technology</a></li>-->
+<!--            <li><a href="./electricalAndElectronicEngineeringTechnology.php">Electrical and Electronic Engineering Technology</a></li>-->
+<!--            <li><a href="./drugDiscoveryAndDevelopment.php">Drug Discovery and Development</a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!---->
+<!--    <script>-->
+<!--      const title = document.getElementById('dropdown-title');-->
+<!--      const menu = document.getElementById('dropdown-menu');-->
+<!---->
+<!--     title.addEventListener('click', () => {-->
+<!--     // Toggle dropdown visibility-->
+<!--     menu.classList.toggle('hidden');-->
+<!--     menu.classList.toggle('visible');-->
+<!--     });-->
+<!---->
+<!--    // Optional: Close dropdown when clicking outside-->
+<!--     document.addEventListener('click', (event) => {-->
+<!--     if (!title.contains(event.target) && !menu.contains(event.target)) {-->
+<!--        menu.classList.add('hidden');-->
+<!--        menu.classList.remove('visible');-->
+<!--     }-->
+<!--     });-->
+<!---->
+<!--    </script>-->
+<!--     -->
+<!---->
+<!--    -->
+<!--    <!-- Infinite Scroll -->-->
+<!---->
+<!--   <div class="Infinite-wrapper">-->
+<!--    <div class="item item1"><a href="./advancesInEmergingSciences.php" ><div class="inner inner1"><p>Advances in Emerging <br> Sciences</p></div></a></div>-->
+<!--    <div class="item item2"><a href="./bioenergyAndBioFuelGenerationTechnology.php"><div class="inner inner2"><p>Bioenergy and Bio fuel<br> Generation Technology</p></div></a></div>-->
+<!--    <div class="item item3"><a href="./appliedBiotechnologyAndMicrobiology.php"><div class="inner inner3"><p>Applied Biotechnology and <br> Microbiology</p></div></a></div>-->
+<!--    <div class="item item4"><a href="./mechanicalEngineeringTechnology.php"><div class="inner inner4"><p>Mechanical Engineering <br> Technology</p></div></a></div>-->
+<!--    <div class="item item5"><a href="./electricalAndElectronicEngineeringTechnology.php"><div class="inner inner5"><p>Electrical and Electronic <br> Engineering Technology</p></div></a></div>-->
+<!--    <div class="item item6"><a href="./drugDiscoveryAndDevelopment.php"><div class="inner inner6"><p>Drug Discovery and <br> Development</p></div></a></div>-->
+<!--   </div>-->
+<!--</div> -->
  
   <div class="key">
     <h1>Keynote Speaker</h1> 
