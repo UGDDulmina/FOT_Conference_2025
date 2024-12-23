@@ -303,7 +303,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/Dr.%20MDKM%20Gunasena.jpg" alt="" class="card-img"">
+                                            <img src="assets/images/HVV Priyadarshanaa.jpg" alt="" class="card-img"">
 
                                         </div>
                                     </div>
