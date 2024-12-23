@@ -197,7 +197,7 @@
  
   <div class="key">
     <h1>Keynote Speaker</h1> 
-    <div class='box'>
+    <!-- <div class='box'>
       <ul class='list'>
         <li></li>
         <li></li>
@@ -209,7 +209,7 @@
         <li></li>
         <li></li>
       </ul>
-    </div>
+    </div> -->
     <div class="profile">
         <div class="user-card">
             <div class="user-card-img">
@@ -224,7 +224,37 @@
             </div>
         </div>
     </div>
-  
+  <h2 id="speaker1">Regular Speaker</h2>               
+    <div class="profile1">
+        <div class="user-card1">
+            <div class="user-card-img1">
+              <img src="./assets/images/man.jpeg" alt="">
+            </div>
+            <div class="user-card-info1">
+              <h2>Jason Walker</h2>
+              <p><span>Email:</span> example@example.com</p>
+              <p><span>Location:</span> London, United Kingdom</p>
+              <p><span>Occupation:</span> Web Developer</p>
+              <p><span>About me:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+  <h2 id="speaker2">Plenary Speaker </h2>
+    <div class="profile2">
+        <div class="user-card2">
+            <div class="user-card-img2">
+              <img src="./assets/images/man.jpeg" alt="">
+            </div>
+            <div class="user-card-info2">
+              <h2>Jason Walker</h2>
+              <p><span>Email:</span> example@example.com</p>
+              <p><span>Location:</span> London, United Kingdom</p>
+              <p><span>Occupation:</span> Web Developer</p>
+              <p><span>About me:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+    </div>
 
   <div class="team">
     <h1 id='title'>Key Members</h1>
