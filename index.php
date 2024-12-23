@@ -110,7 +110,7 @@
        <div class="landing-text">
         <p id='para1'>International Conference on Emerging Technologies (ICET) 2025</p> 
         <p id='para2' >"Technology for sustainable future"</p>
-        <p id='para'><img src="./assets/icons/calendar-check (1).png"> 1<sup>st</sup> May 2025 </p>
+        <p id='para'><img src="./assets/icons/calendar-check (1).png"> 2<sup>nd</sup> April 2025 </p>
         <p id='para'><img src="./assets/icons/map (1).png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
       </div>
         <img id='logo' src="./assets/images/Logo_with_name.png" alt="Conference Logo">
