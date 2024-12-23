@@ -977,12 +977,20 @@ body{
 
 /*---- Key-Members Section ------*/
 
+.team{
+    background-color: #3e625d;
+    position: relative;
+    top: -300px;
+    height: 700px;
+}
+
 .team h1{
     position: relative;
     font-size: 50px;
-    left: -20px;
-    top: 20px;
+    left: 590px;
+    top:-120px;
     display: inline-block;
+    font-weight: 700;
 
 
 }
@@ -1014,7 +1022,7 @@ body{
     box-sizing: border-box;
     padding: 2rem;
     padding-top: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
     height: 25rem;
     border-radius: 1rem;
     -webkit-box-shadow: 0 1rem 2rem rgba(31, 38, 135, 0.37);
@@ -1040,8 +1048,8 @@ body{
     background-color: rgba(255, 255, 255, 0.2);
 }
 .sector .imgbox {
-    width: 13rem;
-    height: 13rem;
+    width: 11rem;
+    height: 11rem;
     background-color: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 0.5rem;
@@ -1069,7 +1077,7 @@ body{
     position: relative;
     left: -2px;
     top: -10px;
-    color: #fbfbfb;
+    color: #0c0c0c;
     font-family: "Roboto Condensed", sans-serif;
   }
 
@@ -1178,6 +1186,8 @@ body{
     position: relative;
     font-size: 50px;
     display: inline-block;
+    top: -300px;
+    left: 650px;
 }
 
 .sponsers h1::after {
@@ -1188,6 +1198,7 @@ body{
     background-color: rgb(255, 230, 0);
     border-radius: 5px;
     margin: 5px auto 0;
+    font-weight: 700;
 }
 
 /*---- Foot Section ------*/

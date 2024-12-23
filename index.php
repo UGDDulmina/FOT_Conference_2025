@@ -261,7 +261,7 @@
     <div class="sectors">
     <div class="sector">
       <div class="imgbox">
-        <img src=" " alt="profile" />
+        <img src="./assets/images/1694871986410.jpeg" alt="profile" />
       </div>
       <div class="intro-text">
         <h1> Dr. MDKM Gunasena </h1>
@@ -277,7 +277,7 @@
     </div>
     <div class="sector">
       <div class="imgbox">
-        <img src=" " alt="profile" />
+        <img src="./assets/images/A.M.P.C.Amarasinghe.png " alt="profile" />
       </div>
       <div class="intro-text">
         <h1>Mr. AMPC Amarasinghe </h1>
@@ -293,7 +293,7 @@
     </div>
     <div class="sector">
       <div class="imgbox">
-        <img src=" " alt="profile" />
+        <img src="./assets/images/ERJMDDP Wijesekara.png " alt="profile" />
       </div>
       <div class="intro-text">
         <h1>Mr. ERJMDDP Wijesekara </h1>
