@@ -236,7 +236,7 @@
         <img src="./assets/images/FOT67.jpg" alt="Faculty">
     </a>
     <a href="./assets/images/DJI_0283-2.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Shanaka Dilshan -">
-        <img src="./assets/images/DJI_0283-27.jpg" alt="Faculty">
+        <img src="./assets/images/DJI_0283-2.jpg" alt="Faculty">
     </a>
 </div>
 

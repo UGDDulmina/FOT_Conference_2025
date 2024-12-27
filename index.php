@@ -44,8 +44,8 @@
 
    <div id="text-wrapper">
           
-        <div id="particles-container1" class="particles-container"></div><div class='shape1' ></div><div class='shape3' ></div><div class='shape4' ></div>
-        <div id="particles-container2" class="particles-container"></div><div class='shape2'></div><div class='shape6'></div><div class='shape7'></div>
+   <div  class="particles-container"><div id="particles-container1"><div class="shape1"></div></div></div>
+   <div id="particles-container2" class="particles-container"><div class='shape2'></div></div>
          <div class="timer">
          <div id="timer">
             <div class="counter">
@@ -95,7 +95,7 @@
 
         if (difference <= 0) {
             clearInterval(timer);
-            localStorage.removeItem("targetDate"); // Clear storage when the timer ends
+            localStorage.removeItem("targetDate"); 
         } else {
             var seconds = Math.floor(difference / 1000);
             var minutes = Math.floor(seconds / 60);
@@ -121,7 +121,7 @@
         <p id='para'><img src="./assets/icons/map (1).png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
       </div>
         <img id='logo' src="./assets/images/Logo_with_name.png" alt="Conference Logo">
-        <button class="button">Registration</button>
+        
         
         <script src='./vendor/js/particles.js'></script>
         <script src='./vendor/js/app.js'></script>
@@ -157,189 +157,140 @@
     <div class="tracks">
 
         <h1 id="dropdown-title">6 Tracks</h1>
-<!--        <div id="dropdown-menu" class="dropdown hidden">-->
-            <section class="tracks-section">
-                <div class="main-swiper-wrapper">
-                    <div class="swiper slide-content-2">
-                        <div class="swiper-wrapper">
-                            <div class="card swiper-slide">
-                                <div class="image-wrapper">
-                                    <img src="assets/images/Advances%20in%20Emerging%20Sciences.png" alt="" class="card-img">
-                                </div>
-                                <div class="card-content">
-                                    <div class="name">Advances in Emerging <br>Sciences</div>
-                                    <a href="./advancesInEmergingSciences.php" class="view-profile-btn">View More Details</a>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-wrapper">
-                                    <img src="assets/images/Bioenergy and Bio fuel Generation Technology.jpg" alt="" class="card-img">
-                                </div>
-                                <div class="card-content">
-                                    <div class="name">Bioenergy and Bio Fuel Generation Technology</div>
-                                    <a href="./bioenergyAndBioFuelGenerationTechnology.php" class="view-profile-btn">View More Details</a>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-wrapper">
-                                    <img src="assets/images/Applied%20Biotechnology%20and%20Microbiology.jpg" alt="" class="card-img">
-                                </div>
-                                <div class="card-content">
-                                    <div class="name">Applied Biotechnology and <br>Microbiology</div>
-                                    <a href="./appliedBiotechnologyAndMicrobiology.php" class="view-profile-btn">View More Details</a>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-wrapper">
-                                    <img src="assets/images/Mechanical%20Engineering%20Technology.jpg" alt="" class="card-img">
-                                </div>
-                                <div class="card-content">
-                                    <div class="name">Mechanical Engineering <br> Technology</div>
-                                    <a href="./mechanicalEngineeringTechnology.php" class="view-profile-btn">View More Details</a>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-wrapper">
-                                    <img src="assets/images/Electrical%20and%20Electronic%20Engineering%20Technology.png" alt="" class="card-img">
-                                </div>
-                                <div class="card-content">
-                                    <div class="name">Electrical and Electronic Engineering Technology</div>
-                                    <a href="./electricalAndElectronicEngineeringTechnology.php" class="view-profile-btn">View More Details</a>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-wrapper">
-                                    <img src="assets/images/Drug%20Discovery%20and%20Development.jpg" alt="" class="card-img">
-                                </div>
-                                <div class="card-content">
-                                    <div class="name">Drug Discovery and <br> Development</div>
-                                    <a href="./drugDiscoveryAndDevelopment.php" class="view-profile-btn">View More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-                <script src="vendor/js/script.js"></script>
-            </section>
+ 
+       
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="./assets/images/Advances in Emerging Sciences.png" alt="">
+        <p>Advances in Emerging Sciences</p>
+        <a href="./advancesInEmergingSciences.php" class="btn">Read more</a>
+    </div>
+
+    <div class="box">
+        <img src="./assets/images/Bioenergy and Bio fuel Generation Technology.jpg" alt="">
+        <p>Bioenergy and Bio Fuel Generation Technology</p>
+        <a href="./bioenergyAndBioFuelGenerationTechnology.php" class="btn">Read more</a>
+    </div>
+
+    <div class="box">
+        <img src="./assets/images/Applied Biotechnology and Microbiology.jpg" alt="">
+        <p>Applied Biotechnology and Microbiology</p>
+        <a href="./appliedBiotechnologyAndMicrobiology.php" class="btn">Read more</a>
+    </div>
+
+    <div class="box">
+        <img src="./assets/images/Mechanical Engineering Technology.jpg" alt="">
+        <p>Mechanical Engineering Technology</p>
+        <a href="./mechanicalEngineeringTechnology.php" class="btn">Read more</a>
+    </div>
+
+    <div class="box">
+        <img src="./assets/images/Electrical and Electronic Engineering Technology.png" alt="">
+        <p>Electrical and Electronic Engineering Technology</p>
+        <a href="./electricalAndElectronicEngineeringTechnology.php" class="btn">Read more</a>
+    </div>
+
+    <div class="box">
+        <img src="./assets/images/Drug Discovery and Development.jpg" alt="">
+        <p>Drug Discovery and Development</p>
+        <a href="./drugDiscoveryAndDevelopment.php" class="btn">Read more</a>
+    </div>
+
+</div>
+
+
 
     </div>
 
+   <div id="dropdown-menu" class="dropdown hidden">
+    <ul>
+          <li><a href="./advancesInEmergingSciences.php">Advances in Emerging Sciences</a></li>
+           <li><a href="./bioenergyAndBioFuelGenerationTechnology.php">Bioenergy and Bio Fuel Generation Technology</a></li>
+           <li><a href="./appliedBiotechnologyAndMicrobiology.php">Applied Biotechnology and Microbiology</a></li>
+           <li><a href="./mechanicalEngineeringTechnology.php">Mechanical Engineering Technology</a></li>
+           <li><a href="./electricalAndElectronicEngineeringTechnology.php">Electrical and Electronic Engineering Technology</a></li>
+           <li><a href="./drugDiscoveryAndDevelopment.php">Drug Discovery and Development</a></li>
+       </ul>
+    </div>
 
+    <script>
+     const title = document.getElementById('dropdown-title');
+     const menu = document.getElementById('dropdown-menu');
 
-<!--  <div class="tracks">-->
-<!-- -->
-<!--  <h1 id="dropdown-title">6 Tracks</h1>-->
-<!--    <div id="dropdown-menu" class="dropdown hidden">-->
-<!--        <ul>-->
-<!--            <li><a href="./advancesInEmergingSciences.php">Advances in Emerging Sciences</a></li>-->
-<!--            <li><a href="./bioenergyAndBioFuelGenerationTechnology.php">Bioenergy and Bio Fuel Generation Technology</a></li>-->
-<!--            <li><a href="./appliedBiotechnologyAndMicrobiology.php">Applied Biotechnology and Microbiology</a></li>-->
-<!--            <li><a href="./mechanicalEngineeringTechnology.php">Mechanical Engineering Technology</a></li>-->
-<!--            <li><a href="./electricalAndElectronicEngineeringTechnology.php">Electrical and Electronic Engineering Technology</a></li>-->
-<!--            <li><a href="./drugDiscoveryAndDevelopment.php">Drug Discovery and Development</a></li>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!---->
-<!--    <script>-->
-<!--      const title = document.getElementById('dropdown-title');-->
-<!--      const menu = document.getElementById('dropdown-menu');-->
-<!---->
-<!--     title.addEventListener('click', () => {-->
-<!--     // Toggle dropdown visibility-->
-<!--     menu.classList.toggle('hidden');-->
-<!--     menu.classList.toggle('visible');-->
-<!--     });-->
-<!---->
-<!--    // Optional: Close dropdown when clicking outside-->
-<!--     document.addEventListener('click', (event) => {-->
-<!--     if (!title.contains(event.target) && !menu.contains(event.target)) {-->
-<!--        menu.classList.add('hidden');-->
-<!--        menu.classList.remove('visible');-->
-<!--     }-->
-<!--     });-->
-<!---->
-<!--    </script>-->
-<!--     -->
-<!---->
-<!--    -->
-<!--    <!-- Infinite Scroll -->-->
-<!---->
-<!--   <div class="Infinite-wrapper">-->
-<!--    <div class="item item1"><a href="./advancesInEmergingSciences.php" ><div class="inner inner1"><p>Advances in Emerging <br> Sciences</p></div></a></div>-->
-<!--    <div class="item item2"><a href="./bioenergyAndBioFuelGenerationTechnology.php"><div class="inner inner2"><p>Bioenergy and Bio fuel<br> Generation Technology</p></div></a></div>-->
-<!--    <div class="item item3"><a href="./appliedBiotechnologyAndMicrobiology.php"><div class="inner inner3"><p>Applied Biotechnology and <br> Microbiology</p></div></a></div>-->
-<!--    <div class="item item4"><a href="./mechanicalEngineeringTechnology.php"><div class="inner inner4"><p>Mechanical Engineering <br> Technology</p></div></a></div>-->
-<!--    <div class="item item5"><a href="./electricalAndElectronicEngineeringTechnology.php"><div class="inner inner5"><p>Electrical and Electronic <br> Engineering Technology</p></div></a></div>-->
-<!--    <div class="item item6"><a href="./drugDiscoveryAndDevelopment.php"><div class="inner inner6"><p>Drug Discovery and <br> Development</p></div></a></div>-->
-<!--   </div>-->
-<!--</div> -->
+   title.addEventListener('click', () => {
+    // Toggle dropdown visibility
+     menu.classList.toggle('hidden');
+   menu.classList.toggle('visible');
+   })
+
+  // Optional: Close dropdown when clicking outside
+    document.addEventListener('click', (event) => {
+  if (!title.contains(event.target) && !menu.contains(event.target)) {
+        menu.classList.add('hidden');
+            menu.classList.remove('visible');
+    }
+  });
+
+   </script>
  
   <div class="key">
-    <h1>Keynote Speaker</h1> 
-    <!-- <div class='box'>
-      <ul class='list'>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div> -->
-    <div class="profile">
-        <div class="user-card">
-            <div class="user-card-img">
-              <img src="./assets/images/man.jpeg" alt="">
-            </div>
-            <div class="user-card-info">
-              <h2>Jason Walker</h2>
-              <p><span>Email:</span> example@example.com</p>
-              <p><span>Location:</span> London, United Kingdom</p>
-              <p><span>Occupation:</span> Web Developer</p>
-              <p><span>About me:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </div>
-    </div>
-  <h2 id="speaker1">Regular Speaker</h2>               
-    <div class="profile1">
-        <div class="user-card1">
-            <div class="user-card-img1">
-              <img src="./assets/images/man.jpeg" alt="">
-            </div>
-            <div class="user-card-info1">
-              <h2>Jason Walker</h2>
-              <p><span>Email:</span> example@example.com</p>
-              <p><span>Location:</span> London, United Kingdom</p>
-              <p><span>Occupation:</span> Web Developer</p>
-              <p><span>About me:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </div>
-    </div>
-  <h2 id="speaker2">Plenary Speaker </h2>
-    <div class="profile2">
-        <div class="user-card2">
-            <div class="user-card-img2">
-              <img src="./assets/images/man.jpeg" alt="">
-            </div>
-            <div class="user-card-info2">
-              <h2>Jason Walker</h2>
-              <p><span>Email:</span> example@example.com</p>
-              <p><span>Location:</span> London, United Kingdom</p>
-              <p><span>Occupation:</span> Web Developer</p>
-              <p><span>About me:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </div>
-    </div>
+    <h1>Keynote Speaker</h1>
+    <a href="" id="key">
+    <div class="speakers" >
+	<div class="card-borders">
+		<div class="border-top"></div>
+		<div class="border-right"></div>
+		<div class="border-bottom"></div>
+		<div class="border-left"></div>
+	</div>
+	<div class="card-content">
+		<img src="img/avatar.jpg" class="avatar" />
+		<!-- <p class="username">Keyframe Effects</p> -->
+		<p class="designation">Web & Graphic Designer</p>
+		<p class="bio">Keyframe Effects is a YouTube channel in which I share Creative Website Design, HTML, CSS, JavaScript, jQuery, Bootstrap & much more.</p>
+		
+		<div class="social-icons">
+      <div class="social-icon" disabled="disabled"> </div>
+      <div class="social-icon" disabled="disabled">  </div>
+      <div class="social-icon" disabled="disabled"> </div>
+		</div>
+	</div>
+</div> 
+</a>
+   
     </div>
 
-  <div class="team">
-    <h1 id='title'>Key Members</h1>
+    <div class="key">
+    <h1>Plenary Speaker</h1>
+    <a href="" id="key">
+    <div class="speakers" >
+	<div class="card-borders">
+		<div class="border-top"></div>
+		<div class="border-right"></div>
+		<div class="border-bottom"></div>
+		<div class="border-left"></div>
+	</div>
+	<div class="card-content">
+		<img src="img/avatar.jpg" class="avatar" />
+		<p class="designation">Web & Graphic Designer</p>
+		<p class="bio">Keyframe Effects is a YouTube channel in which I share Creative Website Design, HTML, CSS, JavaScript, jQuery, Bootstrap & much more.</p>
+		
+		<div class="social-icons">
+      <div class="social-icon" disabled="disabled"> </div>
+      <div class="social-icon" disabled="disabled">  </div>
+      <div class="social-icon" disabled="disabled"> </div>
+		</div>
+	</div>
+</div> 
+
+</a>
+</div>
+<!-- <div class="sam"></div>
+  <div class="team1"  >
+    <h1 id='title'> Members</h1> 
+    <a href="https://www.sab.ac.lk/staff-directory/466" id="link">
     <div class="sectors">
     <div class="sector">
       <div class="imgbox">
@@ -350,14 +301,13 @@
       </div>
       <span>Conference Chair</span>
       <div class="social-links">
-        <a href="https://www.sab.ac.lk/staff-directory/466">
-          <button>
-          <img src="./assets/images/link.png" alt="">
-        </button>
-      </a>
+       
+      
       </div>
     </div>
-    <div class="sector">
+  </a> 
+  <a href="https://www.sab.ac.lk/staff-directory/474" id="link"> -->
+    <!-- <div class="sector">
       <div class="imgbox">
         <img src="./assets/images/A.M.P.C.Amarasinghe.png " alt="profile" />
       </div>
@@ -366,13 +316,12 @@
       </div>
       <span>Conference Co-chair</span>
       <div class="social-links">
-        <a href="https://www.sab.ac.lk/staff-directory/474">
-          <button>
-          <img src="./assets/images/link.png" alt="">
-        </button>
-      </a>
+       
+      
       </div>
     </div>
+  </a>
+  <a href="https://www.sab.ac.lk/staff-directory/339" id="link">
     <div class="sector">
       <div class="imgbox">
         <img src="./assets/images/ERJMDDP Wijesekara.png " alt="profile" />
@@ -383,13 +332,13 @@
       </div>
       <span>Conference Secretory</span>
       <div class="social-links">
-        <a href="https://www.sab.ac.lk/staff-directory/339">
-          <button>
-          <img src="./assets/images/link.png" alt="">
-        </button>
-      </a>
+        
+         
+      
       </div>
     </div>
+  </a>
+  
     <div class="sector">
       <div class="imgbox">
         <img src="./assets/images/Abeysinghe Shakya photo.jpg" alt="profile" />
@@ -399,13 +348,13 @@
       </div>
       <span>Conference Co-secretory</span>
       <div class="social-links">
-        <a href=" ">
-          <button>
-          <img src="./assets/images/link.png" alt="">
-        </button>
-      </a>
+        
+        
+      
       </div>
     </div>
+   
+    
     <div class="sector">
       <div class="imgbox">
         <img src="./assets/images/Dr.(Ms).H.G.N Rajapaksha.png" alt="profile" />
@@ -415,15 +364,111 @@
       </div>
       <span>Conference Treasurer</span>
       <div class="social-links">
-        <a href=" ">
-          <button>
-          <img src="./assets/images/link.png" alt="">
-        </button>
-      </a>
+       
+      
       </div>
     </div>
    
     </div>
+  -->
+ 
+ <div class="sam"></div>
+  <div class="team">
+    <h1 id='title'>Key Members</h1> 
+    <a href="https://www.sab.ac.lk/staff-directory/466" id="link">
+    <div class="sectors">
+    <div class="sector">
+      <div class="imgbox">
+        <img src="./assets/images/1694871986410.jpeg" alt="profile" />
+      </div>
+      <div class="intro-text">
+        <h1> Dr. MDKM Gunasena </h1>
+      </div>
+      <span>Conference Chair</span>
+      <div class="social-links">
+       
+          <!-- <button>
+          <img src="./assets/images/link.png" alt="">
+        </button> -->
+      
+      </div>
+    </div>
+  </a> 
+  <a href="https://www.sab.ac.lk/staff-directory/474" id="link">
+    <div class="sector">
+      <div class="imgbox">
+        <img src="./assets/images/A.M.P.C.Amarasinghe.png " alt="profile" />
+      </div>
+      <div class="intro-text">
+        <h1>Mr. AMPC Amarasinghe </h1>
+      </div>
+      <span>Conference Co-chair</span>
+      <div class="social-links">
+       
+          <!-- <button>
+          <img src="./assets/images/link.png" alt="">
+        </button> -->
+      
+      </div>
+    </div>
+  </a>
+  <a href="https://www.sab.ac.lk/staff-directory/339" id="link">
+    <div class="sector">
+      <div class="imgbox">
+        <img src="./assets/images/ERJMDDP Wijesekara.png " alt="profile" />
+      </div>
+      <div class="intro-text">
+        <h1>Mr. ERJMDDP Wijesekara </h1>
+        
+      </div>
+      <span>Conference Secretory</span>
+      <div class="social-links">
+        
+          <!-- <button>
+          <img src="./assets/images/link.png" alt="">
+        </button> -->
+      
+      </div>
+    </div>
+  </a>
+  
+    <div class="sector">
+      <div class="imgbox">
+        <img src="./assets/images/Abeysinghe Shakya photo.jpg" alt="profile" />
+      </div>
+      <div class="intro-text">
+        <h1>Dr. SS Abeysinghe </h1>
+      </div>
+      <span>Conference Co-secretory</span>
+      <div class="social-links">
+        
+          <!-- <button>
+          <img src="./assets/images/link.png" alt="">
+        </button> -->
+      
+      </div>
+    </div>
+   
+    
+    <div class="sector">
+      <div class="imgbox">
+        <img src="./assets/images/Dr.(Ms).H.G.N Rajapaksha.png" alt="profile" />
+      </div>
+      <div class="intro-text">
+        <h1>Dr. HGN Rajapaksha </h1>
+      </div>
+      <span>Conference Treasurer</span>
+      <div class="social-links">
+       
+          <!-- <button>
+          <img src="./assets/images/link.png" alt="">
+        </button> -->
+      
+      </div>
+    </div>
+   
+    </div>
+  
  <div class="blob"></div>
     
   </div>
