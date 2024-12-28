@@ -2,9 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(241, 237, 237);
     overflow-x: hidden;
-
 }
 
 
@@ -25,7 +23,7 @@ body{
     background: linear-gradient(135deg, #06dbca, #047674);
     color: #ffffff;
     position: relative;
-    transform: translate(-10px, -670px);
+    transform: translate(-100px, -670px);
 }
 
 #timer {
@@ -90,9 +88,6 @@ body{
     position: relative;
     top: 28px;
 }
-
-
-
 #text-wrapper{
     position: relative;   
     color: #fff;  
@@ -104,8 +99,6 @@ body{
     height: 100%; 
      
 }
- 
-
 .banner p{
     color: #1c4968;
     position: relative;
@@ -114,7 +107,6 @@ body{
     font-family: "Roboto Condensed", sans-serif;
  
 }
-
 .banner p img{
     width: 26px;
 }
@@ -161,8 +153,6 @@ body{
     top: -190px;
     opacity: 85%; 
 }
- 
-
 .shape1{
     width: 450px;
     height: 450px;
@@ -189,7 +179,6 @@ body{
   position: relative;
   top: -1100px;
 }
-
 #logo{
     width: 260px;
     height: auto;
@@ -200,8 +189,26 @@ body{
 .sub1{
     font-size: 3rem;
 }
+#more{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #fbfbfb;
+    color: #0f7b65;
+    top: 588px;
+    left: 920px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 2px;
+}
+
+
+
+
  
 /*----  Tracks Section ------*/
+
+
 .dropdown-title-tracks{
     margin: 0!important;
     padding: 0!important;
@@ -221,7 +228,6 @@ body{
     text-align: center;
     width: 100%;
     margin: 35px auto;
-    /* font-family: "Roboto Condensed", sans-serif; */
     font-weight: 700;
     cursor: pointer;
     position: relative;
@@ -237,51 +243,70 @@ body{
     margin: 5px auto 0;
 }
 
-.dropdown {
+/* Dropdown Container */
+.dropdown-container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Dropdown Icon */
+.dropdown-icon {
+    font-size: 35px; /* Adjust the size as needed */
+    color: #020304; /* Color of the icon */
+    display: inline-block;
+    padding: 5px;
+    transition: transform 0.3s ease; /* Smooth rotation on click */
+    position: relative;
+    top: -1560px;
+    left: 870px;
+}
+
+/* Rotate Icon on Hover or Focus */
+.dropdown-container:hover .dropdown-icon {
+    transform: rotate(180deg); /* Rotate the icon when the menu is open */
+}
+
+
+
+/* Dropdown Menu */
+.dropdown-menu {
     position: absolute;
-    bottom:1720px; 
-    left: 50%;
-    color: #fffefe;
-    font-weight: 600;
-    font-size: 20px;
-    transform: translateX(-50%);
-    background-color: #2490ad;
+    top: 100%; /* Position directly below the icon */
+    left: 0;
+    z-index: 1000;
+    background: white;
     border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    z-index: 10;
-    display: none;
-    width: 300px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    padding: 10px;
+    display: none; /* Initially hidden */
+    width: 250px; /* Adjust as needed */
+    position: relative;
+    top: -1560px;
+    left: 870px;
 }
 
-.dropdown ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+/* Show Dropdown Menu */
+.dropdown-container:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
 }
 
-.dropdown ul li {
-    padding: 10px 15px;
-    text-align: left;
-}
-
-.dropdown ul li a {
-    text-decoration: none;
+/* Dropdown Menu Items */
+.dropdown-menu a {
+    display: block;
+    padding: 8px 10px;
     color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
 }
 
-.dropdown ul li:hover {
+.dropdown-menu a:hover {
     background-color: #f0f0f0;
 }
 
-.hidden {
-    display: none;
-}
 
-.visible {
-    display: block;
-}
 
 .book{
     background-color: white;
@@ -297,7 +322,6 @@ body{
 .book h5{
      
     text-align: center;
-     
     margin: 0;  
     margin-bottom: 50px;
 }
@@ -356,19 +380,19 @@ body{
 
  .box-container .box:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 
 /*---- Keynote-Speaker Section ------*/
 
 .key{
-     background-color: #d4d8f0;
+     background-color: #cfc9f4;
     width: 30%;
     height: 70vh;
     position: relative;
-    top:-750px;
-    left: 530px;
+    top:-790px;
+    left: 540px;
     border-radius: 20px;
     margin-bottom: 180px;
  }
@@ -472,18 +496,26 @@ body{
 	animation: bump-in 0.5s 0.8s forwards;
 }
 .speakers .card-content .avatar {
-	width: 200px;
-	height: 200px;
+    width: 230px; /* Adjust size as needed */
+    height: 230px; /* Adjust size as needed */
+    border-radius: 50%; /* Keeps the image circular */
+    object-fit: cover; /* Ensures the image fits within its bounds */
+    margin: 0 auto; /* Centers the image horizontally if needed */
+    display: block; /* Ensures proper centering within the container */
 	margin-bottom: 10px;
 	opacity: 0;
-	transform: scale(0.6);
+	transform: scale(0.6) translate(10px, -5px);
 	border: 3px solid #25235c;
 	border-right-color: #f7e01d;
 	border-bottom-color: #f7e01d;
 	border-top-color: #f7e01d;
-	border-radius: 50%;
 	padding: 10px;
 	animation: bump-in 0.5s 1s forwards;
+}
+
+#ava{
+    position: relative;
+    transform: translate(100px, -5px);
 }
 .speakers .card-content .username {
 	position: relative;
@@ -510,8 +542,9 @@ body{
 }
 .speakers .card-content .designation {
 	position: relative;
-	line-height: 40px;
+	line-height: 20px;
 	font-size: 17px;
+    font-family: "Roboto Condensed", sans-serif;
 	margin: 0;
 	color: transparent;
 	background: #6b62b9;
@@ -520,6 +553,7 @@ body{
 	margin: 6px 0 6px 0;
 	animation: fill-text-white 1.2s 2s forwards;
 }
+
 .speakers .card-content .designation::before {
 	position: absolute;
 	content: "";
@@ -538,6 +572,7 @@ body{
 	position: relative;
 	line-height: 25px;
 	font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
 	margin: 0;
 	color: transparent;
 	animation: fill-text-white 1.2s 2s forwards;
@@ -625,6 +660,287 @@ body{
 	font-size: 20px;
 	font-weight: 600;
 }
+
+
+.speakers1 {
+    position: relative;
+    width: 240px;
+    height: 500px;
+    top: 0;
+    left: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+}
+.card-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;  
+    gap: 1px;  
+    flex-wrap: wrap;  
+    position: relative;
+    left: -30px;
+    top: -140px;
+    padding: 35px;
+}
+.card-borders, .card-content {
+    display: flex;
+    flex-direction: column; /* Stacks content inside cards */
+}
+
+
+
+.sample{
+    background-color: #cfc9f4;
+    position: absolute;
+    bottom:-2850px ;
+    left: 40px;
+    height: 72vh;
+    width: 95%;
+    border-radius: 20px;
+}
+.sample h1{
+    top:-150px;
+    left: 450px;
+    position: relative;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.sample h1::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 5px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 5px;
+    margin: 5px auto 0;
+}
+
+.speakers1:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    height: 400px;  
+    border-radius: 20px;
+}
+
+.speakers1 .card-borders {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 30px;
+}
+.speakers1 .card-borders .border-top {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 2px;
+	background: hsl(240, 31%, 25%);
+	transform: translateX(-100%);
+	animation: slide-in-horizontal 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+.speakers1 .card-borders .border-right {
+	position: absolute;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: hsl(240, 31%, 25%);
+	transform: translateY(100%);
+	animation: slide-in-vertical 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+.speakers1 .card-borders .border-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: hsl(240, 31%, 25%);
+	transform: translateX(100%);
+	animation: slide-in-horizontal-reverse 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+.speakers1 .card-borders .border-left {
+	position: absolute;
+	top: 0;
+	width: 2px;
+	height: 100%;
+	background: hsl(240, 31%, 25%);
+	transform: translateY(-100%);
+	animation: slide-in-vertical-reverse 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+.speakers1 .card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 40px 15px 40px 15px;
+	background: linear-gradient(45deg, hsl(221, 77%, 25%), hsl(240, 37%, 56%));
+	box-shadow: 0 0px 0.6px rgba(0, 0, 0, 0.028), 0 0px 1.3px rgba(0, 0, 0, 0.04), 0 0px 2.5px rgba(0, 0, 0, 0.05), 0 0px 4.5px rgba(0, 0, 0, 0.06), 0 0px 8.4px rgba(0, 0, 0, 0.072), 0 0px 20px rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	border-radius: 30px;
+	transform: scale(0.6);
+	border-bottom: 10px solid #f7e01d;
+	animation: bump-in 0.5s 0.8s forwards;
+    min-height: 510px;
+}
+.speakers1 .card-content .avatar {
+	width: 160px;
+	height: 160px;
+	margin-bottom: 10px;
+	opacity: 0;
+	transform: scale(0.6);
+	border: 3px solid #25235c;
+	border-right-color: #f7e01d;
+	border-bottom-color: #f7e01d;
+	border-top-color: #f7e01d;
+	border-radius: 50%;
+	padding: 10px;
+	animation: bump-in 0.5s 1s forwards;
+}
+.speakers1 .card-content .username {
+	position: relative;
+	font-size: 25px;
+	margin: 0;
+	color: transparent;
+	line-height: 40px;
+	animation: fill-text-white 1.2s 2s forwards;
+}
+
+.speakers1 .card-content .username::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: black;
+	background: #f7e01d;
+	transform: scaleX(0);
+	transform-origin: left;
+	border-radius: 20px;
+	animation: slide-in-out 1.2s 1.2s cubic-bezier(0.75, 0, 0, 1) forwards;
+}
+.speakers1 .card-content .designation {
+	position: relative;
+	line-height: 40px;
+	font-size: 17px;
+    font-family: "Roboto Condensed", sans-serif;
+	margin: 0;
+	color: transparent;
+	background: #6b62b9;
+	padding: 0 10px 0 10px;
+	border-radius: 30px;
+	margin: 6px 0 6px 0;
+	animation: fill-text-white 1.2s 2s forwards;
+}
+.speakers1 .card-content .designation::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: black;
+	background: #f7e01d;
+	border-radius: 20px;
+	transform: scaleX(0);
+	transform-origin: left;
+	animation: slide-in-out 1.2s 1.2s cubic-bezier(0.75, 0, 0, 1) backwards;
+}
+.speakers1 .card-content .bio {
+	position: relative;
+	line-height: 25px;
+	font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+	margin: 0;
+	color: transparent;
+	animation: fill-text-white 1.2s 2s forwards;
+	margin: 15px 0 7px 0;
+}
+.speakers1 .card-content .bio::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: black;
+	background: #f7e01d;
+	border-radius: 20px;
+	transform: scaleX(0);
+	transform-origin: left;
+	animation: slide-in-out 1.2s 1.2s cubic-bezier(0.75, 0, 0, 1) forwards;
+}
+.speakers1 .card-content .social-icons {
+	display: flex;
+	margin-top: 15px;
+}
+.speakers1 .card-content .social-icons .social-icon {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0 15px;
+	border-radius: 50%;
+	text-decoration: none;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(1)::before {
+	animation-delay: 2.1s;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(1)::after {
+	animation-delay: 2.2s;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(1) i {
+	animation-delay: 2.3s;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(2)::before {
+	animation-delay: 2.2s;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(2)::after {
+	animation-delay: 2.3s;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(2) i {
+	animation-delay: 2.4s;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(3)::before {
+	animation-delay: 2.3s;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(3)::after {
+	animation-delay: 2.4s;
+}
+.speakers1 .card-content .social-icons .social-icon:nth-child(3) i {
+	animation-delay: 2.5s;
+}
+.speakers1 .card-content .social-icons .social-icon::before, .card .card-content .social-icons .social-icon::after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: inherit;
+	transform: scale(0);
+}
+.speakers1 .card-content .social-icons .social-icon::before {
+	background: #f7f1e3;
+	animation: scale-in 0.5s cubic-bezier(0.75, 0, 0, 1) forwards;
+}
+.speakers1 .card-content .social-icons .social-icon::after {
+	background: #fff;
+	animation: scale-in 0.5s cubic-bezier(0.75, 0, 0, 1) forwards;
+}
+.speakers1 .card-content .social-icons .social-icon i {
+	z-index: 1;
+	transform: scale(0);
+	animation: scale-in 0.5s cubic-bezier(0.75, 0, 0, 1) forwards;
+	color: #6b62b7;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
 
 @keyframes bump-in {
   50% {
@@ -718,7 +1034,7 @@ body{
 
 }
 .sam{
-    background-color: #1c3e88;
+    background-color: #0f378ce7;
     width: 1400px;
     top: 60px;
     height: 400px;
@@ -726,6 +1042,7 @@ body{
     z-index: -20;
     left: 65px;
     border-radius: 20px;
+    border: 1px yellow;
 }
 #title:after{
     content: "";
@@ -881,19 +1198,7 @@ body{
     background-image: linear-gradient(#6a5721, #fa7e1e, #d62976, #962fbf, #4f5bd5);
   }
 
-  /* .blob {
-    z-index: 150;
-    position: absolute;
-    left: 500px;
-    top: 900px;
-    width: 40rem;
-    height: 40rem;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.932)), to(#161918d0));
-    background-image: linear-gradient(180deg, rgba(6, 7, 7, 0.826), #011023af);
-    mix-blend-mode: overlay;
-    -webkit-animation: move 15s linear infinite alternate;
-            animation: move 15s linear infinite alternate;
-  } */
+   
 
   @-webkit-keyframes move {
     0% {
@@ -1440,8 +1745,6 @@ footer .social-icons i:hover{
     font-family: "Roboto Condensed", sans-serif;
 
 }
-
- 
 
 
 
