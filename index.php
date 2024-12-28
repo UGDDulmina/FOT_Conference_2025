@@ -42,12 +42,12 @@
 
  <!-- Landing Page -->
 
-   <div id="text-wrapper">
+  <div id="text-wrapper">
           
-   <div  class="particles-container"><div id="particles-container1"><div class="shape1"></div></div></div>
-   <div id="particles-container2" class="particles-container"><div class='shape2'></div></div>
+    <div  class="particles-container"><div id="particles-container1"><div class="shape1"></div></div></div>
+    <div id="particles-container2" class="particles-container"><div class='shape2'></div></div>
          <div class="timer">
-         <div id="timer">
+          <div id="timer">
             <div class="counter">
                     <div class="box1">
                         <span id="days"></span>
@@ -114,6 +114,8 @@
     }
 </script>
 
+       <h1 id="more">..More</h1>
+
        <div class="landing-text">
         <p id='para1'>International Conference on Emerging Technologies (ICET) 2025</p> 
         <p id='para2' >"Technology for sustainable future"</p>
@@ -147,6 +149,7 @@
 
   </div>
 </div>
+    </div>
 
 <!-- <div class="custom-shape-divider-bottom-1734881515">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -204,16 +207,18 @@
 
     </div>
 
-   <div id="dropdown-menu" class="dropdown hidden">
-    <ul>
-          <li><a href="./advancesInEmergingSciences.php">Advances in Emerging Sciences</a></li>
-           <li><a href="./bioenergyAndBioFuelGenerationTechnology.php">Bioenergy and Bio Fuel Generation Technology</a></li>
-           <li><a href="./appliedBiotechnologyAndMicrobiology.php">Applied Biotechnology and Microbiology</a></li>
-           <li><a href="./mechanicalEngineeringTechnology.php">Mechanical Engineering Technology</a></li>
-           <li><a href="./electricalAndElectronicEngineeringTechnology.php">Electrical and Electronic Engineering Technology</a></li>
-           <li><a href="./drugDiscoveryAndDevelopment.php">Drug Discovery and Development</a></li>
-       </ul>
+    
+    <div class="dropdown-container" style="position: relative;">
+    <span class="dropdown-icon">&#x25BC;</span>
+    <div class="dropdown-menu">
+    <a href="./advancesInEmergingSciences.php">Advances in Emerging Sciences</a>
+    <a href="./bioenergyAndBioFuelGenerationTechnology.php">Bioenergy and Bio Fuel Generation Technology</a>
+    <a href="./appliedBiotechnologyAndMicrobiology.php">Applied Biotechnology and Microbiology</a>
+    <a href="./mechanicalEngineeringTechnology.php">Mechanical Engineering Technology</a>
+    <a href="./electricalAndElectronicEngineeringTechnology.php">Electrical and Electronic Engineering Technology</a>
+    <a href="./drugDiscoveryAndDevelopment.php">Drug Discovery and Development</a>
     </div>
+</div>
 
     <script>
      const title = document.getElementById('dropdown-title');
@@ -237,7 +242,7 @@
  
   <div class="key">
     <h1>Keynote Speaker</h1>
-    <a href="" id="key">
+    <a href="https://www.ims.ac.jp/en/research/prof/kera.html" id="key">
     <div class="speakers" >
 	<div class="card-borders">
 		<div class="border-top"></div>
@@ -246,25 +251,18 @@
 		<div class="border-left"></div>
 	</div>
 	<div class="card-content">
-		<img src="img/avatar.jpg" class="avatar" />
-		<!-- <p class="username">Keyframe Effects</p> -->
-		<p class="designation">Web & Graphic Designer</p>
-		<p class="bio">Keyframe Effects is a YouTube channel in which I share Creative Website Design, HTML, CSS, JavaScript, jQuery, Bootstrap & much more.</p>
-		
-		<div class="social-icons">
-      <div class="social-icon" disabled="disabled"> </div>
-      <div class="social-icon" disabled="disabled">  </div>
-      <div class="social-icon" disabled="disabled"> </div>
-		</div>
+		<img src="./assets/images/Satoshi KERA..jpg" class="avatar" />
+		<p class="designation">Professor Satoshi Kera</p>
+		<p class="bio">Department of Photo-Molecular Science, Photo-Molecular Science III, Institute for Molecular Science,<br> Myodaiji, Okazaki, Japan </p>
 	</div>
 </div> 
 </a>
    
     </div>
 
-    <div class="key">
+    <div class="key" >
     <h1>Plenary Speaker</h1>
-    <a href="" id="key">
+    <a href="https://www.tus.ac.jp/ridai/doc/ji/RIJIA01Detail.php?act=pos&kin=ken&diu=6b37&pri=en" id="key">
     <div class="speakers" >
 	<div class="card-borders">
 		<div class="border-top"></div>
@@ -273,105 +271,115 @@
 		<div class="border-left"></div>
 	</div>
 	<div class="card-content">
-		<img src="img/avatar.jpg" class="avatar" />
-		<p class="designation">Web & Graphic Designer</p>
-		<p class="bio">Keyframe Effects is a YouTube channel in which I share Creative Website Design, HTML, CSS, JavaScript, jQuery, Bootstrap & much more.</p>
-		
-		<div class="social-icons">
-      <div class="social-icon" disabled="disabled"> </div>
-      <div class="social-icon" disabled="disabled">  </div>
-      <div class="social-icon" disabled="disabled"> </div>
-		</div>
+		<img src="./assets/images/plenary.jpg" class="avatar" id="ava" />
+		<p class="designation">Associate Professor Nakayama Yasuo</p>
+		<p class="bio">Faculty of Science and Technology,<br> Department of Pure and Applied Chemistry,<br> Tokyo University of Science
+    </p>
 	</div>
 </div> 
 
 </a>
+
 </div>
-<!-- <div class="sam"></div>
-  <div class="team1"  >
-    <h1 id='title'> Members</h1> 
-    <a href="https://www.sab.ac.lk/staff-directory/466" id="link">
-    <div class="sectors">
-    <div class="sector">
-      <div class="imgbox">
-        <img src="./assets/images/1694871986410.jpeg" alt="profile" />
-      </div>
-      <div class="intro-text">
-        <h1> Dr. MDKM Gunasena </h1>
-      </div>
-      <span>Conference Chair</span>
-      <div class="social-links">
-       
-      
-      </div>
-    </div>
-  </a> 
-  <a href="https://www.sab.ac.lk/staff-directory/474" id="link"> -->
-    <!-- <div class="sector">
-      <div class="imgbox">
-        <img src="./assets/images/A.M.P.C.Amarasinghe.png " alt="profile" />
-      </div>
-      <div class="intro-text">
-        <h1>Mr. AMPC Amarasinghe </h1>
-      </div>
-      <span>Conference Co-chair</span>
-      <div class="social-links">
-       
-      
-      </div>
-    </div>
-  </a>
-  <a href="https://www.sab.ac.lk/staff-directory/339" id="link">
-    <div class="sector">
-      <div class="imgbox">
-        <img src="./assets/images/ERJMDDP Wijesekara.png " alt="profile" />
-      </div>
-      <div class="intro-text">
-        <h1>Mr. ERJMDDP Wijesekara </h1>
-        
-      </div>
-      <span>Conference Secretory</span>
-      <div class="social-links">
-        
-         
-      
-      </div>
-    </div>
-  </a>
-  
-    <div class="sector">
-      <div class="imgbox">
-        <img src="./assets/images/Abeysinghe Shakya photo.jpg" alt="profile" />
-      </div>
-      <div class="intro-text">
-        <h1>Dr. SS Abeysinghe </h1>
-      </div>
-      <span>Conference Co-secretory</span>
-      <div class="social-links">
-        
-        
-      
-      </div>
-    </div>
-   
-    
-    <div class="sector">
-      <div class="imgbox">
-        <img src="./assets/images/Dr.(Ms).H.G.N Rajapaksha.png" alt="profile" />
-      </div>
-      <div class="intro-text">
-        <h1>Dr. HGN Rajapaksha </h1>
-      </div>
-      <span>Conference Treasurer</span>
-      <div class="social-links">
-       
-      
-      </div>
-    </div>
-   
-    </div>
-  -->
+<div class="sample">
  
+    <h1>Spotlight on Excellence
+    </h1>
+    <div class="card-container">
+    <a href="https://www.kindai.ac.jp/science-engineering/english/education/teachers/detail/07_tanaka_senku.html" id="key">
+    <div class="speakers1"  >
+	<div class="card-borders">
+		<div class="border-top"></div>
+		<div class="border-right"></div>
+		<div class="border-bottom"></div>
+		<div class="border-left"></div>
+	</div>
+	<div class="card-content">
+		<img src="./assets/images/Senku TANAKA.jpg" class="avatar" />
+		<p class="designation" >Associate Professor Tanaka Senku </p>
+		<p class="bio">Faculty of Science and Engineering, Graduate School of Science and Engineering, KINDAI University, Japan
+    </p>
+	</div>
+</div> 
+
+</a>
+<a href="https://uom.lk/staff/Narayana.M" id="key">
+    <div class="speakers1"  >
+	<div class="card-borders">
+		<div class="border-top"></div>
+		<div class="border-right"></div>
+		<div class="border-bottom"></div>
+		<div class="border-left"></div>
+	</div>
+	<div class="card-content">
+		<img src="./assets/images/Mahinsasa Narayana.jpg" class="avatar" />
+		<p class="designation" >Prof. Mahinsasa Narayana </p>
+		<p class="bio">Professor, Department of Chemical and Process Engineering, Faculty of Engineering, University of Moratuwa
+    </p>
+		
+	</div>
+</div> 
+
+</a>
+<a href="https://theorg.com/org/codegen-international/org-chart/dr-prasanga-gayanath-mantilaka" id="key">
+    <div class="speakers1">
+	<div class="card-borders">
+		<div class="border-top"></div>
+		<div class="border-right"></div>
+		<div class="border-bottom"></div>
+		<div class="border-left"></div>
+	</div>
+	<div class="card-content">
+		<img src="./assets/images/Prasanga Mantilaka.jpg" class="avatar" />
+		<p class="designation" >Dr. Prasanga Mantilaka</p>
+		<p class="bio">Director, Scientific Research And<br> Innovation, <br>CodeGen International</p>
+		
+	</div>
+</div> 
+
+</a>
+<a href="https://www.sab.ac.lk/staff-directory/351" id="key">
+    <div class="speakers1"  >
+	<div class="card-borders">
+		<div class="border-top"></div>
+		<div class="border-right"></div>
+		<div class="border-bottom"></div>
+		<div class="border-left"></div>
+	</div>
+	<div class="card-content">
+		<img src="./assets/images/Hasintha Wijesekara.jpg" class="avatar" />
+		<p class="designation" >Dr. Hasintha Wijesekara</p>
+		<p class="bio">Senior Lecturer,Faculty of Applied Sciences, Sabaragamuwa University of Sri Lanka
+
+    </p>
+		
+	</div>
+</div> 
+
+</a>
+<a href="https://www.sab.ac.lk/staff-directory/440" id="key">
+    <div class="speakers1"  >
+	<div class="card-borders">
+		<div class="border-top"></div>
+		<div class="border-right"></div>
+		<div class="border-bottom"></div>
+		<div class="border-left"></div>
+	</div>
+	<div class="card-content">
+		<img src="./assets/images/Eranga Wimalasiri.jpg" class="avatar" />
+		<p class="designation" >Dr. Eranga Wimalasiri</p>
+		<p class="bio">Head/ Department of Export Agriculture, Faculty of Agricultural Sciences, Sabaragamuwa University of Sri Lanka
+    </p>
+		
+	</div>
+</div> 
+
+</a>
+
+ 
+</div>
+</div>
+
  <div class="sam"></div>
   <div class="team">
     <h1 id='title'>Key Members</h1> 
@@ -386,10 +394,6 @@
       </div>
       <span>Conference Chair</span>
       <div class="social-links">
-       
-          <!-- <button>
-          <img src="./assets/images/link.png" alt="">
-        </button> -->
       
       </div>
     </div>
@@ -404,11 +408,6 @@
       </div>
       <span>Conference Co-chair</span>
       <div class="social-links">
-       
-          <!-- <button>
-          <img src="./assets/images/link.png" alt="">
-        </button> -->
-      
       </div>
     </div>
   </a>
@@ -423,11 +422,6 @@
       </div>
       <span>Conference Secretory</span>
       <div class="social-links">
-        
-          <!-- <button>
-          <img src="./assets/images/link.png" alt="">
-        </button> -->
-      
       </div>
     </div>
   </a>
@@ -441,11 +435,6 @@
       </div>
       <span>Conference Co-secretory</span>
       <div class="social-links">
-        
-          <!-- <button>
-          <img src="./assets/images/link.png" alt="">
-        </button> -->
-      
       </div>
     </div>
    
@@ -459,17 +448,10 @@
       </div>
       <span>Conference Treasurer</span>
       <div class="social-links">
-       
-          <!-- <button>
-          <img src="./assets/images/link.png" alt="">
-        </button> -->
-      
       </div>
     </div>
    
     </div>
-  
- <div class="blob"></div>
     
   </div>
   

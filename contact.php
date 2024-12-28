@@ -29,12 +29,7 @@
    <?php include './common/navbar.php'; ?>
 
     <section >
-<!--        -->
-<!--        <h2>Contact</h2> -->-->
-<!--</br>-->
-<!--        <div class="banner-container">-->
-<!--        <img src="assets/images/banner1.jpg" alt="Contact Banner" class="img-fluid w-100">-->
-<!--    </div>-->
+
         <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
