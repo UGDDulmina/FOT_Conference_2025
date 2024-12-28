@@ -137,7 +137,7 @@
                             <!--        <div class="slide-content-2">-->
                             <div class="team-name">Conference Coordinators</div>
 
-                            <div class="swiper-wrapper">
+  <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -225,12 +225,8 @@
                                         <a href="" class="view-profile-btn">View Profile</a>
                                     </div>
                                 </div>
-                                <!--            </div>-->
-                            </div>
+  </div>
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
 
@@ -253,7 +249,7 @@
                             <!--            <div class="">-->
                             <div class="team-name">Scientific Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -344,9 +340,6 @@
                             </div>
                             <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
 
@@ -363,14 +356,12 @@
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <section class="team-4-section">
-                    <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-4">
 
-                            <!--            <div class="">-->
+
                             <div class="team-name">Web and Symposium Management Handling Committee
                             </div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -461,11 +452,8 @@
                             </div>
                             <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
+
+
 
                 </section>
             </div>
@@ -481,12 +469,10 @@
             <div class="accordion-body">
                 <section class="team-5-section">
                     <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-5">
 
-                            <!--            <div class="">-->
                             <div class="team-name">Logistic Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -575,13 +561,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
 
                 </section>
             </div>
@@ -596,13 +576,10 @@
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <section class="team-6-section">
-                    <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-6">
 
-                            <!--            <div class="">-->
                             <div class="team-name">Promotion and Technical Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -662,42 +639,11 @@
 <!--                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>-->
                                     </div>
                                 </div>
-<!--                                <div class="card swiper-slide">-->
-<!--                                    <div class="image-content">-->
-<!--                                        <span class="overlay"></span>-->
-<!--                                        <div class="card-image">-->
-<!--                                            <img src="" alt="" class="card-img"">-->
-<!---->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="card-content">-->
-<!--                                        <div class="name">  Dr. SS Abeysinghe</div>-->
-<!--                                        <p class="role">Member</p>-->
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="card swiper-slide">-->
-<!--                                    <div class="image-content">-->
-<!--                                        <span class="overlay"></span>-->
-<!--                                        <div class="card-image">-->
-<!--                                            <img src="" alt="" class="card-img"">-->
-<!---->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="card-content">-->
-<!--                                        <div class="name"> Dr. HGN Rajapaksha </div>-->
-<!--                                        <p class="role">Member</p>-->
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-                            </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
+                            </div>
+
+
+
 
                 </section>
             </div>
@@ -713,13 +659,10 @@
             <div class="accordion-body">
                 <section class="team-7-section">
 
-                    <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-7">
 
-                            <!--            <div class="">-->
                             <div class="team-name">Conference Publication Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -808,13 +751,7 @@
 <!--                                    </div>-->
 <!--                                </div>-->
                             </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
 
                 </section>
             </div>
@@ -829,13 +766,10 @@
         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <section class="team-8-section">
-                    <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-8">
 
-                            <!--            <div class="">-->
                             <div class="team-name">Event Management Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -938,13 +872,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
 
                 </section>
             </div>
@@ -968,14 +896,14 @@
 
 
 <?php include './common/footer1.php'; ?>
-
+<script src="vendor/js/script.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>.
 
 <!-- Bootstrap -->
 <<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->-->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="vendor/js/script.js"></script>
+
 
 </body>
 <!--Swiper JS-->
