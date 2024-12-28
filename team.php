@@ -295,11 +295,147 @@
                                         <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>
                                     </div>
                                 </div>
+
+
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/HVV Priyadarshanaa.jpg" alt="" class="card-img"">
+                                            <img src="assets/images/GMLP%20Aponsu.png" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. GMLP Aponsu</div>
+                                        <p class="role">Member</p>
+                                        <a href=" https://www.sab.ac.lk/staff-directory/272" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/RMKT%20Rathnayaka.png" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. RMKT Rathnayaka</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/117" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/M.%20Narayana.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. M Narayana</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://uom.lk/staff/Narayana.M" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/s..%20Lewangamage.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. S. Lewangamage</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://uom.lk/staff/Lewangamage.C.S.php" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/HKG%20Punchihewa.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Prof. HKG Punchihewa </div>
+                                        <p class="role">Member</p>
+                                        <a href="https://uom.lk/staff/Punchihewa.HKG" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/AHLR%20Nilmini.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Prof. AHLR Nilmini</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://tech.sjp.ac.lk/mmt/eng-hr-jayatileke-bio-2-2-2/" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/L%20Jayathunge.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Prof. L Jayathunge</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://tech.sjp.ac.lk/bst/dr-kglr-jayathunge-bio-2/" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/N.%20Nugara.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. N. Nugara</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://tech.sjp.ac.lk/bst/bst-academic-staff/" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/KMGP%20Premadasa.png" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Prof. KMGP Premadasa </div>
+                                        <p class="role">Member</p>
+                                        <a href="https://fot.kdu.ac.lk/dean-faculty-of-technology/" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/Dr.%20MDKM%20Gunasena.jpg" alt="" class="card-img"">
 
                                         </div>
                                     </div>
@@ -337,8 +473,11 @@
                                         <a href="" class="view-profile-btn">View Profile</a>
                                     </div>
                                 </div>
+
+
+
                             </div>
-                            <!--            </div>-->
+
 
                         </div>
                     </div>
@@ -667,7 +806,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/HVV%20Priyadarshana.jpg" alt="" class="card-img"">
+                                            <img src="assets/images/" alt="" class="card-img"">
 
                                         </div>
                                     </div>
