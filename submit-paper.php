@@ -91,7 +91,8 @@
                                     <li><strong>Key Words:</strong> 4-5 keywords.</li>
                                     <li><strong>Camera-ready Copy:</strong> The final version of the abstract must also be submitted in Word format.</li>
                                 </ul>
-                                <p>For reference, please use the <a class="red-link" href="#">abstract template</a>.</p>
+                                <p>For reference, please use the <a class="red-link" href="assets/pdf/ICET%202025-Abstract%20Template.docx" download>abstract template</a>.</p>
+
                                 <p>Submission Link: <a class="red-link" href="#">CMT Submission Link</a></p>
                                 <p><strong>Review Process</strong></p>
                                 <p>The submitted abstracts will be reviewed by a panel of experts in the relevant fields, and the decision about acceptance, rejection, or acceptance with changes will be notified to the authors. If the reviewers' decision is "acceptance with changes," you must address the changes mentioned in the reviewers' comments and submit the camera-ready copy.</p>
