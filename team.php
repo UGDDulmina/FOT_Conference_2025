@@ -137,7 +137,7 @@
                             <!--        <div class="slide-content-2">-->
                             <div class="team-name">Conference Coordinators</div>
 
-                            <div class="swiper-wrapper">
+  <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -225,12 +225,8 @@
                                         <a href="" class="view-profile-btn">View Profile</a>
                                     </div>
                                 </div>
-                                <!--            </div>-->
-                            </div>
+  </div>
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
 
@@ -253,7 +249,7 @@
                             <!--            <div class="">-->
                             <div class="team-name">Scientific Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -299,11 +295,147 @@
                                         <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>
                                     </div>
                                 </div>
+
+
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/HVV Priyadarshanaa.jpg" alt="" class="card-img"">
+                                            <img src="assets/images/GMLP%20Aponsu.png" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. GMLP Aponsu</div>
+                                        <p class="role">Member</p>
+                                        <a href=" https://www.sab.ac.lk/staff-directory/272" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/RMKT%20Rathnayaka.png" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. RMKT Rathnayaka</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://www.sab.ac.lk/staff-directory/117" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/M.%20Narayana.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. M Narayana</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://uom.lk/staff/Narayana.M" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/s..%20Lewangamage.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. S. Lewangamage</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://uom.lk/staff/Lewangamage.C.S.php" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/HKG%20Punchihewa.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Prof. HKG Punchihewa </div>
+                                        <p class="role">Member</p>
+                                        <a href="https://uom.lk/staff/Punchihewa.HKG" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/AHLR%20Nilmini.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Prof. AHLR Nilmini</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://tech.sjp.ac.lk/mmt/eng-hr-jayatileke-bio-2-2-2/" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/L%20Jayathunge.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Prof. L Jayathunge</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://tech.sjp.ac.lk/bst/dr-kglr-jayathunge-bio-2/" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/N.%20Nugara.jpg" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name">  Prof. N. Nugara</div>
+                                        <p class="role">Member</p>
+                                        <a href="https://tech.sjp.ac.lk/bst/bst-academic-staff/" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/KMGP%20Premadasa.png" alt="" class="card-img"">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="name"> Prof. KMGP Premadasa </div>
+                                        <p class="role">Member</p>
+                                        <a href="https://fot.kdu.ac.lk/dean-faculty-of-technology/" class="view-profile-btn">View Profile</a>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="assets/images/Dr.%20MDKM%20Gunasena.jpg" alt="" class="card-img"">
 
                                         </div>
                                     </div>
@@ -341,12 +473,12 @@
                                         <a href="" class="view-profile-btn">View Profile</a>
                                     </div>
                                 </div>
-                            </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+
+
+                            </div>
+
+
                         </div>
                     </div>
 
@@ -363,14 +495,12 @@
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <section class="team-4-section">
-                    <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-4">
 
-                            <!--            <div class="">-->
+
                             <div class="team-name">Web and Symposium Management Handling Committee
                             </div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -461,11 +591,8 @@
                             </div>
                             <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
+
+
 
                 </section>
             </div>
@@ -481,12 +608,10 @@
             <div class="accordion-body">
                 <section class="team-5-section">
                     <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-5">
 
-                            <!--            <div class="">-->
                             <div class="team-name">Logistic Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -575,13 +700,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
 
                 </section>
             </div>
@@ -596,13 +715,10 @@
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <section class="team-6-section">
-                    <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-6">
 
-                            <!--            <div class="">-->
                             <div class="team-name">Promotion and Technical Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -662,42 +778,11 @@
 <!--                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>-->
                                     </div>
                                 </div>
-<!--                                <div class="card swiper-slide">-->
-<!--                                    <div class="image-content">-->
-<!--                                        <span class="overlay"></span>-->
-<!--                                        <div class="card-image">-->
-<!--                                            <img src="" alt="" class="card-img"">-->
-<!---->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="card-content">-->
-<!--                                        <div class="name">  Dr. SS Abeysinghe</div>-->
-<!--                                        <p class="role">Member</p>-->
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="card swiper-slide">-->
-<!--                                    <div class="image-content">-->
-<!--                                        <span class="overlay"></span>-->
-<!--                                        <div class="card-image">-->
-<!--                                            <img src="" alt="" class="card-img"">-->
-<!---->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="card-content">-->
-<!--                                        <div class="name"> Dr. HGN Rajapaksha </div>-->
-<!--                                        <p class="role">Member</p>-->
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-                            </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
+                            </div>
+
+
+
 
                 </section>
             </div>
@@ -713,18 +798,15 @@
             <div class="accordion-body">
                 <section class="team-7-section">
 
-                    <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-7">
 
-                            <!--            <div class="">-->
                             <div class="team-name">Conference Publication Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/HVV%20Priyadarshana.jpg" alt="" class="card-img"">
+                                            <img src="assets/images/" alt="" class="card-img"">
 
                                         </div>
                                     </div>
@@ -808,13 +890,7 @@
 <!--                                    </div>-->
 <!--                                </div>-->
                             </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
 
                 </section>
             </div>
@@ -829,13 +905,10 @@
         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <section class="team-8-section">
-                    <div class="main-swiper-wrapper">
-                        <div class="swiper slide-content-8">
 
-                            <!--            <div class="">-->
                             <div class="team-name">Event Management Committee</div>
 
-                            <div class="swiper-wrapper">
+                            <div class="team-wrapper">
                                 <div class="card swiper-slide">
                                     <div class="image-content">
                                         <span class="overlay"></span>
@@ -938,13 +1011,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--            </div>-->
 
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
 
                 </section>
             </div>
@@ -968,14 +1035,14 @@
 
 
 <?php include './common/footer1.php'; ?>
-
+<script src="vendor/js/script.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>.
 
 <!-- Bootstrap -->
 <<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->-->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="vendor/js/script.js"></script>
+
 
 </body>
 <!--Swiper JS-->
