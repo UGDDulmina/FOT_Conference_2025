@@ -92,6 +92,7 @@
                                     <li><strong>Camera-ready Copy:</strong> The final version of the abstract must also be submitted in Word format.</li>
                                 </ul>
                                 <p>For reference, please use the <a class="red-link" href="assets/pdf/ICET%202025-Abstract%20Template.docx" download>abstract template</a>.</p>
+                                <p>For reference, please use the <a class="red-link" href="assets/pdf/ICET%20Author_Declaration.docx" download>Author_Declaration.</a>.</p>
 
                                 <p>Submission Link: <a class="red-link" href="#">CMT Submission Link</a></p>
                                 <p><strong>Review Process</strong></p>
