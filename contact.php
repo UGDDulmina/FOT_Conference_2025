@@ -67,7 +67,7 @@
 
         <div class="d-flex " style="background-color: #f0f0f0;">
         <div class="p-2 col-md-6  p-4 m-4">
-        <form action="contact_process.php" method="post" >
+        <form action="email.php"  method="post" >
             <div class="mb-3">
             <div class="fw-semibold">
                 <label for="name" class="form-label">Full Name</label>
@@ -93,6 +93,28 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        <!-- <p id="status"></p> -->
+        <!-- <script>
+        document.getElementById('contactForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const formData = new FormData(document.getElementById('contactForm'));
+
+            try {
+                const response = await fetch('send-email.php', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                const result = await response.text();
+                document.getElementById('status').textContent = result;
+                document.getElementById('status').style.color = response.ok ? 'green' : 'red';
+            } catch (error) {
+                document.getElementById('status').textContent = 'Error sending email.';
+                document.getElementById('status').style.color = 'red';
+            }
+        });
+    </script> -->
 </div>
 <div>
     <div class="p-2 m-4 ">
