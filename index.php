@@ -43,7 +43,7 @@
  <!-- Landing Page -->
 
   <div id="text-wrapper">
-          
+  <!-- <h1 id="more">..More</h1>      
     <div  class="particles-container"><div id="particles-container1"><div class="shape1"></div></div></div>
     <div id="particles-container2" class="particles-container"><div class='shape2'></div></div>
          <div class="timer">
@@ -81,7 +81,7 @@
     } else {
         // Otherwise, set a new target date and store it
         compareDate = new Date();
-        compareDate.setDate(compareDate.getDate() + 10);
+        compareDate.setDate(compareDate.getDate() + 20);
         localStorage.setItem("targetDate", compareDate);
     }
 
@@ -112,9 +112,127 @@
             document.getElementById("seconds").innerHTML = seconds;
         }
     }
-</script>
+</script> -->
+ <h1 id="more">..More</h1>
+    <div class="particles-container">
+        <div id="particles-container1">
+            <div class="shape1"></div>
+        </div>
+    </div>
+    <div id="particles-container2" class="particles-container">
+        <div class="shape2"></div>
+    </div>
+    <button id="start">Start Now!</button>
+    <div class="timer">
+        <div id="timer">
+            <div class="counter">
+                <div class="box1">
+                    <span id="days">0</span>
+                    <p>Days</p>
+                </div>
+                <div class="box1">
+                    <span id="hours">0</span>
+                    <p>Hours</p>
+                </div>
+                <div class="box1">
+                    <span id="minutes">0</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="box1">
+                    <span id="seconds">0</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let timer;
+        let compareDate;
 
-       <h1 id="more">..More</h1>
+        // Check if a target date is already stored in localStorage
+        const storedDate = localStorage.getItem("targetDate");
+
+        if (storedDate) {
+            compareDate = new Date(storedDate);
+            document.getElementById("start").classList.add("hidden"); // Hide button if timer is already running
+            startTimer(); // Resume timer
+        }
+
+        // Event listener for Start button
+        document.getElementById("start").addEventListener("click", function () {
+            compareDate = new Date();
+            compareDate.setDate(compareDate.getDate() + 91);
+            localStorage.setItem("targetDate", compareDate);
+
+            resetTimerDisplay(); // Reset the timer to 0
+            this.classList.add("hidden"); // Hide the button
+            startTimer(); // Start the timer
+        });
+
+        // Function to start the timer
+        function startTimer() {
+            timer = setInterval(() => {
+                timeBetweenDates(compareDate);
+            }, 1000);
+        }
+
+        // Function to calculate time difference
+        function timeBetweenDates(toDate) {
+            const now = new Date();
+            const difference = toDate.getTime() - now.getTime();
+
+            if (difference <= 0) {
+                clearInterval(timer);
+                localStorage.removeItem("targetDate"); // Clear localStorage when time is up
+            } else {
+                const seconds = Math.floor(difference / 1000) % 60;
+                const minutes = Math.floor(difference / 60000) % 60;
+                const hours = Math.floor(difference / 3600000) % 24;
+                const days = Math.floor(difference / 86400000);
+
+                document.getElementById("days").textContent = days;
+                document.getElementById("hours").textContent = hours;
+                document.getElementById("minutes").textContent = minutes;
+                document.getElementById("seconds").textContent = seconds;
+            }
+        }
+
+        // Function to reset the timer display to 0
+        function resetTimerDisplay() {
+            document.getElementById("days").textContent = "0";
+            document.getElementById("hours").textContent = "0";
+            document.getElementById("minutes").textContent = "0";
+            document.getElementById("seconds").textContent = "0";
+        }
+
+        // function createStarburst() {
+        //     const starburst = document.createElement("div");
+        //     starburst.className = "starburst";
+
+        //     for (let i = 0; i < 50; i++) {
+        //         const star = document.createElement("div");
+        //         star.className = "star";
+        //         const angle = Math.random() * 2 * Math.PI;
+        //         const distance = Math.random() * 100 + 50;
+        //         const dx = Math.cos(angle) * distance;
+        //         const dy = Math.sin(angle) * distance;
+
+        //         star.style.setProperty("--dx", `${dx}px`);
+        //         star.style.setProperty("--dy", `${dy}px`);
+        //         star.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 70%)`;
+
+        //         starburst.appendChild(star);
+        //     }
+
+        //     document.body.appendChild(starburst);
+
+        //     setTimeout(() => {
+        //         starburst.remove();
+        //     }, 800);
+        // }
+    </script>
+
+      
 
        <div class="landing-text">
         <p id='para1'>International Conference on Emerging Technologies (ICET) 2025</p> 
@@ -166,13 +284,13 @@
 <div class="box-container">
 
     <div class="box">
-        <img src="./assets/images/Advances in Emerging Sciences.png" alt="">
+        <img src="./assets/images/Advances in Emerging Sciences (3).png" alt="">
         <p>Advances in Emerging Sciences</p>
         <a href="./advancesInEmergingSciences.php" class="btn">Read more</a>
     </div>
 
     <div class="box">
-        <img src="./assets/images/Bioenergy and Bio fuel Generation Technology.jpg" alt="">
+        <img src="./assets/images/Bioenergy and Bio fuel Generation Technology (2).jpg" alt="">
         <p>Bioenergy and Bio Fuel Generation Technology</p>
         <a href="./bioenergyAndBioFuelGenerationTechnology.php" class="btn">Read more</a>
     </div>
@@ -184,19 +302,19 @@
     </div>
 
     <div class="box">
-        <img src="./assets/images/Mechanical Engineering Technology.jpg" alt="">
+        <img src="./assets/images/Mechanical Engineering Technology (2).jpg" alt="">
         <p>Mechanical Engineering Technology</p>
         <a href="./mechanicalEngineeringTechnology.php" class="btn">Read more</a>
     </div>
 
     <div class="box">
-        <img src="./assets/images/Electrical and Electronic Engineering Technology.png" alt="">
+        <img src="./assets/images/Electrical and Electronic Engineering Technology (2).png" alt="">
         <p>Electrical and Electronic Engineering Technology</p>
         <a href="./electricalAndElectronicEngineeringTechnology.php" class="btn">Read more</a>
     </div>
 
     <div class="box">
-        <img src="./assets/images/Drug Discovery and Development.jpg" alt="">
+        <img src="./assets/images/Drug Discovery and Development. (1).jpg" alt="">
         <p>Drug Discovery and Development</p>
         <a href="./drugDiscoveryAndDevelopment.php" class="btn">Read more</a>
     </div>
@@ -347,7 +465,7 @@
 		<div class="border-left"></div>
 	</div>
 	<div class="card-content">
-		<img src="./assets/images/Hasintha Wijesekara.jpg" class="avatar" />
+		<img src="./assets/images/Dr.Hasitha.jpg" class="avatar" />
 		<p class="designation" >Dr. Hasintha Wijesekara</p>
 		<p class="bio">Senior Lecturer,Faculty of Applied Sciences, Sabaragamuwa University of Sri Lanka
 

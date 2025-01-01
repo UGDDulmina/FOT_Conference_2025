@@ -201,6 +201,67 @@ body{
     font-family: "Roboto Condensed", sans-serif;
     letter-spacing: 2px;
 }
+#start{
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #c31e15;
+    position: absolute;
+    top: 490px;
+    left: 660px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #ffffff;
+    border: 5px yellow;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+#start:hover {
+    background-color: #a51b13; /* Slightly darker red */
+    transform: scale(1.1); /* Slightly increase the size */
+    box-shadow: 0 0 10px yellow; /* Add a glowing effect */
+}
+
+.hidden {
+    display: none;
+}
+.starburst {
+    position: relative;
+    top: 490px;
+    left: 660px;
+    width: 200px;
+    height: 200px;
+    pointer-events: none;
+    /* transform: translate(-50%, -50%) scale(0); */
+    animation: burst 0.8s ease-out forwards;
+}
+.star {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    animation: moveStar 0.8s ease-out forwards;
+}
+@keyframes burst {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+}
+@keyframes moveStar {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(var(--dx), var(--dy));
+        opacity: 0;
+    }
+}
 
 
 
@@ -1234,6 +1295,7 @@ body{
     display: inline-block;
     top: -300px;
     left: 650px;
+    font-weight: 700;
 }
 
 .sponsers h1::after {
@@ -1273,6 +1335,15 @@ body{
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+.video-bg1 {
+    position: fixed;
+    top: 200px;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    z-index: -10;
 }
 
 /*---------------- NAVBAR -----------------*/

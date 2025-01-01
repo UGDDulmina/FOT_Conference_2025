@@ -215,7 +215,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="" alt="" class="card-img"">
+                                            <img src="assets/images/PKTM Dharmapala.jpg" alt="" class="card-img"">
 
                                         </div>
                                     </div>
@@ -535,7 +535,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="" alt="" class="card-img"">
+                                            <img src="assets/images/WMDKC WEERAKOON.png" alt="" class="card-img"">
 
                                         </div>
                                     </div>
@@ -753,7 +753,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/K.L.N.S.Sasikala%20.jpg" alt="" class="card-img"">
+                                            <img src="assets/images/K.L.N.S.Sasikala_.jpg " alt="" class="card-img"">
 
                                         </div>
                                     </div>
@@ -806,7 +806,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/" alt="" class="card-img"">
+                                            <img src="assets/images/HVV Priyadarshana (2).jpg" alt="" class="card-img"">
 
                                         </div>
                                     </div>
@@ -821,7 +821,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/ND%20Hettiwatta.jpg" alt="" class="card-img"">
+                                            <img src="assets/images/ND%20Hettiwatta.jpg" alt="" class="card-img">
 
                                         </div>
                                     </div>
@@ -836,7 +836,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="" alt="" class="card-img"">
+                                            <img src="assets/images/MATN Dulanjana.jpg" alt="" class="card-img"">
 
                                         </div>
                                     </div>
@@ -958,7 +958,7 @@
                                     <div class="image-content">
                                         <span class="overlay"></span>
                                         <div class="card-image">
-                                            <img src="assets/images/" alt="" class="card-img"">
+                                            <img src="assets/images/LJMU LANKATHILAKE.jpg" alt="" class="card-img"">
 
                                         </div>
                                     </div>

@@ -31,6 +31,7 @@
 <body>
 <?php include './common/navbar.php'; ?>
 
+
 <section class="schedule-section-1">
     <div class="schedule-main">
         <div class="schedule-head-wrapper">
@@ -55,35 +56,31 @@
         <div class="schedule-container">
             <ul>
                 <li>
-                    <h3 class="schedule-heading">Extended Deadline for Abstract Submission</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
-
-                    <span class="schedule-date">6th January 2025</span>
+                    <h3 class="schedule-heading"> Deadline for Abstract Submission</h3>
+                    
+                    <span class="schedule-date">2nd February 2025
+                    </span>
                     <span class="schedule-circle"></span>
                 </li>
                 <li>
                     <h3 class="schedule-heading">Paper Acceptance Notification</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                     
 
-                    <span class="schedule-date">7th January 2025</span>
+                    <span class="schedule-date"> To be decided</span>
                     <span class="schedule-circle"></span>
                 </li>
                 <li>
                     <h3 class="schedule-heading">Camera Ready Submission</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                    
 
-                    <span class="schedule-date">8th January 2025</span>
+                    <span class="schedule-date"> To be decided</span>
                     <span class="schedule-circle"></span>
                 </li>
                 <li>
                     <h3 class="schedule-heading">Registration</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                        totam </p>
+                     
 
-                    <span class="schedule-date">8th January 2025</span>
+                    <span class="schedule-date"> To be decided</span>
                     <span class="schedule-circle"></span>
                 </li>
 
