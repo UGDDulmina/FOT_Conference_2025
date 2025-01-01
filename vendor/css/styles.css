@@ -2352,6 +2352,69 @@ footer .social-icons i:hover{
     margin: 0 auto; /* Center the grid */
     padding: 20px;
 }
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .team-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .team-wrapper {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card-content {
+        padding: 10px;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .role {
+        font-size: 0.9rem;
+    }
+
+    .view-profile-btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+.team-name {
+    font-size: 2rem; /* Default font size for larger screens */
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0; /* Spacing around the element */
+    color: #333; /* Default text color */
+}
+
+/* Medium screens (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .team-name {
+        font-size: 1.8rem; /* Slightly smaller font size */
+    }
+}
+
+/* Small screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .team-name {
+        font-size: 1.5rem; /* Smaller font size for mobile devices */
+        margin: 15px 0; /* Reduce spacing */
+    }
+}
+
+/* Extra small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .team-name {
+        font-size: 1.2rem; /* Compact font size */
+        margin: 10px 0; /* Further reduce spacing */
+    }
+}
 .accordion-wrapper {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Horizontally center */
@@ -2526,10 +2589,15 @@ footer .social-icons i:hover{
 .abstract-submission .red-link:hover {
     color: darkred;
 }
-.author-instruction-topic{
+.author-instruction-topic {
     display: flex;
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center; /* Aligns content vertically if needed */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%; /* Ensure it spans the full width of the container */
+    height: auto; /* Allow height to adjust dynamically */
+    box-sizing: border-box; /* Include padding in height/width calculation */
+    overflow: visible; /* Ensure no content is hidden */
 }
 
 
@@ -2561,6 +2629,86 @@ footer .social-icons i:hover{
         transform: rotateY(360deg);
     }
 }
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+
+    .author-instruction {
+        padding: 20px;
+    }
+
+    .abstract-submission {
+        padding: 10px;
+    }
+
+    .abstract-submission p,
+    .abstract-submission ul li {
+        font-size: 0.8rem;
+    }
+
+
+    .author-instruction-topic {
+        margin-top: 100px; /* Ensure it's below the fixed navbar */
+        padding: 10px;
+    }
+
+    .author-instruction-topic h1 {
+        font-size: 1.5rem; /* Smaller for mobile devices */
+    }
+}
+
+@media (max-width: 768px) {
+    .author-instruction-topic {
+        margin-top: 100px; /* Ensure it's below the fixed navbar */
+        padding: 10px;
+    }
+
+    .author-instruction-topic h1 {
+        font-size: 1.8rem; /* Smaller for mobile devices */
+    }
+}
+    .author-instruction {
+        padding: 30px;
+    }
+
+    .abstract-submission {
+        padding: 10px 20px;
+    }
+
+    .abstract-submission p,
+    .abstract-submission ul li {
+        font-size: 0.9rem;
+    }
+
+@media (max-width: 1024px) and (min-width: 600px) {
+    .author-instruction-topic {
+        margin-top: 70px; /* Ensure it's placed below the navbar */
+        padding: 15px; /* Adjust padding for tablet */
+    }
+
+
+
+    .author-instruction-topic h1 {
+        font-size: 2rem; /* Adjust font size for tablets */
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .author-instruction {
+        padding: 40px;
+    }
+
+    .abstract-submission {
+        padding: 15px 25px;
+    }
+
+    .author-instruction-topic h1 {
+        font-size: 2rem;
+    }
+}
+
+
 
 /*css for schedule section*/
 @font-face {
