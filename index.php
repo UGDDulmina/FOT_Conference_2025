@@ -205,31 +205,6 @@
             document.getElementById("seconds").textContent = "0";
         }
 
-        // function createStarburst() {
-        //     const starburst = document.createElement("div");
-        //     starburst.className = "starburst";
-
-        //     for (let i = 0; i < 50; i++) {
-        //         const star = document.createElement("div");
-        //         star.className = "star";
-        //         const angle = Math.random() * 2 * Math.PI;
-        //         const distance = Math.random() * 100 + 50;
-        //         const dx = Math.cos(angle) * distance;
-        //         const dy = Math.sin(angle) * distance;
-
-        //         star.style.setProperty("--dx", `${dx}px`);
-        //         star.style.setProperty("--dy", `${dy}px`);
-        //         star.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 70%)`;
-
-        //         starburst.appendChild(star);
-        //     }
-
-        //     document.body.appendChild(starburst);
-
-        //     setTimeout(() => {
-        //         starburst.remove();
-        //     }, 800);
-        // }
     </script>
 
       
@@ -269,11 +244,6 @@
 </div>
     </div>
 
-<!-- <div class="custom-shape-divider-bottom-1734881515">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
-    </svg>
-</div> -->
 
     <div class="tracks">
 
@@ -296,7 +266,7 @@
     </div>
 
     <div class="box">
-        <img src="./assets/images/Applied Biotechnology and Microbiology.jpg" alt="">
+        <img src="./assets/images/Applied Biotechnology and Microbiology (2).jpg" alt="">
         <p>Applied Biotechnology and Microbiology</p>
         <a href="./appliedBiotechnologyAndMicrobiology.php" class="btn">Read more</a>
     </div>

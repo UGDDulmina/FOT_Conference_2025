@@ -3,7 +3,9 @@
 ?>
 <nav class="ui-nav">
   <div class="ui-left">
+  <a href="index.php">
   <img src="assets/images/Logo_with_name.png">
+</a>
   </div> 
   <ul class="nav-area">
     <li class="nav-item"><a class="nav-link active" href="./index.php">HOME</a></li>

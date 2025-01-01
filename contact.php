@@ -92,29 +92,7 @@
                 <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <!-- <p id="status"></p> -->
-        <!-- <script>
-        document.getElementById('contactForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
-
-            const formData = new FormData(document.getElementById('contactForm'));
-
-            try {
-                const response = await fetch('send-email.php', {
-                    method: 'POST',
-                    body: formData,
-                });
-
-                const result = await response.text();
-                document.getElementById('status').textContent = result;
-                document.getElementById('status').style.color = response.ok ? 'green' : 'red';
-            } catch (error) {
-                document.getElementById('status').textContent = 'Error sending email.';
-                document.getElementById('status').style.color = 'red';
-            }
-        });
-    </script> -->
+        
 </div>
 <div>
     <div class="p-2 m-4 ">

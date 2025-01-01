@@ -24,8 +24,8 @@
             </div>
             <div class="footer-content">
                 <h3>Venue</h3>
-                <p>Faculty of Technology,</p>
-                 <p>Sabaragamuwa University of Sri Lanka,</p>  
+                  <p>Faculty of Technology,</p>
+                  <p>Sabaragamuwa University of Sri Lanka,</p>  
                   <p>P.O. Box 02,</p> 
                   <p>Belihuloya,</p> 
                   <p>70140,</p> 

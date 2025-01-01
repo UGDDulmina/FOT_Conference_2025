@@ -83,6 +83,13 @@
                     <span class="schedule-date"> To be decided</span>
                     <span class="schedule-circle"></span>
                 </li>
+                <li>
+                    <h3 class="schedule-heading">Conference</h3>
+                     
+
+                    <span class="schedule-date">2nd April 2025</span>
+                    <span class="schedule-circle"></span>
+                </li>
 
 
             </ul>

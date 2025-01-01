@@ -5,10 +5,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Retrieve form data
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
+    $subject =htmlspecialchars($_POST['subject']);
     $message = htmlspecialchars($_POST['message']);
 
     // Validate input
-    if (empty($name) || empty($email) || empty($message)) {
+    if (empty($name) || empty($email) || empty($message) || empty($subject)) {
         echo "All fields are required.";
         exit;
     }
