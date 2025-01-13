@@ -4,7 +4,7 @@
 <nav class="ui-nav">
   <div class="ui-left">
   <a href="index.php">
-  <img src="assets/images/Logo_with_name.png">
+  <img src="assets/images/Logo 2.png">
 </a>
   </div> 
   <ul class="nav-area">

@@ -58,7 +58,7 @@
                 <li>
                     <h3 class="schedule-heading"> Deadline for Abstract Submission</h3>
                     
-                    <span class="schedule-date">2nd February 2025
+                    <span class="schedule-date">15th February 2025
                     </span>
                     <span class="schedule-circle"></span>
                 </li>
@@ -87,7 +87,7 @@
                     <h3 class="schedule-heading">Conference</h3>
                      
 
-                    <span class="schedule-date">2nd April 2025</span>
+                    <span class="schedule-date">3nd April 2025</span>
                     <span class="schedule-circle"></span>
                 </li>
 

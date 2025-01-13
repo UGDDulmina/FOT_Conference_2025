@@ -32,212 +32,143 @@
 <?php include './common/navbar.php'; ?>
 <div class="contex">
 <div class="gallery">
-    <a href="./assets/images/FOT.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Facluty of Technology Sabaragamuwa University of Sri Lanka.">
-        <img src="./assets/images/FOT.jpg" alt="Faculty">
+    <a href="./assets/images/01.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Facluty of Technology Sabaragamuwa University of Sri Lanka.">
+        <img src="./assets/images/01.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT1.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe - :">
-        <img src="./assets/images/FOT1.jpg" alt="Faculty">
+    <a href="./assets/images/14.5.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/14.5.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT2.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT2.jpg" alt="Faculty">
+    <a href="./assets/images/16.5.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/16.5.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT3.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT3.jpg" alt="Faculty">
+    <a href="./assets/images/4.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/4.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT4.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT4.jpg" alt="Faculty">
+    <a href="./assets/images/11.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/11.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT5.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT5.jpg" alt="Faculty">
+    <a href="./assets/images/12.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/12.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT6.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT6.jpg" alt="Faculty">
+    <a href="./assets/images/13.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/13.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT7.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT7.jpg" alt="Faculty">
+    <a href="./assets/images/14.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/14.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT8.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT8.jpg" alt="Faculty">
+    <a href="./assets/images/15.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/15.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT9.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT9.jpg" alt="Faculty">
+    <a href="./assets/images/16.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/16.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT10.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT10.jpg" alt="Faculty">
+    <a href="./assets/images/17.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/17.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT11.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT11.jpg" alt="Faculty">
+    <a href="./assets/images/18.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/18.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT12.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT12.jpg" alt="Faculty">
+    <a href="./assets/images/21.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/21.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT13.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT13.jpg" alt="Faculty">
+    <a href="./assets/images/22.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/22.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT14.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT14.jpg" alt="Faculty">
+    <a href="./assets/images/23.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/23.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT15.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT15.jpg" alt="Faculty">
+    <a href="./assets/images/24.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/24.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT16.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT16.jpg" alt="Faculty">
+    <a href="./assets/images/25.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/25.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT17.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT17.jpg" alt="Faculty">
+    <a href="./assets/images/26.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/26.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT18.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT18.jpg" alt="Faculty">
+    <a href="./assets/images/27.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/27.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT19.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Facluty of Technology Sabaragamuwa University of Sri Lanka.">
-        <img src="./assets/images/FOT19.jpg" alt="Faculty">
+    <a href="./assets/images/28.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/28.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT20.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe - :">
-        <img src="./assets/images/FOT20.jpg" alt="Faculty">
+    <a href="./assets/images/29.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/29.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT21.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT21.jpg" alt="Faculty">
+    <a href="./assets/images/30.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/30.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT22.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT22.jpg" alt="Faculty">
+    <a href="./assets/images/31.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/31.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT23.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT23.jpg" alt="Faculty">
+    <a href="./assets/images/32.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/32.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT24.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT24.jpg" alt="Faculty">
+    <a href="./assets/images/33.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/33.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT25.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT25.jpg" alt="Faculty">
+    <a href="./assets/images/34.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/34.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT26.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT26.jpg" alt="Faculty">
+    <a href="./assets/images/35.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/35.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT27.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT27.jpg" alt="Faculty">
+    <a href="./assets/images/36.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/36.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT28.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT28.jpg" alt="Faculty">
+    <a href="./assets/images/37.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/37.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT29.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT29.jpg" alt="Faculty">
+    <a href="./assets/images/38.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/38.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT30.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT30.jpg" alt="Faculty">
+    <a href="./assets/images/39.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/39.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT31.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT31.jpg" alt="Faculty">
+    <a href="./assets/images/40.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Facluty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/40.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT32.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT32.jpg" alt="Faculty">
+    <a href="./assets/images/41.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  ">
+        <img src="./assets/images/41.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT33.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT33.jpg" alt="Faculty">
+    <a href="./assets/images/43.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/43.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT34.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT34.jpg" alt="Faculty">
+    <a href="./assets/images/45.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/45.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT35.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT35.jpg" alt="Faculty">
+    <a href="./assets/images/46.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/46.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT36.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT36.jpg" alt="Faculty">
+    <a href="./assets/images/47.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/47.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT37.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT37.jpg" alt="Faculty">
+    <a href="./assets/images/48.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/48.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT38.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT38.jpg" alt="Faculty">
+    <a href="./assets/images/49.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/49.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT39.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Facluty of Technology Sabaragamuwa University of Sri Lanka">
-        <img src="./assets/images/FOT39.jpg" alt="Faculty">
+    <a href="./assets/images/50.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/50.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT40.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe - :">
-        <img src="./assets/images/FOT40.jpg" alt="Faculty">
+    <a href="./assets/images/51.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/51.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT41.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT41.jpg" alt="Faculty">
+    <a href="./assets/images/52.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/52.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT42.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT42.jpg" alt="Faculty">
+    <a href="./assets/images/53.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/53.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT43.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT43.jpg" alt="Faculty">
+    <a href="./assets/images/54.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/54.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT44.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT44.jpg" alt="Faculty">
+    <a href="./assets/images/55.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka">
+        <img src="./assets/images/55.jpg" alt="Faculty">
     </a>
-    <a href="./assets/images/FOT45.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT45.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT46.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT46.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT47.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT47.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT48.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT48.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT49.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT49.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT50.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT50.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT51.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT51.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT52.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT52.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT53.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT53.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT54.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT54.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT55.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT55.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT56.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT56.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT57.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT57.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT58.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT58.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT59.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Facluty of Technology Sabaragamuwa University of Sri Lanka.">
-        <img src="./assets/images/FOT59.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT60.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe - :">
-        <img src="./assets/images/FOT60.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT61.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT61.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT62.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT62.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT63.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT63.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT64.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT64.jpg" alt="Faculty">
-    <a href="./assets/images/FOT65.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT65.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT66.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT66.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/FOT67.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Heshan Edirisinghe -">
-        <img src="./assets/images/FOT67.jpg" alt="Faculty">
-    </a>
-    <a href="./assets/images/DJI_0283-2.jpg" alt="Faculty of Technology" data-lightbox="models" data-title="Faculty of Technology Sabaragamuwa University of Sri Lanka  - Clicked by Shanaka Dilshan -">
-        <img src="./assets/images/DJI_0283-2.jpg" alt="Faculty">
-    </a>
+   
+    
 </div>
 
 

@@ -72,7 +72,7 @@
   var timer;
 
   // Set the global target date (common for all users)
-  var compareDate = new Date("2025-04-02T00:00:00Z"); // Example: February 1, 2025, UTC
+  var compareDate = new Date("2025-04-03T00:00:00Z"); // Example: February 1, 2025, UTC
 
   // Start the timer
   timer = setInterval(function () {
@@ -108,12 +108,12 @@
 </script>
 
        <div class="landing-text">
-        <p id='para1'>International Conference on Emerging Technologies (ICET) 2025</p> 
-        <p id='para2' >"Technology for sustainable future"</p>
-        <p id='para'><img src="./assets/icons/calendar-check (1).png"> 2<sup>nd</sup> April 2025 </p>
+        <p id='para1'>2<sup>nd</sup> Undergraduate Research Symposium of Technology (URSTech) 2025</p> 
+        <p id='para2' >"Celebrating Innovation, Embracing the Future"</p>
+        <p id='para'><img src="./assets/icons/calendar-check (1).png"> 3<sup>rd</sup> April 2025 </p>
         <p id='para'><img src="./assets/icons/map (1).png"> Faculty of Technology, Sabaragamuwa University of Sri Lanka </p>
       </div>
-        <img id='logo' src="./assets/images/Logo_with_name.png" alt="Conference Logo">
+        <img id='logo' src="./assets/images/Logo 2.png" alt="Conference Logo">
         
         
         <script src='./vendor/js/particles.js'></script>
@@ -226,7 +226,7 @@
 
    </script>
  
-  <div class="key">
+  <!-- <div class="key">
     <h1>Keynote Speaker</h1>
     <a href="https://www.ims.ac.jp/en/research/prof/kera.html" id="key">
     <div class="speakers" >
@@ -244,7 +244,7 @@
 </div> 
 </a>
    
-    </div>
+    </div> -->
 
     <div class="key" >
     <h1>Plenary Speaker</h1>
@@ -267,7 +267,7 @@
 </a>
 
 </div>
-<div class="sample">
+<!-- <div class="sample">
  
     <h1>Spotlight on Excellence
     </h1>
@@ -363,7 +363,7 @@
 </a>
 
 </div>
-</div>
+</div> -->
 
  <div class="sam"></div>
   <div class="team">

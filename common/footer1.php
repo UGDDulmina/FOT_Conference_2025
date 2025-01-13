@@ -3,13 +3,13 @@
         <div class="comple">
             <div class="footer1-content">
                 <h3>Contact Us</h3>
-                <p>Email: <a href="ICET@info.com" id='email'>icet@tech.sab.ac.lk</a></p>
+                <!-- <p>Email: <a href="ICET@info.com" id='email'>icet@tech.sab.ac.lk</a></p> -->
                 <p>Conference Chair:<br> 0771730708- Dr. Kasundi Gunasena</p>
                 <p>Conference Secretary:<br>0770812383- Mr. Dasith Wijesekara</p>
 
                 <ul class="social-icons">
-                 <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                 <li><a href="https://www.facebook.com/share/p/15SCuzvcLp/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a></li>
+                 <!-- <li><a href=""><i class="fab fa-twitter"></i></a></li> -->
                 </ul>
             </div>
             <div class="footer1-content">

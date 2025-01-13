@@ -36,7 +36,7 @@
 
         <!-- Foreground container -->
         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.3); display: flex; justify-content: center; align-items: center; z-index: 10; pointer-events: none;">
-            <h1 style="color: white; font-size: 3rem; font-family: 'Oswald', sans-serif;"> ABOUT ICET 2025</h1>
+            <h1 style="color: white; font-size: 3rem; font-family: 'Oswald', sans-serif;"> ABOUT URSTech 2025</h1>
         </div>
 
         <div class="carousel-inner">
@@ -62,16 +62,14 @@
     <div class="about-container-wrapper">
         <div class="about-container">
 
-            <h1>What is ICET?</h1> <!-- Added chosen topic here -->
+            <h1>What is URSTech?</h1> <!-- Added chosen topic here -->
 
-            <p>
-                <span>International Conference on Emerging Technologies (ICET)</span> is a biennial conference organized by the Faculty of Technology, Sabaragamuwa University of Sri Lanka. It is an open forum for academics, researchers, undergraduates, postgraduate students, and industry professionals to present their research findings in the discipline of science and technology.
-            </p>
-            <p>
-                The first International Conference on Emerging Technologies (ICET) will take place on <strong>2nd of April, 2025</strong>. The conference will feature a range of presentations on multidisciplinary research activities in science and technology, guest speeches, and keynote addresses by leading personalities in both national and international contexts. The conference will be held physically at the faculty premises under the theme of <span>“Technology for sustainable future.”</span>
-            </p>
-            <p>
-                With a diverse array of keynote speakers, panel discussions, workshops, and networking opportunities, ICET is poised to become the premier gathering for thought leaders at the vanguard of emerging technologies. Join us as we embark on this inaugural journey to explore, collaborate, and chart the course for a future defined by innovation at the International Conference on Emerging Technologies.
+            <p><strong>Undergraduate Research Symposium of Technology (URSTech)</strong> is a symposium organized by the Faculty of Technology at Sabaragamuwa University of Sr Lanka. 
+            
+            Scheduled for <strong>3rd April 2025</strong>, this event serves as a dynamic platform for undergraduate scholars to exchange innovation concepts, 
+            
+            ideas and research findings within the realms of technology. Symposium will be held physically at faculty premises under the theme of
+             <strong>“Celebrating Innovation, Embracing the Future”</strong>.
             </p>
         </div>
     </div>

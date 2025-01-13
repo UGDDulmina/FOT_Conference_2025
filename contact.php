@@ -108,12 +108,13 @@
                     </p>
 
                     <p class="subpage-paragraph">
-                        <strong>Email</strong>: <a href="mailto:icet@tech.sab.ac.lk">icet@tech.sab.ac.lk</a> <br><strong>Phone</strong>: Conference Chair: 0771730708 Dr. Kasundi Gunasena
+                        <!-- <strong>Email</strong>: <a href="mailto:icet@tech.sab.ac.lk">icet@tech.sab.ac.lk</a> <br> -->
+                        <strong>Phone</strong>: Conference Chair: 0771730708 Dr. Kasundi Gunasena
                        <br> Conference Secretary: 0770812383 Mr. Dasith Wijesekara
                     </p>
                     <div class="footer-social-links" style="margin-bottom: 20px;">
-                        <a href="https://www.facebook.com/apsurs.sab.ac.lk" target="_blank"><div class="social-link"><i class="fab fa-facebook-f fa-sm"></i></div></a>
-                        <a href="https://www.linkedin.com/company/apsurs-2022/?viewAsMember=true" target="_blank"><div class="social-link"><i class="fab fa-linkedin-in"></i></div></a>
+                        <!-- <a href="https://www.facebook.com/apsurs.sab.ac.lk" target="_blank"><div class="social-link"><i class="fab fa-facebook-f fa-sm"></i></div></a>
+                        <a href="https://www.linkedin.com/company/apsurs-2022/?viewAsMember=true" target="_blank"><div class="social-link"><i class="fab fa-linkedin-in"></i></div></a> -->
                     </div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15849.807123347699!2d80.787219!3d6.714591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92bb8770edf29b53!2zU2FiYXJhZ2FtdXdhIFVuaXZlcnNpdHkgb2YgU3JpIExhbmthLCDgt4Hgt4rigI3gtrvgt5Mg4La94LaC4Laa4LePIOC3g-C2tuC2u-C2nOC2uOC3lOC3gCDgt4Dgt5Lgt4Hgt4rgt4Dgt4Dgt5Lgtq_gt4rigI3gtrrgt4_gtr3gtro!5e0!3m2!1sen!2slk!4v1617973850526!5m2!1sen!2slk" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>

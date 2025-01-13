@@ -6,6 +6,6 @@ return [
     'password' => 'aycikrrkhtfnmwww', // App Password
     'port' => 465, // Use 465 for SSL
     'encryption' =>'ssl', // Use 'ssl' for port 465
-    'sendEmail'=>'icet@tech.sab.ac.lk',
+    // 'sendEmail'=>'icet@tech.sab.ac.lk',
 ];
 ?>
