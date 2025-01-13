@@ -67,7 +67,7 @@
 
         <div class="d-flex " style="background-color: #f0f0f0;">
         <div class="p-2 col-md-6  p-4 m-4">
-        <form action="email.php"  method="post" >
+        <form action="process_form.php"  method="post" >
             <div class="mb-3">
             <div class="fw-semibold">
                 <label for="name" class="form-label">Full Name</label>
@@ -94,6 +94,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         
 </div>
+</form>
 <div>
     <div class="p-2 m-4 ">
     <div class="col" style="margin-left: 50px;">

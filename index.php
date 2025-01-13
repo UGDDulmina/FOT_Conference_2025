@@ -43,7 +43,7 @@
  <!-- Landing Page -->
 
   <div id="text-wrapper">
-  <!-- <h1 id="more">..More</h1>      
+  <h1 id="more">..More</h1>      
     <div  class="particles-container"><div id="particles-container1"><div class="shape1"></div></div></div>
     <div id="particles-container2" class="particles-container"><div class='shape2'></div></div>
          <div class="timer">
@@ -69,145 +69,43 @@
           </div>
         </div>
         <script>
-    var timer;
+  var timer;
 
-    // Check if a target date is already stored in localStorage
-    var storedDate = localStorage.getItem("targetDate");
-    var compareDate;
+  // Set the global target date (common for all users)
+  var compareDate = new Date("2025-04-02T00:00:00Z"); // Example: February 1, 2025, UTC
 
-    if (storedDate) {
-        // If a date exists in localStorage, use it
-        compareDate = new Date(storedDate);
+  // Start the timer
+  timer = setInterval(function () {
+    timeBetweenDates(compareDate);
+  }, 1000);
+
+  function timeBetweenDates(toDate) {
+    var now = new Date();
+    var difference = toDate.getTime() - now.getTime();
+
+    if (difference <= 0) {
+      clearInterval(timer);
+      document.getElementById("days").innerHTML = "0";
+      document.getElementById("hours").innerHTML = "0";
+      document.getElementById("minutes").innerHTML = "0";
+      document.getElementById("seconds").innerHTML = "0";
     } else {
-        // Otherwise, set a new target date and store it
-        compareDate = new Date();
-        compareDate.setDate(compareDate.getDate() + 20);
-        localStorage.setItem("targetDate", compareDate);
+      var seconds = Math.floor(difference / 1000);
+      var minutes = Math.floor(seconds / 60);
+      var hours = Math.floor(minutes / 60);
+      var days = Math.floor(hours / 24);
+
+      hours %= 24;
+      minutes %= 60;
+      seconds %= 60;
+
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
     }
-
-    timer = setInterval(function () {
-        timeBetweenDates(compareDate);
-    }, 1000);
-
-    function timeBetweenDates(toDate) {
-        var now = new Date();
-        var difference = toDate.getTime() - now.getTime();
-
-        if (difference <= 0) {
-            clearInterval(timer);
-            localStorage.removeItem("targetDate"); 
-        } else {
-            var seconds = Math.floor(difference / 1000);
-            var minutes = Math.floor(seconds / 60);
-            var hours = Math.floor(minutes / 60);
-            var days = Math.floor(hours / 24);
-
-            hours %= 24;
-            minutes %= 60;
-            seconds %= 60;
-
-            document.getElementById("days").innerHTML = days;
-            document.getElementById("hours").innerHTML = hours;
-            document.getElementById("minutes").innerHTML = minutes;
-            document.getElementById("seconds").innerHTML = seconds;
-        }
-    }
-</script> -->
- <h1 id="more">..More</h1>
-    <div class="particles-container">
-        <div id="particles-container1">
-            <div class="shape1"></div>
-        </div>
-    </div>
-    <div id="particles-container2" class="particles-container">
-        <div class="shape2"></div>
-    </div>
-    <button id="start">Start Now!</button>
-    <div class="timer">
-        <div id="timer">
-            <div class="counter">
-                <div class="box1">
-                    <span id="days">0</span>
-                    <p>Days</p>
-                </div>
-                <div class="box1">
-                    <span id="hours">0</span>
-                    <p>Hours</p>
-                </div>
-                <div class="box1">
-                    <span id="minutes">0</span>
-                    <p>Minutes</p>
-                </div>
-                <div class="box1">
-                    <span id="seconds">0</span>
-                    <p>Seconds</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        let timer;
-        let compareDate;
-
-        // Check if a target date is already stored in localStorage
-        const storedDate = localStorage.getItem("targetDate");
-
-        if (storedDate) {
-            compareDate = new Date(storedDate);
-            document.getElementById("start").classList.add("hidden"); // Hide button if timer is already running
-            startTimer(); // Resume timer
-        }
-
-        // Event listener for Start button
-        document.getElementById("start").addEventListener("click", function () {
-            compareDate = new Date();
-            compareDate.setDate(compareDate.getDate() + 91);
-            localStorage.setItem("targetDate", compareDate);
-
-            resetTimerDisplay(); // Reset the timer to 0
-            this.classList.add("hidden"); // Hide the button
-            startTimer(); // Start the timer
-        });
-
-        // Function to start the timer
-        function startTimer() {
-            timer = setInterval(() => {
-                timeBetweenDates(compareDate);
-            }, 1000);
-        }
-
-        // Function to calculate time difference
-        function timeBetweenDates(toDate) {
-            const now = new Date();
-            const difference = toDate.getTime() - now.getTime();
-
-            if (difference <= 0) {
-                clearInterval(timer);
-                localStorage.removeItem("targetDate"); // Clear localStorage when time is up
-            } else {
-                const seconds = Math.floor(difference / 1000) % 60;
-                const minutes = Math.floor(difference / 60000) % 60;
-                const hours = Math.floor(difference / 3600000) % 24;
-                const days = Math.floor(difference / 86400000);
-
-                document.getElementById("days").textContent = days;
-                document.getElementById("hours").textContent = hours;
-                document.getElementById("minutes").textContent = minutes;
-                document.getElementById("seconds").textContent = seconds;
-            }
-        }
-
-        // Function to reset the timer display to 0
-        function resetTimerDisplay() {
-            document.getElementById("days").textContent = "0";
-            document.getElementById("hours").textContent = "0";
-            document.getElementById("minutes").textContent = "0";
-            document.getElementById("seconds").textContent = "0";
-        }
-
-    </script>
-
-      
+  }
+</script>
 
        <div class="landing-text">
         <p id='para1'>International Conference on Emerging Technologies (ICET) 2025</p> 
@@ -437,7 +335,7 @@
 	<div class="card-content">
 		<img src="./assets/images/Dr.Hasitha.jpg" class="avatar" />
 		<p class="designation" >Dr. Hasintha Wijesekara</p>
-		<p class="bio">Senior Lecturer,Faculty of Applied Sciences, Sabaragamuwa University of Sri Lanka
+		<p class="bio">Senior Lecturer, Faculty of Applied Sciences, Sabaragamuwa University of Sri Lanka
 
     </p>
 		
@@ -464,7 +362,6 @@
 
 </a>
 
- 
 </div>
 </div>
 
@@ -542,17 +439,13 @@
     </div>
     
   </div>
-  
+ 
 
   <div class="sponsers">
-    <h1>Sponsers</h1>
-    
+    <h1>Sponsors</h1>
   </div>
 
-  <div class="foot">
-      
-     <?php include './common/footer1.php'; ?>
-  </div>
+   <?php include './common/footer1.php'; ?> 
 
 
     <!-- Bootstrap -->

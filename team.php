@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team - ICET 2025</title>
     <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
-<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />-->
+ 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
@@ -14,7 +14,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./vendor/css/styles.css">
     <!-- Font-Awesome -->
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">-->
+ 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
 
@@ -31,8 +31,6 @@
 <?php include './common/navbar.php'; ?>
 
 <section id="team">
-
-
     <div class="slide-container">
         <div class="slide-content">
             <div class="team-name">Key Members</div>
@@ -134,7 +132,7 @@
                     <div class="main-swiper-wrapper">
                         <div class="swiper slide-content-2">
 
-                            <!--        <div class="slide-content-2">-->
+                             
                             <div class="team-name">Conference Coordinators</div>
 
   <div class="team-wrapper">
@@ -246,7 +244,7 @@
                     <div class="main-swiper-wrapper">
                         <div class="swiper slide-content-3">
 
-                            <!--            <div class="">-->
+                             
                             <div class="team-name">Scientific Committee</div>
 
                             <div class="team-wrapper">
@@ -589,7 +587,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--            </div>-->
+                            
 
 
 
@@ -624,7 +622,7 @@
                                         <div class="name"> Mr. WGBP Darmasena </div>
 
                                         <p class="role">Chair</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/267" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -639,7 +637,7 @@
                                         <div class="name">  Ms. HMNN Herath </div>
 
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -654,7 +652,7 @@
                                         <div class="name">   Ms. PM Abeysundara  </div>
 
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -668,7 +666,7 @@
                                     <div class="card-content">
                                         <div class="name"> Ms. MPMS Pathirana</div>
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -682,7 +680,7 @@
                                     <div class="card-content">
                                         <div class="name"> Ms. HSR Thathsarani</div>
                                         <p class="role">Member</p>
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -696,7 +694,7 @@
                                     <div class="card-content">
                                         <div class="name"> Mr. WMKG Perera </div>
                                         <p class="role">Member</p>
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                             </div>
@@ -746,7 +744,7 @@
                                         <div class="name">   Mr. BMCM Balasooriya </div>
 
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -761,7 +759,7 @@
                                         <div class="name">  Miss. KLNS Sasikala </div>
 
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -775,7 +773,7 @@
                                     <div class="card-content">
                                         <div class="name"> Miss. GRS Jayasena</div>
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
 
@@ -844,7 +842,7 @@
                                         <div class="name">    Mr. MATN Dulanjana </div>
 
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>-->
+  
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -858,38 +856,10 @@
                                     <div class="card-content">
                                         <div class="name">   Miss. VL Mathagaweera</div>
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
-<!--                                <div class="card swiper-slide">-->
-<!--                                    <div class="image-content">-->
-<!--                                        <span class="overlay"></span>-->
-<!--                                        <div class="card-image">-->
-<!--                                            <img src="" alt="" class="card-img"">-->
-<!---->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="card-content">-->
-<!--                                        <div class="name">  Dr. SS Abeysinghe</div>-->
-<!--                                        <p class="role">Member</p>-->
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="card swiper-slide">-->
-<!--                                    <div class="image-content">-->
-<!--                                        <span class="overlay"></span>-->
-<!--                                        <div class="card-image">-->
-<!--                                            <img src="" alt="" class="card-img"">-->
-<!---->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="card-content">-->
-<!--                                        <div class="name"> Dr. HGN Rajapaksha </div>-->
-<!--                                        <p class="role">Member</p>-->
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-                            </div>
+                     </div>
 
 
                 </section>
@@ -921,7 +891,7 @@
                                         <div class="name">  Mr. HDCN Gunawardana </div>
 
                                         <p class="role">Chair</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/267" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -936,7 +906,7 @@
                                         <div class="name">  Ms. BAAO Peiris</div>
 
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/328" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -951,7 +921,7 @@
                                         <div class="name">    Ms. ADJL Wickramaarachchi </div>
 
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/138" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -965,7 +935,7 @@
                                     <div class="card-content">
                                         <div class="name">  Ms. LJMU Lankathilake </div>
                                         <p class="role">Member</p>
-<!--                                        <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -979,7 +949,7 @@
                                     <div class="card-content">
                                         <div class="name">  Ms. SHLN Kularathne</div>
                                         <p class="role">Member</p>
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
+ 
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -993,7 +963,7 @@
                                     <div class="card-content">
                                         <div class="name">  Ms. MMWV Gunasinghe</div>
                                         <p class="role">Member</p>
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
+
                                     </div>
                                 </div>
                                 <div class="card swiper-slide">
@@ -1007,7 +977,6 @@
                                     <div class="card-content">
                                         <div class="name">   Mr. BAM Dilshan</div>
                                         <p class="role">Member</p>
-<!--                                        <a href="" class="view-profile-btn">View Profile</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -1036,10 +1005,10 @@
 
 <?php include './common/footer1.php'; ?>
 <script src="vendor/js/script.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>.
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Bootstrap -->
-<<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

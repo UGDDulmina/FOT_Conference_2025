@@ -40,11 +40,6 @@ Advances in Measurement and Instrumentation Technologies.
 </ul>
 </div>
 
-
-
-
-
-
    </p>
 
     <!-- Bootstrap -->
