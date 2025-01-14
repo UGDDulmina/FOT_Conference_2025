@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICET 2025</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/Logo.png">
+    <title>URSTech 2025</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/Logo 2.png">
    
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./vendor/css/styles.css?v=1.0">
