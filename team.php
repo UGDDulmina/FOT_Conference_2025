@@ -44,7 +44,7 @@
                     </div>
                     <div class="card-content">
                         <div class="name"> Dr. MDKM Gunasena</div>
-                        <p class="role">Conference Chair</p>
+                        <p class="role">Symposium Chair</p>
                         <a href="https://www.sab.ac.lk/staff-directory/466" class="view-profile-btn">View Profile</a>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Conference Coordinators
+                Symposium Coordinators
             </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -133,7 +133,7 @@
                         <div class="swiper slide-content-2">
 
                              
-                            <div class="team-name">Conference Coordinators</div>
+                            <div class="team-name">Symposium Coordinators</div>
 
   <div class="team-wrapper">
                                 <div class="card swiper-slide">
@@ -654,7 +654,7 @@
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingSix">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                Conference Publication Committee
+                Symposium Publication Committee
             </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
@@ -662,7 +662,7 @@
                 <section class="team-7-section">
 
 
-                            <div class="team-name">Conference Publication Committee</div>
+                            <div class="team-name">Symposium Publication Committee</div>
 
                             <div class="team-wrapper">
                                 <div class="card swiper-slide">
