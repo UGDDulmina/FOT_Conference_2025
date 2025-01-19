@@ -64,7 +64,7 @@
                         <div class="accordion-body">
                             <div class="abstract-submission">
                                 <p><strong>Step 1: Submission of Abstracts</strong></p>
-                                <p>Authors who wish to publish their original research work at the conference under the following tracks must submit the abstracts according to the guidelines given.</p>
+                                <p>Authors who wish to publish their original research work at the symposium under the following tracks must submit the abstracts according to the guidelines given.</p>
                                 <ul>
                                     <li>Advances in Emerging Sciences</li>
                                     <li>Applied Biotechnology and Microbiology</li>
@@ -82,7 +82,7 @@
                                     <li>It is important for all authors to recognize that plagiarism in any form, at any level, is unacceptable and is considered a serious breach of professional ethics.</li>
                                     <li>If your Abstract is accepted, you will be asked to submit the camera-ready version of the Abstract before the stipulated deadline.</li>
                                 </ul>
-                                <p>Please adhere to the specified guidelines provided below for abstract preparation:</p>
+                                <p><strong>Abstract Preparation Guidelines:</strong></p>
                                 <ul>
                                     <li><strong>Margins:</strong> Abstracts must be in single spacing, font size 12 in Times New Roman.</li>
                                     <li><strong>Abstract Length:</strong> 300 Words.</li>
@@ -91,13 +91,16 @@
                                     <li><strong>Key Words:</strong> 4-5 keywords.</li>
                                     <li><strong>Camera-ready Copy:</strong> The final version of the abstract must also be submitted in Word format.</li>
                                 </ul>
-                                <p>For reference, please use the </p><p>Abstract Template : <a class="red-link" href="assets/pdf/ICET%202025-Abstract%20Template.docx" download>Download Here</a>.</p>
-                                <p>Author Declaration Form : <a class="red-link" href="assets/pdf/ICET%20Author_Declaration.docx" download>Download Here</a>.</p>
-
-                                <p>Submission Link: <a class="red-link" href="#">CMT Submission Link</a></p>
+                                <p>For reference, please use the following resources:</p>
+                                <ul>
+                                    <li>Abstract Template: <a class="red-link" href="assets/pdf/URSTech%202025-Abstract%20Template.docx" download>Download Here</a></li>
+                                    <li>Author Declaration Form: <a class="red-link" href="assets/pdf/URSTech%20Author_Declaration.docx" download>Download Here</a></li>
+                                </ul>
+                                <p><strong>Submission Link:</strong> <a class="red-link" href="#">CMT Submission Link</a></p>
                                 <p><strong>Review Process</strong></p>
                                 <p>The submitted abstracts will be reviewed by a panel of experts in the relevant fields, and the decision about acceptance, rejection, or acceptance with changes will be notified to the authors. If the reviewers' decision is "acceptance with changes," you must address the changes mentioned in the reviewers' comments and submit the camera-ready copy.</p>
                             </div>
+
 
                         </div>
                     </div>
