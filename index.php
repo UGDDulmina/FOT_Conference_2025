@@ -439,13 +439,72 @@
     </div>
     
   </div>
- 
 
-  <div class="sponsers">
+<div class="sponsers">
     <h1>Sponsors</h1>
-  </div>
+</div>
+<div class="sponsors-section" style="text-align: center; padding: 50px 20px; background-color: #f9f9f9;">
 
-   <?php include './common/footer1.php'; ?> 
+
+
+    <!-- Gold Sponsors -->
+    <div class="sponsor-category" style="margin: 30px 0; padding: 20px; border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); background: #fff;">
+        <h2 style="font-size: 24px; margin-bottom: 15px; text-transform: uppercase; font-weight: bold; color: #FFD700;">Gold Sponsors</h2>
+        <div class="sponsor-logos" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <img src="assets/images/sponsers/Picture1.png" alt="Techno"
+                 style="max-width: 180px; height: auto; border-radius: 8px; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0px 4px 12px rgba(0, 0, 0, 0.2)';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+            <img src="assets/images/sponsers/Picture2.png" alt="Techno"
+                 style="max-width: 180px; height: auto; border-radius: 8px; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0px 4px 12px rgba(0, 0, 0, 0.2)';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+
+        </div>
+    </div>
+
+    <!-- Silver Sponsors -->
+    <div class="sponsor-category" style="margin: 30px 0; padding: 20px; border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); background: #fff;">
+        <h2 style="font-size: 24px; margin-bottom: 15px; text-transform: uppercase; font-weight: bold; color: #C0C0C0;">Silver Sponsors</h2>
+        <div class="sponsor-logos" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <img src="assets/images/sponsers/Picture3.png" alt="D.B. Gangoda Associates Intl."
+                 style="max-width: 180px; height: auto; border-radius: 8px; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0px 4px 12px rgba(0, 0, 0, 0.2)';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+            <img src="assets/images/sponsers/Picture4.png" alt="Techno"
+                 style="max-width: 180px; height: auto; border-radius: 8px; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0px 4px 12px rgba(0, 0, 0, 0.2)';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        </div>
+    </div>
+
+    <!-- Other Sponsors -->
+    <div class="sponsor-category" style="margin: 30px 0; padding: 20px; border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); background: #fff;">
+        <h2 style="font-size: 24px; margin-bottom: 15px; text-transform: uppercase; font-weight: bold; color: #808080;">Other Sponsors</h2>
+        <div class="sponsor-logos" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <img src="assets/images/sponsers/Picture5.png" alt="Metropolitan"
+                 style="max-width: 180px; height: auto; border-radius: 8px; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0px 4px 12px rgba(0, 0, 0, 0.2)';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+
+            <img src="assets/images/sponsers/Picture6.png" alt="Microtech"
+                 style="max-width: 180px; height: auto; border-radius: 8px; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0px 4px 12px rgba(0, 0, 0, 0.2)';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+            <img src="assets/images/sponsers/Picture7.png" alt="Microtech"
+                 style="max-width: 180px; height: auto; border-radius: 8px; transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;"
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0px 4px 12px rgba(0, 0, 0, 0.2)';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+        </div>
+    </div>
+
+</div>
+
+
+<?php include './common/footer1.php'; ?>
 
 
     <!-- Bootstrap -->
